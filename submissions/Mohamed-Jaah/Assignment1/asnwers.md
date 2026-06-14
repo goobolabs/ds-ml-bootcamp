@@ -1,23 +1,37 @@
 <h1>Data Science and Machine Learning</h1>
 
-<h3>1. How Data Science and Machine Learning Work Together</h3>
+<h2>1. How Data Science and Machine Learning Work Together</h2>
 
-<p class="color-blue" >Data Science : is a field in science that deals with the study of data and also the process of collecting, storing, processing, cleaning and analyzing complex data to extract a meaningful information to support better decision-making.</p>
+<p>Data Science : is a field in science that deals with the study of data and also the process of collecting, storing, processing, cleaning and analyzing complex data to extract a meaningful information to support better decision-making.</p>
 
 <p>In simple way, data science is the process of converting raw data into meaningful information by using mathematics, technology and analyzing technique.</p>
 
-<p>Machine Learning  is a subset of artificial intelligence that enables systems to learn from data and improve from experience without being explicitly programmed.</p>
-
-<p>Instead of hard-coded instructions, ML uses algorithms to identify patterns in historical data and make accurate predictions or decisions on new, unseen data.</p>
+<p>Machine Learning  is a subset of artificial intelligence that enables systems to learn from data and improve from experience without being explicitly programmed.Instead of hard-coded instructions, ML uses algorithms to identify patterns in historical data and make accurate predictions or decisions on new, unseen data.</p>
 
 <p>Data Science and Machine Learning are closely related fields that work together to solve problems and make better decisions from data.
 Data Science prepares and analyzes the data, while Machine Learning uses that data to build predictive models.</p>
 
-<h3>2. Data Science lifecycle</H3>
-The Data Science Lifecycle is a structured process used to transform raw data into valuable insights and solutions. It consists of 8 phases from identifying problem to deployment.
+<h2>2. Data Science lifecycle</H2>
+
+<p>The Data Science Lifecycle is a structured process used to transform raw data into valuable insights and solutions. It consists of 8 phases from identifying problem to deployment.</p>
+
+<ol>
+<li>Identifying Problem</li>
+<p>-	Before any other task, data scientists must know what problem should they want to solve to reach remarkable solutions. So this stage focuses to knowing the problem to be solved.</p>
+<p>-	For-example, the government want to know the causes of the subsequent droughts in the country.</p>
+
+<li>Collecting data</li> 
+<p>-	After the government identified the problem scope, it must collects data from all of the regions to gain the answer of what causes continuous droughts. </p>
+
+<p>-	For-example, data about rainfall, temperature, soil moisture, water levels, and agricultural activity.</p>
+
+</ol>
+
 1.	Identifying Problem
 -	Before any other task, data scientists must know what problem should they want to solve to reach remarkable solutions. So this stage focuses to knowing the problem to be solved.
 -	For-example, the government want to know the causes of the subsequent droughts in the country.
+
+
 2.	Collecting data 
 -	After the government identified the problem scope, it must collects data from all of the regions to gain the answer of what causes continuous droughts. 
 -	For-example, data about rainfall, temperature, soil moisture, water levels, and agricultural activity.
