@@ -1,9 +1,11 @@
-#Data Science and Machine Learning
+# Data Science and Machine Learning
 
-##How Data Science and Machine Learning Work Together
+## How Data Science and Machine Learning Work Together
 
 Data Science is a field in science that deals with the study of data and also the process of collecting, storing, processing, cleaning and analyzing complex data to extract a meaningful information to support better decision-making.
-In simple way, data science is the process of converting raw data into meaningful information by using mathematics, technology and analyzing technique.
+
+###### In simple way, data science is the process of converting raw data into meaningful information by using mathematics, technology and analyzing technique.
+
 Machine Learning  is a subset of artificial intelligence that enables systems to learn from data and improve from experience without being explicitly programmed.
 Instead of hard-coded instructions, ML uses algorithms to identify patterns in historical data and make accurate predictions or decisions on new, unseen data.
 Data Science and Machine Learning are closely related fields that work together to solve problems and make better decisions from data.
