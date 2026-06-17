@@ -1,0 +1,96 @@
+## 1. Data Science and Machine Learning
+
+**Data Science** is the field that involves collecting, analyzing, and interpreting data to extract useful insights.
+
+**Machine Learning** is a part of Data Science that focuses on building algorithms that learn from data and make predictions.
+
+**Relationship:**
+Machine Learning is a subset of Data Science. Data Science uses Machine Learning as a tool to make predictions and automate decisions.
+
+**Example:**
+In a hospital, Data Science is used to analyze patient data (age, symptoms, history). Machine Learning models can predict whether a patient is likely to develop a disease such as diabetes. Here, Data Science prepares and analyzes the data, while Machine Learning makes predictions.
+
+---
+
+## 2. Data Science Lifecycle
+
+The Data Science lifecycle includes:
+
+1. Problem Definition
+2. Data Collection
+3. Data Cleaning
+4. Data Exploration (EDA)
+5. Modeling
+6. Evaluation
+7. Deployment
+
+**Where Machine Learning fits:**
+Machine Learning is mainly used in the **Modeling stage**, where algorithms are trained to learn patterns from data and make predictions.
+
+---
+
+## 3. Supervised vs Unsupervised Learning
+
+**Supervised Learning:**
+
+* Uses labeled data (input + correct output)
+* Example: Predicting house prices based on past data
+
+**Unsupervised Learning:**
+
+* Uses unlabeled data
+* Finds patterns or groups
+* Example: Customer segmentation (grouping customers based on behavior)
+
+---
+
+## 4. Overfitting
+
+**Overfitting** happens when a model learns the training data too well, including noise, and performs poorly on new data.
+
+**Causes:**
+
+* Too much training data complexity
+* Model too complex
+* Small dataset
+
+**Prevention:**
+
+* Use more data
+* Simplify the model
+* Use techniques like cross-validation
+* Apply regularization
+
+---
+
+## 5. Training Data vs Test Data
+
+Data is usually split into:
+
+* **Training Data (70–80%)** → used to train the model
+* **Test Data (20–30%)** → used to evaluate performance
+
+**Why necessary:**
+To ensure the model works well on new, unseen data and not just memorizing training data.
+
+---
+
+## 6. Case Study (Healthcare)
+
+**Example:** Predicting Heart Disease
+
+A study used patient data (age, cholesterol, blood pressure) to predict heart disease using Machine Learning.
+
+**Findings:**
+
+* Machine Learning models improved early detection
+* Helped doctors make faster decisions
+* Reduced risk of misdiagnosis
+
+**Lifecycle stage covered:**
+
+* Data Collection (patient data)
+* Modeling (Machine Learning algorithms)
+* Evaluation (testing accuracy)
+
+This shows how Data Science and Machine Learning work together to solve real-world problems in healthcare.
