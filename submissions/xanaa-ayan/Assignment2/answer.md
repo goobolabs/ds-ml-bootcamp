@@ -1,6 +1,6 @@
 # Data Foundations for Machine Learning: Mogadishu Flight Ticket Prices Dataset
 
-* **Prepared by:** [Ku qor Magacaaga / GitHub Username-kaaga]
+* **Prepared by:** [Hanaan bashir dahir / GitHub Username:xanaa-ayan]
 * **Due Date:** June 20, 2026
 * **Course:** Data Science & Machine Learning Bootcamp (Assignment Two)
 
@@ -56,35 +56,6 @@
 | Daallo | Nairobi | Economy | 9 | 290 |
 | Qatar Airways | Istanbul | Economy | 18 | 850 |
 | Freedom | Hargeisa | economy | 5 | 185 |
-| Ethiopian Airlines | Nairobi | Business | 3 | 650 |
-| Daallo | Hargeisa | Economy | 12 | 190 |
-| Salaama | Garowe | Business | -1 | 350 |
-| Freedom | Nairobi | Economy | 14 | 280 |
-| Qatar Airways | Addis Ababa | Business | 7 | 1100 |
-| Missing | Istanbul | Business | 22 | 1350 |
-| Ethiopian Airlines | Hargeisa | Economy | 16 | 230 |
-| Daallo | Nairobi | Business | 4 | 520 |
-| Salaama | Garowe | Economy | 3 | 200 |
-| Freedom | Hargeisa | Economy | 25 | 160 |
-| Qatar Airways | Istanbul | Economy | 12 | 890 |
-| Ethiopian Airlines | Nairobi | Economy | 8 | 340 |
-| Daallo | Garowe | Business | 6 | 380 |
-| Salaama | Nairobi | economy | 10 | 310 |
-| Missing | Addis Ababa | Economy | 19 | 390 |
-| Freedom | Istanbul | Business | 2 | 1600 |
-| Qatar Airways | Hargeisa | Business | 5 | 500 |
-| Ethiopian Airlines | Garowe | Economy | 13 | 240 |
-| Daallo | Nairobi | Economy | -5 | 300 |
-| Salaama | Istanbul | Economy | 28 | 790 |
-| Freedom | Hargeisa | Economy | 18 | 170 |
-| Qatar Airways | Nairobi | Economy | 14 | 720 |
-| Ethiopian Airlines | Addis Ababa | Business | 2 | 850 |
-| Missing | Garowe | Economy | 9 | 215 |
-| Daallo | Istanbul | Business | 7 | 1250 |
-| Salaama | Hargeisa | Business | 12 | 330 |
-| Freedom | Nairobi | Economy | 5 | 320 |
-| Qatar Airways | Istanbul | Business | 1 | 1750 |
-| Ethiopian Airlines | Nairobi | Economy | 21 | 295 |
 
 ---
 
