@@ -1,0 +1,20 @@
+,,,,,,,,,
+,,,,,,,,,
+Age,Gender,DistanceToSchool,TransportationType,TravelTime,TransportationCost,TrafficImpact,WeatherImpact,SatisfactionLevel,ArrivalStatus
+20,Female,2 km,Walking,20 min,0 ETB,No,No,8,On Time
+21,Male,5 km,Bus,35 min,20 ETB,Yes,No,7,On Time
+19,Female,8 km,Taxi,50 min,80 ETB,Yes,Yes,5,Late
+22,Male,3 km,Bajaj,15 min,30 ETB,No,No,9,On Time
+20,Female,10 km,Bus,60 min,25 ETB,Yes,Yes,4,Late
+23,Male,6 km,Bus,40 min,20 ETB,Yes,No,7,On Time
+18,Female,1 km,Walking,10 min,0 ETB,No,No,10,On Time
+24,Male,12 km,Taxi,70 min,100 ETB,Yes,Yes,3,Late
+21,Female,4 km,Bajaj,25 min,25 ETB,No,No,8,On Time
+22,Male,9 km,Bus,55 min,30 ETB,Yes,Yes,5,Late
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
+,,,,,,,,,
