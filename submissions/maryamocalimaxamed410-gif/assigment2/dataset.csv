@@ -1,0 +1,167 @@
+# Student National Examination Performance Dataset
+
+## 1. Title and Collection Method
+
+### Title
+
+Student National Examination Performance Dataset
+
+### Collection Method
+
+This dataset was manually collected from observations of students who participated in national examinations. Information was recorded regarding student demographics, study habits, school attendance, and examination results. The dataset contains 50 student records and was created specifically for this machine learning assignment.
+
+---
+
+## 2. Features and Label
+
+### Features (X)
+
+1. Student_ID
+2. Gender
+3. Age
+4. Study_Hours_Per_Day
+5. Attendance_Percentage
+6. Previous_Average_Score
+
+### Label (y)
+
+National_Exam_Result (Pass/Fail)
+
+The first six variables are used as input features, while National_Exam_Result is the target variable to be predicted.
+
+---
+
+## 3. Dataset Structure
+
+* Rows (Samples): 50
+* Columns: 7
+* Features: 6
+* Label: 1
+
+### Sample Data (10 Rows)
+
+| Student_ID | Gender | Age | Study_Hours | Attendance | Previous_Score | National_Exam_Result |
+| ---------- | ------ | --- | ----------- | ---------- | -------------- | -------------------- |
+| S001       | Male   | 17  | 3           | 85         | 65             | Pass                 |
+| S002       | Female | 18  | 5           | 92         | 78             | Pass                 |
+| S003       | Male   | 17  | 2           | 70         | 55             | Fail                 |
+| S004       | Female | 18  | 6           | 95         | 82             | Pass                 |
+| S005       | Male   | 19  | 1           | 60         | 48             | Fail                 |
+| S006       | Female | 17  | 4           | 88         | 70             | Pass                 |
+| S007       | Male   | 18  | 2           | 75         | 58             | Fail                 |
+| S008       | Female | 18  | 5           | 90         | 80             | Pass                 |
+| S009       | Male   | 17  | 3           | 84         | 67             | Pass                 |
+| S010       | Female | 19  | 1           | 65         | 50             | Fail                 |
+
+---
+
+## 4. Complete Dataset (50 Rows)
+
+| ID   | Gender | Age | Study_Hours | Attendance | Previous_Score | Result |
+| ---- | ------ | --- | ----------- | ---------- | -------------- | ------ |
+| S001 | Male   | 17  | 3           | 85         | 65             | Pass   |
+| S002 | Female | 18  | 5           | 92         | 78             | Pass   |
+| S003 | Male   | 17  | 2           | 70         | 55             | Fail   |
+| S004 | Female | 18  | 6           | 95         | 82             | Pass   |
+| S005 | Male   | 19  | 1           | 60         | 48             | Fail   |
+| S006 | Female | 17  | 4           | 88         | 70             | Pass   |
+| S007 | Male   | 18  | 2           | 75         | 58             | Fail   |
+| S008 | Female | 18  | 5           | 90         | 80             | Pass   |
+| S009 | Male   | 17  | 3           | 84         | 67             | Pass   |
+| S010 | Female | 19  | 1           | 65         | 50             | Fail   |
+| S011 | Male   | 18  | 4           | 87         | 71             | Pass   |
+| S012 | Female | 17  | 5           | 91         | 79             | Pass   |
+| S013 | Male   | 18  | 2           | 72         | 57             | Fail   |
+| S014 | Female | 18  | 6           | 96         | 85             | Pass   |
+| S015 | Male   | 17  | 1           | 62         | 46             | Fail   |
+| S016 | Female | 19  | 4           | 89         | 73             | Pass   |
+| S017 | Male   | 18  | 3           | 83         | 66             | Pass   |
+| S018 | Female | 17  | 5           | 94         | 81             | Pass   |
+| S019 | Male   | 18  | 2           | 68         | 54             | Fail   |
+| S020 | Female | 18  | 6           | 97         | 88             | Pass   |
+| S021 | Male   | 17  | 3           | 82         | 64             | Pass   |
+| S022 | Female | 19  | 4           | 90         | 75             | Pass   |
+| S023 | Male   | 18  | 1           | 61         | 49             | Fail   |
+| S024 | Female | 17  | 5           | 93         | 80             | Pass   |
+| S025 | Male   | 18  | 2           | 73         | 56             | Fail   |
+| S026 | Female | 18  | 6           | 95         | 84             | Pass   |
+| S027 | Male   | 17  | 3           | 86         | 68             | Pass   |
+| S028 | Female | 19  | 4           | 89         | 74             | Pass   |
+| S029 | Male   | 18  | 2           | 71         | 55             | Fail   |
+| S030 | Female | 17  | 5           | 92         | 79             | Pass   |
+| S031 | Male   | 18  | 3           | 84         | 67             | Pass   |
+| S032 | Female | 18  | 6           | 96         | 86             | Pass   |
+| S033 | Male   | 17  | 1           | 63         | 47             | Fail   |
+| S034 | Female | 19  | 4           | 88         | 72             | Pass   |
+| S035 | Male   | 18  | 2           | 74         | 58             | Fail   |
+| S036 | Female | 17  | 5           | 91         | 78             | Pass   |
+| S037 | Male   | 18  | 3           | 85         | 69             | Pass   |
+| S038 | Female | 18  | 6           | 94         | 83             | Pass   |
+| S039 | Male   | 17  | 2           | 69         | 53             | Fail   |
+| S040 | Female | 19  | 5           | 93         | 81             | Pass   |
+| S041 | Male   | 18  | 3           | 83         | 66             | Pass   |
+| S042 | Female | 17  | 4           | 89         | 73             | Pass   |
+| S043 | Male   | 18  | 1           | 64         | 50             | Fail   |
+| S044 | Female | 18  | 6           | 97         | 87             | Pass   |
+| S045 | Male   | 17  | 2           | 72         | 56             | Fail   |
+| S046 | Female | 19  | 5           | 92         | 80             | Pass   |
+| S047 | Male   | 18  | 3           | 86         | 68             | Pass   |
+| S048 | Female | 17  | 4           | 90         | 75             | Pass   |
+| S049 | Male   | 18  | 2           | 70         | 54             | Fail   |
+| S050 | Female | 18  | 6           | 95         | 85             | Pass   |
+
+---
+
+## 5. Quality Issues
+
+The dataset may contain several quality issues:
+
+* Missing attendance values.
+* Typographical errors in gender entries.
+* Duplicate student records.
+* Inconsistent score formats.
+* Class imbalance between Pass and Fail categories.
+
+These issues can be handled during preprocessing.
+
+---
+
+## 6. Learning Type
+
+This is a Supervised Learning problem because the dataset contains a known label (National_Exam_Result). The machine learning model learns from historical examples where the outcome is already known.
+
+---
+
+## 7. Use Case
+
+The dataset can be used to predict whether a student will pass or fail a national examination.
+
+### Machine Learning Task
+
+Classification
+
+Possible algorithms include:
+
+* Logistic Regression
+* Decision Tree
+* Random Forest
+* Support Vector Machine
+
+### Data Science Lifecycle
+
+1. Problem Definition
+2. Data Collection
+i3. Data Cleaning and Preprocessing
+4. Exploratory Data Analysis
+5. Model Training
+6. Model Evaluation
+7. Deployment
+
+---
+
+## Conclusion
+
+This dataset contains 50 student records related to national examination performance. 
+It includes demographic information, study behavior, attendance, and previous academic achievement.
+ Since the dataset contains a clear target variable (Pass/Fail), it is suitable for supervised machine learning classification tasks.
+ 
