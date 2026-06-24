@@ -81,4 +81,9 @@ df['Price'] = df['Price'].clip(lower=lower_price,upper=upper_price)
 df['Odometer_km'] = df['Odometer_km'].clip(lower=lower_odometer_km,upper=upper_odometer_km)
 print('\nafter clipped\n',df[['Price','Odometer_km']].describe())
 
+print("\n========= PART SEVEN ONE HOT ENCODING ============")
+
+df = pd.get_dummies(df,columns=['Location'],drop_first=False)
+
+print(df)
 
