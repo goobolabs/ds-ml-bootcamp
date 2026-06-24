@@ -120,14 +120,7 @@ This project fits into the Data Science lifecycle as follows:
 
 The current assignment focuses mainly on the first three stages of the lifecycle.
 
-## Conclusion
-
 This project successfully collected and documented a real-world clothing market dataset consisting of 50 responses gathered through a survey. The dataset contains information about consumer preferences, purchasing habits, and perceptions of clothing product popularity.
 
 The dataset is suitable for supervised machine learning because it contains a clearly defined target variable. Before model training, preprocessing steps such as handling missing values, encoding categorical variables, and cleaning inconsistent responses will be necessary. Once prepared, the dataset can be used for classification, market analysis, and recommendation systems, making it a valuable resource for future machine learning applications.
 
-## References
-
-1. Han, J., Kamber, M., & Pei, J. Data Mining: Concepts and Techniques.
-2. Géron, A. Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow.
-3. Course Lessons 1–3: Introduction to Data Science, Machine Learning Foundations, and Data Foundations.
