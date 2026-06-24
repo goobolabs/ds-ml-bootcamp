@@ -1,11 +1,13 @@
 import pandas as pd
 import numpy as np
 from pathlib import Path
+from sklearn.preprocessing import StandardScaler
 
 print("\n========= PART ZERO SETUP ============")
 ROOT_DIR=Path(__file__).parent.parent.parent.parent
 DATASET_DIR = f"{ROOT_DIR}/dataset"
 CSV_FILE=f"{DATASET_DIR}/raw_car_dataset.csv"
+OUT_PATH=f"{Path(__file__).parent}/data/car_clean_dataset.csv"
 
 print(ROOT_DIR)
 print(DATASET_DIR)
@@ -83,7 +85,7 @@ print('\nafter clipped\n',df[['Price','Odometer_km']].describe())
 
 print("\n========= PART SEVEN ONE HOT ENCODING ============")
 
-df = pd.get_dummies(df,columns=['Location'],drop_first=False)
+df = pd.get_dummies(df,columns=['Location'],drop_first=False,dtype='int')
 
 print(df)
 
@@ -97,4 +99,23 @@ df['LogPrice'] = np.log1p(df['Price'])
 print(df)
 
 print("\n========= PART NINE FEATURE SCALING ============")
+print(df.info())
+numeric_cols = df.select_dtypes(include=['int64','float64']).columns.to_list()
+print(numeric_cols)
+exclude_scale = [x for x in numeric_cols if x.startswith('Location')] + ['LogPrice','Price','Is_Urban']
+print(exclude_scale)
+to_scale_cols = [x for x in numeric_cols if x not in exclude_scale]
+print(to_scale_cols)
 
+scaler = StandardScaler()
+df[to_scale_cols] = scaler.fit_transform(df[to_scale_cols])
+
+print(df[to_scale_cols])
+
+print("\n========= PART TEN CHECK AND SAVE ============")
+print(df.head())
+print(df.describe())
+print(df.info())
+print(df.isna().sum())
+
+df.to_csv(OUT_PATH)
