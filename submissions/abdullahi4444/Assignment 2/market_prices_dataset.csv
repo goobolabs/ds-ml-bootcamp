@@ -1,0 +1,84 @@
+Product,Weight_kg,Market,Day,Imported,Price_USD
+Pasta,1.0,Bakara,Sat,No,1.27
+Sugar,1.0,Bakara,Fri,No,1.02
+Rice,2.0,Hamar Weyne,Fri,Yes,3.19
+Pasta,10.0,Bakaraa,Tue,No,13.21
+Rice,2.0,Bakaraa,Wed,No,2.91
+Flour,,Bakara,Thu,Yes,1.15
+Flour,10.0,Suuqa Xoolaha,Sun,Yes,11.31
+Cooking Oil,1.0,Bakaraa,Mon,No,2.38
+Cooking Oil,3.0,Hamar Weyne,Sat,Yes,5.83
+Sugar,3.0,Bakara,Sun,Yes,4.01
+Beans,3.0,Bakaraa,Sat,No,2.91
+Flour,2.0,Suuqa Xoolaha,Sat,Yes,2.43
+Sugar,10.0,,Tue,No,12.07
+Pasta,10.0,Hamar Weyne,Sat,No,13.39
+Rice,2.0,Bakara,Sun,No,3.08
+Rice,2.0,HamarWeyne,Tue,No,3.08
+Pasta,5.0,Hamar Weyne,Wed,Yes,6.47
+Cooking Oil,10.0,Suuqa Xoolaha,Sat,No,20.43
+Beans,3.0,Hamar Weyne,Tue,No,2.86
+Rice,1.0,Hamar Weyne,Sat,Yes,1.85
+Beans,10.0,Bakara,Thu,No,
+Beans,10.0,Suuqa Xoolaha,Fri,Yes,10.28
+Rice,10.0,Suuqa Xoolaha,Sun,No,14.88
+Beans,2.0,Bakaraa,Mon,No,2.48
+Sugar,10.0,Bakara,Sun,No,12.39
+Cooking Oil,10.0,Hamar Weyne,Tue,No,20.33
+Cooking Oil,10.0,Bakara,Fri,No,20.14
+Rice,3.0,Suuqa Xoolaha,Tue,Yes,4.47
+Cooking Oil,1.0,Bakara,Sat,Y,2.37
+Cooking Oil,2.0,Hamar Weyne,Sat,No,4.46
+Sugar,3.0,Bakaraa,Tue,Yes,3.9
+Beans,3.0,Bakaraa,Fri,No,2.88
+Sugar,1.0,Suuqa Xoolaha,Mon,Yes,1.41
+Rice,1.0,Bakara,Tue,,1.93
+Flour,1.0,Hamar Weyne,Wed,No,1.05
+Sugar,10.0,Bakaraa,Tue,No,12.37
+Sugar,1.0,Bakara,Sat,No,1.25
+Beans,5.0,Bakara,Sat,Yes,4.84
+Pasta,3.0,Bakara,Tue,Yes,3.83
+Beans,2.0,Bakaraa,Tue,No,2.12
+Rice,5.0,Bakara,Mon,Yes,7.98
+,2.0,Bakaraa,Thu,No,2.35
+Beans,1.0,Hamar Weyne,Thu,Yes,1.49
+Flour,5.0,Suuqa Xoolaha,Thu,No,5.41
+Flour,2.0,Bakara,Fri,Yes,2.52
+Rice,1.0,Bakaraa,Fri,N,1.34
+Cooking Oil,1.0,Hamar Weyne,Mon,Yes,2.27
+Sugar,5.0,Bakara,Fri,Yes,6.21
+Rice,10.0,Bakara,Thu,No,15.45
+Sugar,3.0,Hamar Weyne,Wed,No,3.49
+Pasta,3.0,Bakaraa,Wed,Yes,3.71
+Cooking Oil,10.0,Bakara,Mon,Yes,20.15
+Sugar,3.0,Bakara,Tue,No,3.6
+Beans,10.0,Suuqa Xoolaha,Fri,Yes,10.27
+Cooking Oil,3.0,Bakara,Tue,No,5.88
+Rice,10.0,Hamar Weyne,Wed,No,15.22
+Pasta,3.0,Hamar Weyne,Sat,No,4.05
+Flour,1.0,Bakara,,No,1.48
+Rice,1.0,Suuqa Xoolaha,Sun,Yes,1.75
+Flour,2.0,Bakaraa,Fri,No,2.39
+Rice,1.0,Hamar Weyne,Fri,Yes,1.88
+Cooking Oil,10.0,Hamar Weyne,Thu,Yes,19.83
+Sugr,1.0,Suuqa Xoolaha,Tue,Yes,1.37
+Flour,10.0,Bakaraa,Fri,Yes,11.45
+Sugar,2.0,Hamar Weyne,Thu,Yes,2.33
+Flour,5.0,Hamar Weyne,Wed,Yes,5.85
+Rice,5.0,Bakara,Sun,No,7.46
+Beans,3.0,Suuqa Xoolaha,Sun,Yes,2.96
+Pasta,2.0,Bakaraa,Wed,No,3.01
+Flour,3.0,Bakaraa,Sat,No,3.76
+Rice,3.0,Hamar Weyne,Fri,No,
+Cooking Oil,5.0,Suuqa Xoolaha,Sat,No,10.11
+Cooking Oil,1.0,Bakaraa,Fri,Yes,1.98
+Pasta,5.0,Bakara,Fri,Yes,6.55
+Rice,3.0,Suuqa Xoolaha,Sat,Yes,4.8
+Flour,10.0,Suuqa Xoolaha,Sat,No,11.03
+Pasta,3.0,Hamar Weyne,Tue,No,4.17
+Beans,2.0,Suuqa Xoolaha,Thu,Yes,2.01
+Sugar,5.0,Suuqa Xoolaha,Thu,No,6.11
+Sugar,10.0,Bakaraa,Sun,Yes,12.26
+Beans,3.0,Bakaraa,Sat,No,2.91
+Cooking Oil,10.0,Hamar Weyne,Tue,No,20.33
+Beans,10.0,Bakara,Thu,No,10.42
