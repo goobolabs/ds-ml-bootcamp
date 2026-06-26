@@ -1,10 +1,10 @@
-# import libraries
+
 import pandas as pd
 import numpy as np
 import sklearn
 from sklearn.preprocessing import StandardScaler
 
-#load EDA
+
 
 CSV_PATH = "raw_car_dataset.csv"
 df = pd.read_csv(CSV_PATH)
@@ -27,23 +27,23 @@ print (df.head(10))
 
 print(df["Price"].skew())
 
-#clean target variable
+
 df["Location"] = df["Location"].replace({"Subrb": "Suburb", "??": pd.NA})
 print(df["Location"].value_counts())
 
-#
+
 df["Odometer_km"] = df["Odometer_km"].fillna(df["Odometer_km"].median())
 df["Doors"] = df["Doors"].fillna(df["Doors"].mode()[0])
 df["Location"] = df["Location"].fillna(df["Location"].mode()[0])
 print(df.isnull().sum())
 
-# remove duplicates
+
 before = df.shape
 df = df.drop_duplicates()
 after = df.shape
 print ("Before:", before, "After:", after)
 
-#outliers IQR capping
+
 def iqr_fun(series, k=1.5):
     q1, q3 = series.quantile([0.25, 0.75])
     iqr = q3 - q1
@@ -58,7 +58,7 @@ low_size, high_size = iqr_fun(df["Odometer_km"])
 df = pd.get_dummies(df, columns=["Location"], drop_first=True, dtype="int")
 print(df.head(10))
 
-#feature ENG
+
 
 CURRENT_YEAR = 2026
 df["car_age"] = CURRENT_YEAR - df["Year"]
