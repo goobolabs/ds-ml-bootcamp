@@ -1,0 +1,67 @@
+Employee_ID,Full_Name,Department,Job_Title,Hire_Date,Location,Performance_Rating,Experience_Years,Status,Work_Mode,Salary_USD
+EMP001,Cabdiraxmaan Maxamed,Information Technology,Software Eng.,2018-03-12,Garoowe,4,8,Active,On-site,1200
+EMP002,Hodan Cali,Finance,Accountant,2020-07-18,Bosaso,3,5,Active,On-site,800
+EMP003,Maxamed Cabdi,HR,HR Officer,2022-01-10,Garowe,4,3,Active,On-site,
+EMP004,Fadumo Xasan,Operations,Operations Officer,2015-09-05,GAROWE,5,10,Active,On-site,1300
+EMP005,Cabdikariin Nuur,Marketing,Marketing Officer,2021-05-14,Qardho,,4,Active,Hybrid,650
+EMP006,Ayaan Axmed,I.T,Data Analyst,2023-02-20,Bosaso,4,2,Active,Hybrid,900
+EMP007,Siciid Warsame,Finance,Sr Software Engineer,2016-06-01,Garowe,5,11,Active,,1500
+EMP008,Ifrax Maxamed,Sales,Account Manager,2019-04-22,Boosaaso,3,6,Active,On-site,850
+EMP009,Cabdullaahi Cali,Human Resource,DevOps Engineer,2020-08-12,Garowe,4,5,Active,Hybrid,1150
+EMP010,Hani Aadan,HR,Talent Acquisition Specialist,2021-11-03,Burtinle,2,4,Active,On Site,680
+EMP011,Mustafe Xasan,IT,Software Engineer,2014-12-15,BOSASO,2,10,Active,On-site,1250
+EMP012,Sahra Cabdi,,Accountant,2015-01-15,Garowe,3,1,Active,Hybrid,
+EMP013,Farxaan Maxamed,Human Resources,HR Officer,2016-02-15,Bosaso,4,4,Active,On-site,690
+EMP014,Nasteexo Cali,,Senior Accountant,2017-03-15,Galkacyo,5,7,Active,On-site,870
+EMP015,Cabdifitaax Nuur,Marketing,Marketing Officer,2018-04-15,Gaalkacyo,1,10,Active,Hybrid,
+EMP016,Deeqa Axmed,Sales,Sales Executive,2019-05-15,Burtinle,2,1,Active,On-site,510
+EMP017,Yuusuf Warsame,IT,Software Engineer,2020-06-15,Dangorayo,3,4,Active,On-site,890
+EMP018,Raxma Aadan,Finance,Accountant,2021-07-15,Garowe,,7,Active,Hybrid,970
+EMP019,Mohamed Jama,HR,HR Officer,2022-08-15,Bosaso,5,10,Active,On-site,1050
+EMP020,Hibo Sheikh,Operations,Operations Officer,2023-09-15,Galkacyo,1,1,Active,On-site,510
+EMP021,Abshir Ali,Marketing,Marketing Officer,2024-10-15,Qardho,2,4,Active,Hybrid,
+EMP022,Ugbaad Hassan,Sales,Sales Executive,2014-11-15,Burtinle,3,7,Active,Hybrid,870
+EMP023,Sharmaarke Noor,IT,Software Engineer,2015-12-15,Dangorayo,,10,Active,On-site,1250
+EMP024,Hodan Mohamed,Finance,Accountant,2016-01-15,Garowe,5,1,Active,Hybrid,610
+EMP025,Ahmed Abdi,HR,HR Officer,2017-02-15,Bosaso,1,4,Active,On-site,690
+EMP026,Fartuun Ali,Operations,Operations Officer,2018-03-15,Galkacyo,2,7,,On-site,3500
+EMP027,Ismail Hassan,Marketing,Marketing Officer,2019-04-15,Qardho,3,10,Active,Hybrid,
+EMP028,Maryan Noor,Sales,Sales Executive,2020-05-15,Burtinle,4,1,Active,On-site,510
+EMP029,Bile Jama,IT,Software Engineer,2021-06-15,Dangorayo,5,4,Active,On-site,890
+EMP030,Nimo Osman,Finance,Accountant,2022-07-15,Garowe,,7,Active,Hybrid,970
+EMP031,Abdiqani Farah,HR,HR Officer,2023-08-15,Bosaso,2,10,Active,On-site,1050
+EMP032,Ladan Ahmed,Operations,Operations Officer,2024-09-15,Galkacyo,3,1,Active,On-site,510
+EMP033,Mohamud Nur,Marketing,Marketing Officer,2014-10-15,Qardho,4,4,Active,Hybrid,690
+EMP034,Asha Mohamed,Sales,Sales Executive,2015-11-15,Burtinle,5,7,Active,On-site,870
+EMP035,Said Yusuf,IT,Software Engineer,2016-12-15,Dangorayo,1,10,Active,On-site,1250
+EMP036,Roda Ali,Finance,Accountant,2017-01-15,Garowe,2,1,Active,Hybrid,
+EMP037,Abdullahi Hassan,HR,HR Officer,2018-02-15,Bosaso,3,4,Active,On-site,690
+EMP038,Hawa Noor,Operations,Operations Officer,2019-03-15,Galkacyo,4,7,Active,On-site,870
+EMP039,Mohamed Farah,Marketing,Marketing Officer,2020-04-15,Qardho,5,10,Active,Hybrid,1050
+EMP040,Samira Ahmed,Sales,Sales Executive,2021-05-15,Burtinle,1,1,Active,On-site,510
+EMP041,Abshir Jama,IT,Software Engineer,2022-06-15,Dangorayo,2,0,Active,On-site,890
+EMP042,Hodan Farah,Finance,Accountant,2023-07-15,Garowe,3,7,Active,Hybrid,970
+EMP043,Ilyas Mohamed,HR,HR Officer,2024-08-15,Bosaso,4,10,Active,On-site,1050
+EMP044,Zamzam Ali,Operations,Operations Officer,2014-09-15,Galkacyo,5,1,Active,On-site,510
+EMP045,Abdinasir Hassan,Marketing,Marketing Officer,2015-10-15,Qardho,1,4,Active,Hybrid,690
+EMP046,Nadifo Noor,Sales,Sales Executive,2016-11-15,Burtinle,2,7,Active,On-site,870
+EMP047,Mohamed Osman,IT,Software Engineer,2017-12-15,Dangorayo,3,10,Active,On-site,1250
+EMP048,Amina Yusuf,Finance,Accountant,2018-01-15,Garowe,4,1,Active,Hybrid,610
+EMP049,Barkhad Farah,HR,HR Officer,2019-02-15,Bosaso,5,4,Active,On-site,
+EMP050,Rahma Ahmed,Operations,Operations Officer,2020-03-15,Galkacyo,1,7,Active,On-site,870
+EMP051,Abdullahi Jama,Marketing,Marketing Officer,2021-04-15,Qardho,2,10,Active,Hybrid,1050
+EMP052,Cabdirashiid Maxamed,Finance,Senior Accountant,2014-03-12,,12,Resigned,On-site,1450
+EMP053,Sagal Cabdi,,System Administrator,2019-07-08,Bosaso,4,7,Resigned,Hybrid,1250
+EMP054,Bashiir Xasan,Operations,Branch Operations Officer,2021-02-14,Qardho,3,4,Resigned,On-site,850
+EMP055,Faadumo Jaamac,HR,HR Officer,2020-10-22,Garowe,4,5,Resigned,On-site,780
+EMP056,Maxamuud Nuur,Sales,Relationship Officer,2022-05-18,Bosaso,3,3,Resigned,Hybrid,700
+EMP057,Hodan Warsame,Marketing,Digital Marketing Officer,,Dangorayo,2,2,Resigned,Hybrid,620
+EMP058,Cabdixakiin Cali,IT,,Garowe,5,8,Resigned,On-site,1350
+EMP059,Naciimo Axmed,Finance,Finance Officer,2021-08-11,Burtinle,4,4,Resigned,On-site,820
+EMP060,Sakariye Farah,Operations,Operations Supervisor,2017-04-15,Galkacyo,5,9,Resigned,On-site,1280
+EMP061,Aamina Maxamed,HR,Talent Acquisition Officer,2024-02-01,Garowe,3,1,Resigned,Hybrid,650
+EMP062,Cabdifataax Xasan,IT,Network Engineer,2016-09-17,Bosaso,4,10,Terminated,On-site,1400
+EMP063,Raxma Cabdi,Sales,Sales Executive,2022-12-05,Qardho,2,3,Terminated,On-site,680
+EMP064,Yuusuf Aadan,Finance,Accountant,2019-06-19,Garowe,4,6,Retired,On-site,950
+EMP065,Deeqa Maxamed,Marketing,Marketing Officer,2021-03-21,Dangorayo,3,4,Retired,Hybrid,730
+EMP066,Abshir Nuur,Operations,Operations Officer,2018-01-30,Burtinle,5,8,Active,On-site,1180

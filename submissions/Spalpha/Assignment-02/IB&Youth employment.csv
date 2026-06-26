@@ -1,0 +1,55 @@
+ID,Age,Education_Level,Financing_Product,Funding_Amount_USD,Business_Duration_Months,Training_Received,Employment_Status
+1,24,Bachelor,Murabahah,3500.0,14.0,Yes,Sustained Startup
+2,19,High School,,0.0,0.0,No,Unemployed
+3,28,Master,Mudarabah,12000.0,24.0,Yes,Sustained Startup
+4,22,Diploma,Qard al-Hasan,1500.0,8.0,No,Sustained Startup
+5,31,Bachelor,Murabahah,,18.0,Yes,Sustained Startup
+6,26,Bachelor,Murabahah,4500.0,3.0,No,Unemployed
+7,23,Bacehlor,Mudarabah,5000.0,11.0,Missing,Sustained Startup
+8,20,Diploma,,0.0,0.0,No,Unemployed
+9,35,Master,Murabahah,15000.0,36.0,Yes,Sustained Startup
+10,25,Bachelor,Murbaha,4000.0,12.0,Yes,Sustained Startup
+11,21,High School,Qard al-Hasan,1000.0,6.0,No,Unemployed
+12,27,Bachelor,,0.0,0.0,No,Unemployed
+13,30,Diploma,Murabahah,6000.0,20.0,Yes,Sustained Startup
+14,24,Bachelor,Mudarabah,7500.0,15.0,Yes,Sustained Startup
+15,18,High School,,0.0,0.0,No,Unemployed
+16,29,Master,Musharakah,13500.0,22.0,Yes,Sustained Startup
+17,26,Bachelor,,0.0,4.0,No,Unemployed
+18,22,Diploma,Murabahah,3000.0,,Yes,Sustained Startup
+19,33,Bachelor,Mudarabah,9000.0,30.0,Missing,Sustained Startup
+20,25,High School,Qard al-Hasan,2000.0,9.0,No,Sustained Startup
+21,20,Bacehlor,,0.0,0.0,No,Unemployed
+22,28,Bachelor,Murabahah,5500.0,16.0,Yes,Sustained Startup
+23,32,Master,Musharakah,11000.0,25.0,Yes,Sustained Startup
+24,23,Diploma,,0.0,0.0,No,Unemployed
+25,24,Bachelor,Murabahah,4000.0,10.0,No,Unemployed
+26,27,High School,Murabahah,3500.0,12.0,Yes,Sustained Startup
+27,19,Diploma,,0.0,0.0,No,Unemployed
+28,34,Bachelor,Mudarabah,,40.0,Yes,Sustained Startup
+29,21,Bachelor,Qard al-Hasan,1200.0,5.0,No,Unemployed
+30,26,Master,Murabahah,8500.0,18.0,Yes,Sustained Startup
+31,25,Diploma,Murbaha,3000.0,8.0,Yes,Sustained Startup
+32,22,High School,,0.0,0.0,No,Unemployed
+33,30,Bachelor,Musharakah,10000.0,24.0,Missing,Sustained Startup
+34,23,Bachelor,,0.0,0.0,No,Unemployed
+35,29,Diploma,Murabahah,5000.0,14.0,Yes,Sustained Startup
+36,28,High School,Qard al-Hasan,2500.0,15.0,No,Sustained Startup
+37,20,Bachelor,,0.0,0.0,No,Unemployed
+38,31,Master,Mudarabah,12500.0,28.0,Yes,Sustained Startup
+39,24,Diploma,Murabahah,4500.0,7.0,No,Unemployed
+40,26,Bachelor,Murabahah,6000.0,19.0,Yes,Sustained Startup
+41,22,Bacehlor,,0.0,0.0,No,Unemployed
+42,35,Bachelor,Musharakah,14000.0,36.0,Yes,Sustained Startup
+43,19,High School,Qard al-Hasan,1800.0,6.0,Yes,Sustained Startup
+44,27,Diploma,,0.0,0.0,No,Unemployed
+45,23,Master,Mudarabah,9500.0,13.0,No,Sustained Startup
+46,30,Bachelor,Murabahah,7000.0,,Yes,Sustained Startup
+47,25,High School,,0.0,0.0,No,Unemployed
+48,21,Diploma,Qard al-Hasan,1500.0,4.0,No,Unemployed
+49,29,Bachelor,Murbaha,5000.0,21.0,Yes,Sustained Startup
+50,32,Diploma,Murabahah,8000.0,24.0,Yes,Sustained Startup
+51,24,High School,,0.0,0.0,No,Unemployed
+52,26,Bachelor,Mudarabah,6500.0,11.0,Yes,Sustained Startup
+53,28,Bachelor,,0.0,2.0,No,Unemployed
+54,23,Diploma,Qard al-Hasan,2000.0,10.0,Yes,Sustained Startup

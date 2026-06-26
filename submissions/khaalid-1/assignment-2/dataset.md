@@ -1,0 +1,53 @@
+| Age | Gender | Screen Time | Phone Before Bed | Sleep Quality | Daytime Tiredness | Sleep Hours     |
+|-----|--------|-------------|------------------|---------------|-------------------|-----------------|
+| 20  | Male   | 1–3 hours   | Yes              | Average       | No                | 4–5 hours       |
+| 25  | Male   | 10+ hours   | Yes              | Bad           | Yes               |Less than 4 hours|
+| 25  | Male   | 10+ hours   | Yes              | Good          | No                | 4–5 hours       |
+| 26  | Male   | 7–9 hours   | Yes              | Average       | Yes               | 4–5 hours       |
+| 26  | Male   | 7–9 hours   | Yes              | Good          | Yes               | 8–9 hours       |
+| 33  | Male   | 7–9 hours   | Yes              | Good          | Yes               | 6–7 hours       |
+| 24  | Male   | 10+ hours   | Yes              | Average       | Yes               | 6–7 hours       |
+| 20  | Male   | 4–6 hours   | No               | Good          | Yes               | 6–7 hours       |
+| 22  | Male   | 10+ hours   | Yes              | Good          | Yes               | 8–9 hours       |
+| 28  | Male   | 1–3 hours   | Yes              | Average       | No                | 4–5 hours       |
+| 22  | Female | 7–9 hours   | Yes              | Good          | No                | 8–9 hours       |
+| 26  | Male   | 4–6 hours   | No               | Good          | Yes               | 6–7 hours       |
+| 27  | Male   | 10+ hours   | Yes              | Average       | No                | 6–7 hours       |
+| 76  | Female | 10+ hours   | Yes              | Good          | Yes               | 8–9 hours       |
+| 23  | Male   | 1–3 hours   | Yes              | Good          | No                | 6–7 hours       |
+| 19  | Male   | 4–6 hours   | Yes              | Good          | No                | 6–7 hours       |
+| 24  | Male   | 7–9 hours   | Yes              | Average       | Yes               | 6–7 hours       |
+| 26  | Male   | 10+ hours   | Yes              | Average       | Yes               | 4–5 hours       |
+| 19  | Male   | 4–6 hours   | Yes              | Average       | No                | 4–5 hours       |
+| Male| Male   | 1–3 hours   | No               | Good          | No                | 6–7 hours       |
+| 29  | Male   | 7–9 hours   | Yes              | Average       | No                | 8–9 hours       |
+| 26  | Female | 7–9 hours   | Yes              | Average       | No                | 4–5 hours       |
+| 27  | Male   | 10+ hours   | Yes              | Good          | Yes               |Less than 4hours |
+| 20  | Female | 7–9 hours   | Yes              | Average       | Yes               | 4–5 hours       |
+| 26  | Male   | 1–3 hours   | Yes              | Good          | No                | 6–7 hours       |
+| 23  | Male   | 7–9 hours   | No               | Good          | Yes               | 6–7 hours       |
+| 28  | Male   | 10+ hours   | Yes              | Bad           | Yes               | 6–7 hours       |
+| 21  | Female | 4–6 hours   | Yes              | Good          | No                | 6–7 hours       |
+| 27  | Male   | 7–9 hours   | Yes              | Average       | No                | 4–5 hours       |
+| 33  | Female | 1–3 hours   | Yes              | Good          | No                | 4–5 hours       |
+| 22  | Male   | 4–6 hours   | Yes              | Average       | Yes               | 6–7 hours       |
+| 20  | Male   | 1–3 hours   | Yes              | Good          | No                |Less than 4 hours|
+| 28  | Male   | 4–6 hours   | Yes              | Good          | No                | 6–7 hours       |
+| 26  | Male   | 7–9 hours   | Yes              | Good          | Yes               | 6–7 hours       |
+| 27  | Male   | 4–6 hours   | Yes              | Good          | No                | 6–7 hours       |
+| 21  | Female | 10+ hours   | Yes              | Good          | Yes               | 8–9 hours       |
+| 23  | Female | 4–6 hours   | Yes              | Average       | Yes               | 6–7 hours       |
+| 26  | Male   | 7–9 hours   | Yes              | Average       | Yes               | 4–5 hours       |
+| 32  | Male   | 1–3 hours   | Yes              | Good          | No                | 6–7 hours       |
+| 22  | Male   | 7–9 hours   | Yes              | Average       | No                | 6–7 hours       |
+| 20  | Male   | 4–6 hours   | No               | Good          | No                | 6–7 hours       |
+| 25  | Male   | 1–3 hours   | Yes              | Average       | Yes               | 4–5 hours       |
+| 23  | Male   | 7–9 hours   | Yes              | Average       | Yes               | 4–5 hours       |
+| 28  | Female | 7–9 hours   | Yes              | Good          | No                | 6–7 hours       |
+| 20  | Female | 4–6 hours   | Yes              | Good          | No                | 6–7 hours       |
+| 28  | Female | 4–6 hours   | Yes              | Good          | No                |More than 9 hours|
+| 18  | Male   | 7–9 hours   | No               | Good          | No                | 8–9 hours       |
+| 24  | Male   | 10+ hours   | Yes              | Good          | No                | 6–7 hours       |
+| 22  | Female | 4–6 hours   | No               | Good          | No                | 8–9 hours       |
+| 19  | Male   | 4–6 hours   | Yes              | Average       | Yes               | 6–7 hours       |
+|Male | Male   | 7–9 hours   | Yes              | Good          | Yes               |More than 9 hours|

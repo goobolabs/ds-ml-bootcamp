@@ -463,6 +463,21 @@ Example: Fraud detection (only 1% of transactions are fraud) → must balance.
 
 ---
 
+---
+
+## Coding Session
+
+**Lesson 3 spans two nights** — Night 1 covers the theory above; Night 2 is hands-on coding. Both are the same lesson.
+
+Before the coding session:
+
+1. Complete the **Setup Guide** ([`00-tools-and-setup.md`](00-tools-and-setup.md)) — install Anaconda, launch Jupyter, and verify NumPy, Pandas, and Scikit-learn.
+2. Run the preprocessing pipeline: [`code/data-processing.py`](../code/data-processing.py)
+
+That script applies the techniques from this lesson — imputation, encoding, scaling, and feature engineering — on the housing dataset and saves a cleaned CSV.
+
+---
+
 ## Summary
 
 - **Features (X):** Inputs used for prediction (e.g., size, bedrooms, location).
@@ -471,6 +486,7 @@ Example: Fraud detection (only 1% of transactions are fraud) → must balance.
 - **Data Collection:** Good data must be relevant, accurate, sufficient, and representative.
 - **Preprocessing:** Essential for model success — includes handling missing values, encoding categories, and scaling features.
 - **Feature Engineering & Advanced Processing:** Create new features, drop irrelevant ones, reduce dimensions, balance classes, and handle noise to make data model-ready.
+- **Coding session (Night 2):** Complete the **Setup Guide** ([`00-tools-and-setup.md`](00-tools-and-setup.md)), then run [`code/data-processing.py`](../code/data-processing.py).
 
 ---
 

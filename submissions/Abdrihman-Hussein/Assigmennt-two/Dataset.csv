@@ -1,0 +1,51 @@
+Invoice ID,Customer Type,Amount,Payment Term,Month,Number of Items,Payment Status
+INV-001,Wholesale,500,Net 30,Jan,8,Paid On-Time
+INV-002,Retail,60,Due on Receipt,Jan,2,Paid On-Time
+INV-003,Wholesale,1200,Net 30,Jan,15,Delayed
+INV-004,Retail,45,Due on Receipt,Jan,1,Paid On-Time
+INV-005,Corporate,3000,Net 30,Jan,25,Paid On-Time
+INV-006,Wholesale,450,Net 15,Feb,6,Delayed
+INV-007,Retail,80,Due on Receipt,Feb,2,Paid On-Time
+INV-008,Corporate,2500,Net 30,Feb,20,Paid On-Time
+INV-009,Wholesale,800,Net 15,Feb,10,Delayed
+INV-010,Retail,120,Due on Receipt,Feb,3,Paid On-Time
+INV-011,Wholesale,600,Net 30,Mar,9,Paid On-Time
+INV-012,Corporate,4000,Net 30,Mar,30,Paid On-Time
+INV-013,Retail,55,Due on Receipt,Mar,1,Delayed
+INV-014,Wholesale,950,Net 15,Mar,12,Delayed
+INV-015,Corporate,1500,Net 30,Mar,14,Paid On-Time
+INV-016,Wholesale,700,Net 30,Apr,10,Paid On-Time
+INV-017,Retail,90,Due on Receipt,Apr,2,Paid On-Time
+INV-018,Corporate,3200,Net 30,Apr,26,Paid On-Time
+INV-019,Wholesale,1100,Net 30,Apr,16,Delayed
+INV-020,Retail,50,Due on Receipt,Apr,1,Paid On-Time
+INV-021,Wholesale,400,Net 15,May,5,Delayed
+INV-022,Retail,150,Due on Receipt,May,3,Paid On-Time
+INV-023,Wholesale,600,Net 15,May,8,Paid On-Time
+INV-024,Corporate,2800,Net 30,May,22,Paid On-Time
+INV-025,Retail,300,Due on Receipt,May,5,Delayed
+INV-026,Corporate,5000,Net 30,Jun,35,Paid On-Time
+INV-027,Retail,110,Due on Receipt,Jun,2,Paid On-Time
+INV-028,Wholesale,900,Net 15,Jun,11,Delayed
+INV-029,Wholesale,1300,Net 15,Jun,18,Delayed
+INV-030,Retail,450,Due on Receipt,Jun,6,Paid On-Time
+INV-031,Wholesale,350,Net 15,Jan,4,Delayed
+INV-032,Retail,75,Due on Receipt,Jan,2,Paid On-Time
+INV-033,Corporate,2000,Net 30,Jan,18,Paid On-Time
+INV-034,Wholesale,650,Net 15,Jan,9,Delayed
+INV-035,Retail,100,Due on Receipt,Jan,2,Paid On-Time
+INV-036,Wholesale,1500,Net 30,Feb,15,Paid On-Time
+INV-037,Retail,200,Due on Receipt,Feb,4,Paid On-Time
+INV-038,Corporate,4200,Net 30,Feb,32,Paid On-Time
+INV-039,Wholesale,800,Net 15,Feb,10,Delayed
+INV-040,Retail,60,Due on Receipt,Feb,1,Paid On-Time
+INV-041,Wholesale,550,Net 15,Mar,7,Delayed
+INV-042,Retail,95,Due on Receipt,Mar,2,Paid On-Time
+INV-043,Wholesale,1000,Net 15,Mar,13,Delayed
+INV-044,Wholesale,300,Net 15,Mar,4,Paid On-Time
+INV-045,Corporate,1200,Net 30,Mar,12,Delayed
+INV-046,Corporate,3800,Net 30,Apr,28,Paid On-Time
+INV-047,Retail,50,Due on Receipt,Apr,1,Paid On-Time
+INV-048,Wholesale,750,Net 15,Apr,9,Delayed
+INV-049,Corporate,2100,Net 30,Apr,20,Paid On-Time
+INV-050,Wholesale,400,Net 15,Apr,5,Delayed
