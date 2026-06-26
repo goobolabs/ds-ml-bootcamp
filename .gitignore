@@ -58,8 +58,6 @@ dmypy.json
 
 # ---- Generated data / model artifacts ----
 # All processed datasets start with "clean" (e.g. clean_house_dataset.csv)
-clean*
-Clean*
 dataset/clean*
 dataset/Clean*
 *.pkl
