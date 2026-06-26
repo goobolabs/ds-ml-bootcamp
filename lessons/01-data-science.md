@@ -218,6 +218,8 @@ plt.show()
 | `scikit-learn` | Machine Learning models and utilities            |
 | `jupyter`      | Interactive notebooks for exploration            |
 
+> See the **Setup Guide** ([`00-tools-and-setup.md`](00-tools-and-setup.md)) for installation and your first notebook.
+
 ---
 
 ### A First Look at the Workflow in Python

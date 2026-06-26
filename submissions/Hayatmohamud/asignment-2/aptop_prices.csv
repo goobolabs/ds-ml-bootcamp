@@ -1,0 +1,51 @@
+Brand,RAM_GB,Storage_GB,Processor,Screen_Size,Condition,Price_USD
+HP,8,256,i5,14,Used,280
+Dell,16,512,i7,15.6,Used,450
+Lenovo,8,256,i5,14,New,380
+HP,4,128,i3,14,Used,180
+Apple,8,256,M1,13.3,Used,750
+Dell,8,512,i5,15.6,New,500
+Acer,4,256,i3,15.6,Used,220
+Lenovo,16,512,Ryzen 5,15.6,New,600
+HP,8,512,i5,14,New,420
+Dell,32,1024,i7,15.6,New,950
+HP,16,512,i7,14,Used,480
+Dell,8,256,i5,14,Used,260
+Lenovo,4,128,i3,15.6,Used,170
+Acer,8,256,i5,15.6,New,350
+HP,8,256,i5,14,Used,290
+Dell,16,512,i7,14,New,650
+Lenovo,8,512,Ryzen 5,15.6,New,520
+Apple,16,512,M1,13.3,Used,980
+HP,4,256,i3,14,Used,210
+Dell,8,256,i5,15.6,Used,275
+Lenovo,16,1024,Ryzen 7,15.6,New,850
+Acer,8,512,i5,14,New,430
+HP,16,512,i7,15.6,Used,500
+Dell,4,128,i3,14,Used,160
+Lenovo,8,256,i5,14,Used,300
+Apple,8,512,M1,13.3,New,1100
+HP,8,256,i5,15.6,New,390
+Dell,16,512,i7,15.6,Used,470
+Acer,4,256,i3,14,Used,200
+Lenovo,8,512,Ryzen 5,14,New,540
+HP,32,1024,i7,15.6,New,990
+Dell,8,256,i5,14,Used,285
+Lenovo,4,128,i3,14,Used,175
+Acer,16,512,i7,15.6,New,620
+HP,8,512,i5,14,Used,340
+Dell,16,1024,i7,15.6,New,880
+Lenovo,8,256,Ryzen 5,15.6,Used,310
+Apple,16,1024,M2,13.6,New,1450
+HP,4,256,i3,14,Used,215
+Dell,8,512,i5,15.6,New,520
+Lenovo,16,512,Ryzen 7,14,New,700
+Acer,8,256,i5,15.6,Used,295
+HP,16,512,i7,14,New,610
+Dell,4,128,i3,15.6,Used,165
+Lenovo,8,256,i5,14,New,400
+Apple,8,256,M2,13.6,New,1200
+HP,8,512,i5,15.6,Used,360
+Dell,16,512,i7,14,Used,490
+Acer,4,256,i3,15.6,Used,205
+Lenovo,32,1024,Ryzen 9,16,New,1250
