@@ -72,7 +72,7 @@ print(df.head(10))
 
 continuous_features = ["Odometer_km", "car_age", "km/Year", "accident_rate"]
 
-# feature scaling
+
 scaler = StandardScaler()
 df[continuous_features] = scaler.fit_transform(df[continuous_features])
 
@@ -80,7 +80,7 @@ df[continuous_features] = scaler.fit_transform(df[continuous_features])
 sample_cols = ["Price", "LogPrice", "Odometer_km", "car_age", "Location_Rural", "Location_Suburb"]
 print(df[sample_cols].head(10))
 
-#saving clean data
+
 OUR_PATH = "car_l3_clean_ready.csv"
 df.to_csv(OUR_PATH, index=False)
 PRINT_PATH = "car_l3_clean_ready.csv"
