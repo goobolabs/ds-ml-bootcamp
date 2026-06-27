@@ -1,0 +1,125 @@
+# Assignment-two-data collection 
+Name-said
+
+Family Dynamics & Screen Time Survey Dataset
+
+Title and Collection Method
+
+Family Dynamics & Screen Time Survey Dataset
+
+Collection Method
+
+The dataset used in this project was created through a self-designed online survey titled "Family Dynamics & Screen Time Survey." Rather than using an existing dataset from public repositories such as Kaggle, UCI Machine Learning Repository, or other online sources, the data was collected personally using Google Forms and stored automatically in Google Sheets. The purpose of the survey was to examine how different household characteristics relate to the amount of time families spend using digital screens for leisure and entertainment.
+
+The questionnaire was distributed to family members, friends, classmates, and members of the local community through online messaging platforms. Each participant completed the questionnaire only once, providing information about their household composition, the number of children living in the home, the number of smartphones regularly used, the primary employment style of the household's main income earners, gaming console ownership, and the total number of leisure screen hours during a typical weekday.
+
+Collecting the dataset personally ensured that it represented real responses from participants instead of relying on pre-existing public datasets. Since respondents entered their own answers, the dataset naturally contains inconsistencies, formatting differences, and a few unusual values. These imperfections make the dataset realistic and suitable for demonstrating data cleaning and preprocessing techniques in later stages of the Data Science lifecycle.
+
+---
+
+## Description of Features and Label
+
+The dataset contains several independent variables (features) that describe household characteristics, together with one dependent variable (label) that represents the total amount of screen time.
+
+### Features (X)
+
+1. Household Size
+
+This feature records the total number of people living full-time in the household, including the respondent.
+
+2. Number of Household Members Under 18
+
+This numerical feature represents how many members of the household are younger than eighteen years old.
+
+3. Number of Smartphones
+
+This feature records the number of smartphones that are regularly used by members of the household.
+
+4. Primary Income Source or Working Style
+
+This categorical feature describes the main working arrangement or income source of the household. Responses include Office Work, Remote Work, Shift Work, Student, Retired, Business, Daily Work, and several manually entered responses.
+
+5. Gaming Console Ownership
+
+This categorical feature records whether the household owns a gaming console such as a PlayStation, Xbox, or Nintendo Switch. The responses are "Yes" or "No."
+
+### Label (Y)
+
+Combined Leisure Screen Time (Hours)
+
+The target variable is the combined number of hours that all household members spend using digital screens for entertainment during a typical weekday. This value is numerical and represents the outcome that could be predicted using the household characteristics.
+
+---
+
+## Dataset Structure
+
+The dataset currently contains responses collected through Google Forms. According to the assignment requirements, the completed dataset should contain at least 50 rows and 7 columns, including one timestamp column and six survey variables.
+
+The dataset structure is summarized below.
+
+| Column           | Data Type   | Description                              |
+| ---------------- | ----------- | ---------------------------------------- |
+| Timestamp        | Date/Time   | Date and time the response was submitted |
+| Household Size   | Integer     | Total people living in the household     |
+| Members Under 18 | Integer     | Number of children under 18              |
+| Smartphones      | Integer     | Number of smartphones used               |
+| Income Source    | Categorical | Main employment or income type           |
+| Gaming Console   | Categorical | Yes or No                                |
+| Screen Time      | Numeric     | Total leisure screen hours per weekday   |
+
+A sample of the collected dataset is shown below.
+
+| Timestamp | Household Size | Under 18 | Smartphones | Income Source | Gaming Console | Screen Time |
+| --------- | -------------: | -------: | ----------: | ------------- | -------------- | ----------: |
+| 6/21/2026 |             10 |       10 |           2 | Remote        | No             |           6 |
+| 6/21/2026 |              9 |        3 |           6 | Office        | No             |          78 |
+| 6/21/2026 |              8 |        1 |           8 | Unemployed    | No             |           7 |
+| 6/21/2026 |              1 |        1 |           1 | Other         | Yes            |          24 |
+| 6/23/2026 |              8 |        5 |           6 | Business      | No             |          30 |
+| 6/23/2026 |              7 |        3 |           5 | Retired       | No             |           8 |
+| 6/23/2026 |             10 |        2 |           6 | Office        | No             |           5 |
+| 6/23/2026 |              6 |        3 |           6 | Office        | Yes            |           3 |
+
+---
+
+## Quality Issues
+
+The dataset contains several quality issues that are commonly found in real-world data collected from surveys.
+
+One issue is inconsistent text entries. Although predefined categories were available for employment type, some respondents entered their own descriptions such as *"muusow ma shaqeeyo,"* *"Hooshada ma ahan engineering ee Ai g See camal wye,"* and *"no one works but."* These responses should be standardized into consistent categories before analysis.
+
+The dataset also contains **formatting inconsistencies**. For example, one respondent entered the number of people under eighteen as **"01"** instead of **"1."** Likewise, one respondent entered screen time as **"078"** rather than **"78."** Although these values are numerically similar, they should be standardized during preprocessing.
+
+There are several possible outliers in the numerical variables. One household reported 60 household members, while another reported 20 children under the age of 18. Similarly, screen-time values of 66, 78, and 35 hours appear unusually high for a typical weekday and may require verification. These records should be examined carefully to determine whether they represent genuine responses or data entry errors.
+
+The dataset also contains mixed categorical values because some respondents answered in English while others answered in Somali. Standardizing language and category names would improve consistency.
+
+Although no obvious duplicate records were observed from the sample provided, duplicate responses should still be checked before analysis. Missing values should also be inspected once the complete dataset has been collected because incomplete survey responses are common in questionnaire-based research.
+
+Overall, the dataset reflects authentic survey responses and therefore provides an excellent example for learning data cleaning, preprocessing, and exploratory data analysis.
+
+---
+
+## Learning Type
+
+This dataset is best suited for **Supervised Machine Learning** because it contains both input variables and a clearly defined target variable.
+
+The independent variables include household size, number of children, number of smartphones, employment type, and gaming console ownership. These variables can be used to predict the dependent variable, which is the household's total weekday leisure screen time.
+
+Because every observation includes both the predictors and the target value, machine learning algorithms can learn relationships between family characteristics and digital screen usage. Once trained, the model can estimate expected screen time for new households with similar characteristics.
+
+Since the target variable is numerical rather than categorical, the primary machine learning task is regression rather than classification.
+
+---
+
+## Use Case
+
+This dataset has several practical applications within Machine Learning and Data Science.
+
+The primary application is regression, where algorithms such as Linear Regression, Decision Tree Regression, or Random Forest Regression can predict the number of daily leisure screen hours based on household characteristics. Such models could help researchers understand how family size, employment patterns, smartphone ownership, and gaming console ownership influence digital media consumption.
+
+The dataset could also be adapted for classification by converting screen time into categories such as *Low*, *Moderate*, and *High* screen usage. Classification algorithms could then predict which households are likely to experience high screen exposure.
+
+Another possible application is clustering. If the screen-time variable is removed, clustering algorithms such as K-Means could group households with similar demographic characteristics and technology usage patterns. These clusters could help identify different household profiles within the community.
+
+Within the Data Science Lifecycle, this dataset begins with the data collection stage through Google Forms. The next stage involves data preparation, where inconsistent text values, formatting issues, and potential outliers are cleaned and standardized. After preprocessing, exploratory data analysis (EDA) can be performed to identify patterns and relationships among variables. The cleaned data can then be used to train and evaluate machine learning models. Finally, the resulting model could support researchers, educators, or policymakers in understanding family technology usage and designing initiatives that encourage healthier digital habits among households.
