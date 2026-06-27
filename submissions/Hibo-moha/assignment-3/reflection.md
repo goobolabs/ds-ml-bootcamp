@@ -1,39 +1,36 @@
 # Reflection
 
-## Data Inspection
+## 1. Data Inspection
+I inspected the dataset using head(), shape, info(), and missing value counts. I identified missing values, inconsistent category names, duplicates, outliers, and currency formatting issues in the Price column.
 
-The dataset contained inconsistent text formatting, mixed numeric formats, outliers, and invalid values.
+## 2. Price Cleaning
+The Price column contained currency symbols and commas. These were removed and the column was converted to numeric format. This ensures proper statistical analysis and modeling.
 
-## Data Cleaning
+## 3. Category Cleaning
+The Location column contained spelling mistakes such as "Subrb" and invalid values such as "??". These were standardized before imputation to avoid creating incorrect categories.
 
-Minutes Late values such as "10min" and "15 min" were converted into numeric values. Attendance Rate values containing percentages (%) were cleaned and converted to numeric format. Invalid values such as "A" were converted into missing values.
+## 4. Missing Value Imputation
+Median was used for Odometer_km because it is robust to outliers. Mode was used for Doors, Accidents, and Location because they are categorical/discrete variables.
 
-## Missing Value Handling
+## 5. Duplicate Removal
+Duplicate rows were removed to prevent bias and repeated information in the dataset.
 
-The missing Attendance Rate value was replaced using the median because it is less sensitive to extreme values.
+## 6. Outlier Treatment
+IQR capping was applied to Price and Odometer_km. This method reduces the influence of extreme values while preserving all records.
 
-## Duplicate Removal
+## 7. Encoding
+One-hot encoding was used for Location because machine learning algorithms require numerical input.
 
-The dataset was checked for duplicate records. No duplicates were found.
+## 8. Feature Engineering
+Three features were created:
+- CarAge = Current Year − Year
+- Km_per_year = Odometer_km / CarAge
+- Is_Urban = 1 for City/Suburb and 0 otherwise
 
-## Outlier Treatment
+LogPrice was created as an alternative target variable for models that benefit from reduced skewness.
 
-IQR capping was applied to Age, Minutes Late, and Attendance Rate to reduce the influence of extreme values while preserving observations.
+## 9. Scaling
+Continuous features were standardized using StandardScaler. Target variables (Price and LogPrice) were not scaled to avoid information leakage.
 
-## Feature Engineering
-
-Three new features were created:
-
-* IsLate
-* HighAttendance
-* AttendanceScore
-
-These features help represent employee punctuality and attendance performance.
-
-## Encoding and Scaling
-
-Categorical variables were converted using one-hot encoding. Numerical features were standardized using StandardScaler to make them suitable for machine learning models.
-
-## Final Result
-
-The final dataset contains cleaned, transformed, and scaled features with no missing values and is ready for further analysis or machine learning.
+## 10. Final Validation
+Final checks confirmed there were no missing values, encoded columns existed, and scaled features had approximately zero mean and unit variance.
