@@ -96,3 +96,5 @@ Data Exploration – Understanding relationships between study habits and perfor
 Model Building – Training a classification model (e.g., Logistic Regression, Decision Tree).
 Evaluation – Measuring accuracy, precision, and recall.
 Deployment – Using the model to predict future student performance.
+
+
