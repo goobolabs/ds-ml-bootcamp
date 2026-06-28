@@ -60,7 +60,7 @@ Overfitting in polynomial regression is caused by choosing a polynomial degree t
 
 **Cross-Validation:** Evaluate the model across multiple different subsets of the data to ensure it generalizes well to unseen information.
 ---
-## 7.Real-World Case Study
+## .Real-World Case Study
 ---
 **Goal and Data:**A city bikeshare program wanted to predict hourly bike demand to optimize their inventory using historical temporal data (hour, day) and weather data (temperature, humidity).
 
