@@ -1,0 +1,116 @@
+Answers of Introduction to Data Science and Machine Learning
+1. Define Data Science and Machine Learning. What is the relationship between them?
+Data Science
+
+Data Science is the field of extracting useful knowledge and insights from data using statistics, programming, and analytical techniques. It helps organizations make informed decisions based on evidence rather than assumptions.
+
+Machine Learning
+
+Machine Learning (ML) is a branch of Artificial Intelligence that enables computers to learn patterns from data and make predictions without being explicitly programmed.
+
+Relationship Between Data Science and Machine Learning
+
+Machine Learning is a subset of Data Science. Data Science covers the entire process of collecting, preparing, analyzing, and interpreting data, while Machine Learning is mainly used to build predictive models from that data.
+
+Example
+
+An online shopping platform collects customer purchase history (Data Science). A Machine Learning model then analyzes this data to recommend products that customers are likely to buy.
+
+2. Describe the Data Science Lifecycle. At which stage does Machine Learning fit in?
+
+The Data Science Lifecycle consists of the following stages:
+
+Stage	Description
+Problem Definition	Identify the problem to solve
+Data Collection	Gather relevant data
+Data Preparation	Clean and organize data
+Exploratory Data Analysis	Understand patterns and trends
+Feature Engineering	Create useful variables
+Modeling	Build Machine Learning models
+Evaluation	Measure model performance
+Deployment	Use the model in real-world applications
+Monitoring	Maintain and improve the model
+
+Machine Learning typically fits in the Modeling stage because this is where algorithms are trained to learn patterns and make predictions based on the prepared data.
+
+3. Compare Supervised Learning and Unsupervised Learning
+Supervised Learning	Unsupervised Learning
+Uses labeled data	Uses unlabeled data
+Predicts known outcomes	Finds hidden patterns
+Requires target values	No target values needed
+Supervised Learning Example
+
+A bank uses past loan records to predict whether a customer will repay a loan.
+
+Unsupervised Learning Example
+
+A retail company groups customers into different categories based on their purchasing behavior.
+
+4. What causes Overfitting? How can it be prevented?
+Causes of Overfitting
+
+Overfitting occurs when a model learns the training data too closely, including noise and irrelevant details. Common causes include:
+
+Small datasets
+Complex models
+Too many features
+Excessive training
+Prevention Methods
+Use more training data
+Apply cross-validation
+Remove unnecessary features
+Use regularization techniques
+Apply early stopping
+Choose simpler models
+
+A model that overfits performs well on training data but poorly on new data.
+
+5. Explain how training data and test data are split and why it is necessary.
+
+A dataset is usually divided into:
+
+Training Data (70–80%): Used to train the model.
+Test Data (20–30%): Used to evaluate the model.
+Example
+
+If a dataset contains 1,000 records:
+
+800 records may be used for training.
+200 records may be used for testing.
+
+This process is necessary because it helps measure how well the model performs on unseen data and helps detect overfitting.
+
+6. Case Study: Machine Learning in Healthcare
+Study
+
+Bahaa et al. (2023) applied Machine Learning to predict heart disease using healthcare data.
+
+Process
+
+The researchers:
+
+Collected heart disease data.
+Cleaned and prepared the data.
+Selected important features.
+Trained Machine Learning models.
+Evaluated prediction accuracy.
+Findings
+
+The study showed that Machine Learning could predict heart disease with high accuracy while using fewer variables, making the model more efficient.
+
+Data Science Lifecycle Stages Covered
+Stage	Covered
+Problem Definition	Yes
+Data Collection	Yes
+Data Preparation	Yes
+Modeling	Yes
+Evaluation	Yes
+Deployment	No
+
+This case demonstrates how Data Science and Machine Learning can support healthcare professionals in making better medical decisions.
+
+References
+Bahaa, S., Ghalwash, A. Z., & Harb, H. (2023). DataOps Lifecycle with a Case Study in Healthcare. IJACSA.
+Zhang, A., et al. (2022). Shifting Machine Learning for Healthcare from Development to Deployment. Nature Biomedical Engineering.
+National Library of Medicine (2024). Machine Learning and Health Science Research Tutorial.
+MDPI Sensors (2023). A Comprehensive Review on Machine Learning in Healthcare Industry.

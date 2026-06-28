@@ -1,0 +1,53 @@
+Age  ,Gender  , Occupation  ,Daily smartphone usage ,Number of apps used daily,Daily social media time  ,Tech‑savviness rating  ,  Privacy concern level  ,  Primary device used daily  ,  Purpose of most daily screen time  ,  Frequency of checking notifications  ,  Do you feel your tech usage affects your productivity?  
+24-26,Male,Student,2-4 hours,7-10,2-4 hours,3,4,Laptop,"Work or study, Entertainment (videos, movies, games)",Every 1–2 hours,
+24-26,Female,Student,4-6 hours,4-6,2-4 hours,1,2,Other,Work or study,Only when needed,Not sure
+24-26,Male,Employed,8+,4-6,6+ hours,3,1,Laptop,"Social media, Work or study, Entertainment (videos, movies, games), Communication (chat, calls)",Every few minutes,No effect
+24-26,Female,Unemployed,2-4 hours,1-3,2-4 hours,2,1,Smartphone,"Social media, Entertainment (videos, movies, games)",Every few minutes,"Yes, positively"
+27-29,Male,Other,8+,1-3,6+ hours,2,2,Smartphone,Social media,Every few minutes,"Yes, positively"
+33-35,Male,Employed,4-6 hours,1-3,4-6 hours,2,2,"Smartphone, Laptop, Tablet, Desktop computer","Work or study, Entertainment (videos, movies, games), Communication (chat, calls)",I disable most notifications,No effect
+30-32,Female,Employed,0-2 hours,1-3,1-2 hours,5,2,"Smartphone, Laptop","Work or study, Communication (chat, calls)",Every few minutes,Not sure
+18-20,Male,Student,4-6 hours,1-3,2-4 hours,5,1,Smartphone,"Social media, Entertainment (videos, movies, games), Communication (chat, calls)",I disable most notifications,"Yes, positively"
+21-23,Male,Employed,4-6 hours,1-3,0-1 hours,1,3,Smartphone,"Communication (chat, calls)",Every 15–30 minutes,No effect
+18-20,Female,Student,2-4 hours,1-3,2-4 hours,2,1,"Smartphone, Laptop","Social media, Communication (chat, calls)",Every 15–30 minutes,"Yes, positively"
+24-26,Male,Student,4-6 hours,4-6,2-4 hours,3,3,"Smartphone, Laptop","Entertainment (videos, movies, games), Communication (chat, calls)",Every 15–30 minutes,"Yes, negatively"
+27-29,Male,Self-empployed,0-2 hours,1-3,1-2 hours,1,1,Smartphone,"Communication (chat, calls)",Every 15–30 minutes,No effect
+27-29,Male,Other,6-8 hours,1-3,4-6 hours,2,2,Smartphone,"Social media, Entertainment (videos, movies, games)",Every few minutes,"Yes, positively"
+27-29,Male,Other,8+,4-6,6+ hours,3,3,Smartphone,"Social media, Entertainment (videos, movies, games), Communication (chat, calls)",Every few minutes,No effect
+24-26,Male,Student,6-8 hours,4-6,6+ hours,3,5,Smartphone,Social media,Every 15–30 minutes,"Yes, positively"
+18-20,Male,Student,4-6 hours,1-3,1-2 hours,3,3,"Smartphone, Laptop","Social media, Work or study, Communication (chat, calls), Online shopping",Only when needed,Not sure
+21-23,Male,Student,4-6 hours,4-6,4-6 hours,2,2,"Smartphone, Laptop","Social media, Work or study, Entertainment (videos, movies, games), Communication (chat, calls)",Every few minutes,"Yes, positively"
+30-32,Male,Unemployed,4-6 hours,4-6,2-4 hours,3,3,Smartphone,Social media,Only when needed,No effect
+27-29,Female,Unemployed,8+,4-6,6+ hours,3,5,Smartphone,"Social media, Entertainment (videos, movies, games), Communication (chat, calls)",Only when needed,"Yes, positively"
+18-20,Female,Student,4-6 hours,7-10,4-6 hours,1,5,Smartphone,Social media,Only when needed,"Yes, positively"
+33-35,Male,Employed,8+,4-6,6+ hours,2,3,Smartphone,"Social media, Work or study, Entertainment (videos, movies, games), Communication (chat, calls), Online shopping",Every 15–30 minutes,"Yes, positively"
+21-23,Male,Student,2-4 hours,4-6,2-4 hours,3,3,"Smartphone, Laptop","Social media, Work or study, Communication (chat, calls)",Only when needed,Not sure
+24-26,Male,Student,0-2 hours,4-6,2-4 hours,3,3,Smartphone,Social media,Every few minutes,Not sure
+30-32,Male,Self-empployed,2-4 hours,1-3,0-1 hours,2,1,Smartphone,"Work or study, Communication (chat, calls)",Every 1–2 hours,"Yes, positively"
+21-23,Female,Employed,0-2 hours,1-3,1-2 hours,4,2,Smartphone,"Entertainment (videos, movies, games)",Only when needed,"Yes, positively"
+21-23,Female,Employed,2-4 hours,4-6,2-4 hours,3,4,Laptop,Work or study,Every 1–2 hours,"Yes, negatively"
+21-23,Male,Unemployed,8+,4-6,4-6 hours,2,1,Smartphone,"Social media, Work or study, Entertainment (videos, movies, games), Communication (chat, calls)",Every 15–30 minutes,No effect
+21-23,Male,Employed,8+,7-10,6+ hours,2,5,Smartphone,"Social media, Work or study, Entertainment (videos, movies, games)",Every few minutes,No effect
+27-29,Male,Student,2-4 hours,4-6,2-4 hours,2,2,Laptop,Social media,Every 1–2 hours,"Yes, positively"
+27-29,Male,Student,4-6 hours,1-3,4-6 hours,2,1,Smartphone,"Social media, Work or study, Online shopping",Every few minutes,"Yes, positively"
+24-26,Male,Student,2-4 hours,4-6,2-4 hours,2,1,Smartphone,"Entertainment (videos, movies, games)",Every 15–30 minutes,No effect
+35+,Male,Employed,2-4 hours,1-3,1-2 hours,1,1,"Smartphone, Laptop","Social media, Work or study, Entertainment (videos, movies, games), Communication (chat, calls)",Every 15–30 minutes,"Yes, positively"
+18-20,Male,Student,6-8 hours,1-3,4-6 hours,4,5,Smartphone,"Social media, Communication (chat, calls)",Every few minutes,"Yes, negatively"
+21-23,Male,Student,4-6 hours,1-3,4-6 hours,5,1,Smartphone,Social media,Every few minutes,No effect
+24-26,Male,Employed,2-4 hours,4-6,4-6 hours,1,1,"Smartphone, Laptop","Entertainment (videos, movies, games)",Every 15–30 minutes,"Yes, positively"
+33-35,Male,Student,4-6 hours,1-3,4-6 hours,1,3,Smartphone,"Social media, Work or study, Online shopping",Every 15–30 minutes,No effect
+30-32,Male,Other,8+,1-3,2-4 hours,2,1,Smartphone,"Social media, Work or study, Entertainment (videos, movies, games), Communication (chat, calls)",Every few minutes,"Yes, positively"
+21-23,Male,Student,4-6 hours,4-6,1-2 hours,3,3,Smartphone,"Entertainment (videos, movies, games)",Every few minutes,"Yes, positively"
+35+,Male,Employed,8+,1-3,4-6 hours,2,1,Smartphone,"Social media, Work or study, Entertainment (videos, movies, games), Communication (chat, calls)",Every few minutes,"Yes, negatively"
+30-32,Male,Employed,2-4 hours,7-10,6+ hours,2,1,Smartphone,"Social media, Work or study, Entertainment (videos, movies, games), Communication (chat, calls)",Every 15–30 minutes,"Yes, negatively"
+27-29,Male,Self-empployed,2-4 hours,4-6,2-4 hours,2,3,"Smartphone, Laptop","Communication (chat, calls)",Every few minutes,"Yes, positively"
+35+,Male,Self-empployed,0-2 hours,4-6,4-6 hours,3,2,Smartphone,"Social media, Communication (chat, calls)",Every few minutes,"Yes, positively"
+27-29,Female,Other,4-6 hours,1-3,2-4 hours,5,5,Smartphone,"Social media, Communication (chat, calls)",Only when needed,"Yes, positively"
+18-20,Male,Unemployed,2-4 hours,4-6,2-4 hours,2,5,Laptop,"Social media, Work or study, Communication (chat, calls)",Every few minutes,"Yes, positively"
+30-32,Female,Student,2-4 hours,4-6,4-6 hours,1,1,Smartphone,"Work or study, Communication (chat, calls)",Every few minutes,Not sure
+27-29,Male,Employed,8+,4-6,2-4 hours,4,3,Smartphone,"Work or study, Communication (chat, calls)",Every few minutes,"Yes, positively"
+27-29,Male,Student,4-6 hours,4-6,4-6 hours,2,5,Laptop,Social media,Every few minutes,No effect
+24-26,Male,Other,2-4 hours,1-3,4-6 hours,1,1,Smartphone,"Communication (chat, calls)",Every 15–30 minutes,No effect
+18-20,Male,Self-empployed,4-6 hours,4-6,2-4 hours,1,1,Smartphone,"Communication (chat, calls)",Every 15–30 minutes,"Yes, positively"
+27-29,Female,Student,0-2 hours,1-3,2-4 hours,4,5,Other,"Entertainment (videos, movies, games), Communication (chat, calls)",Every 1–2 hours,"Yes, positively"
+21-23,Male,Student,4-6 hours,4-6,0-1 hours,2,3,Smartphone,"Communication (chat, calls)",I disable most notifications,
+21-23,Male,Student,4-6 hours,7-10,4-6 hours,3,3,Smartphone,Work or study,Every 15–30 minutes,Not sure

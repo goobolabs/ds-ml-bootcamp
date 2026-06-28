@@ -1,0 +1,3 @@
+pandas
+numpy
+StandardScaler from sklearn.preprocessing

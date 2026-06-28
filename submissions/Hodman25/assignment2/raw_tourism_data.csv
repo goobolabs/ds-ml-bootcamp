@@ -1,0 +1,50 @@
+Number_of_Tourists, Destination, Tourism_Type, Days, Transport_type, price
+2 , , mountain, 2-3, plane, $5
+4-8, janaale, historical, 4-7, bus, $30
+3,goobweyn,beach,2-3,bus,$20
+4-6,,beach,4-7,bus,$30
+1,,beach,4-7,boat,$5
+4-10,berbera,beach,4-7,plane,$40
+4-6,marka,beach,2-3,boat,$30
+2,,mountain,2-3,plane,$5
+4-,gaalkacyo,Desert,4-7,plane,$30
+1,qoryooleey,historical,4-7,bus,$30
+1,gobolka bari,historical,2-3,plane,$20
+4,,mountain,2-3,bus,$20
+4-7,jaziira,beach,1,bus,$5
+2,,beach,4-7,plane,$30
+1,guriceel,mountain,2-3,plane,$5
+2,goobweyn,historical,4-7,bus,$30
+4,laascaseer,beach,4-7,bus,$30
+4-6,,historical,2-3,plane,$5
+1,jalalaqsi,historical,4-7,bus,$20
+1,zaylac,beach,2-3,plane,$30
+2,afgooye,mountain,3-4,bus,$10
+1,xingalool-sanaag,mountain,4-7,bus,$20
+3,calmadow,mountain,4-7,bus,$30
+1,qoryooleey, historical,4-7,bus,20
+1,mareero,beach,2-3,boat,$30
+4,     ,beach,1, bus, $5
+3,kismayo,beach,2-3,plane,$30
+4,baladweyne,historical,3-4,bus,$10
+2,ceelbuur,mountain,2-3,plane,$20
+2,ceerigaabo,mountain,2-3,bus,$30
+3,calmadow,mountain,4-7,bus,$30
+3,jaziira,Desert,1,bus,$5
+2,shalambood,Desert,2-3,bus,$10
+3,jowhar,mountain,1,bus,$5
+4,sh.hoose,historical,4-7,bus,$10
+1,garoowe,Desert,4-7,plan,$20
+3,jalalaqsi,historical,2-3,bus,$10
+2,boorama,mountain,1,plane,$20
+1,xaafuun.beach,2,boat,boat,$10
+3,marka,beach,2-3,boat,$10
+2,gabilay,mountain,4-7,plane,$30
+4,buaale,Desert,2-3,plane,$20
+1,nimoow,Desert,1,bus,$5
+3,lasscanod,mountain,2-3,bus,$20
+2,sh.dhexe,beach,4-7,bus,$30
+4,berbera,beach,2-3,plane,$20
+3,,Desert,2-3,plan,$10
+2,baladweyne,mountain,4-7,bus,$20
+3,marka,beach,2-3,boat,$10

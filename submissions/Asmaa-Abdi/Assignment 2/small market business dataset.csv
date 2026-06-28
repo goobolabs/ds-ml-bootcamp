@@ -1,0 +1,50 @@
+Product Category , Product Price , Customers Per Day , Day Type , Item Sold , Profitable
+Clothes          , 5             , 50                , Weakday , 45    , Yes
+vegetables       , 1             , 70                , Weakday , 70    , Yes
+Clothes          , 10            , 20                , Weakday , 10    , No
+Cosmetics        , 2             , 8                 , Weakday, 5      , No
+Fruits           , 1             , 40                , Weakday, 30      , Yes
+shoes            , 5             , 10                , Weakday , 4      , No
+Drinks           , 1             , 100               , Weakday , 90     , Yes
+Drinks           , 1             , 120               , Weakend , 110    , Yes
+Candy            , 0.5           , 10                , Weakday , 5     , No
+ice-cream        , 0.5           , 40                , Weakday , 35      , Yes
+Tea              , 0.5           , 100               , Weakday, 100     , Yes
+Mobile Accessories , 2            , 20               , Weakday , 15      , Yes
+ice-cream        , 0.5            , 100              , Weakend , 90      , Yes
+Tea              , 0.5            , 200               , Weakend , 99     , Yes
+Clothes          , 15             , 100               , EIDday  , 95     , Yes
+Fruits           , 1              , 50                , Weakend , 45    , Yes
+vegetables       , 1              , 100               , Weakend , 98    , Yes
+Accessories      , 1              , 50                , Weakday , 10     , No
+shoes            , 4              , 20                 , Weakday , 12    , Yes
+Cosmetics        , 2               , 10                 , Weakend , 4    , No
+Candy            , 0.5              , 15                , Weakend , 15   , Yes
+Street Food        ,1               , 20                , Weakday , 20    , Yes
+Fast Food        , 2                , 50                , Weakend , 45   , Yes
+Bread            , 0.5               , 100              , Weakday , 95  , Yes
+Fruits           , 1                 , 50               , Weakday ,20  , No
+Beauty           , 1                 , 10               , Weakday , 8 , Yes
+Clothes          , 2                 , 25               , Weakday 
+Street Food      , 1                 ,                  , Weakend , 
+Cosmetics        , 4                 , 10               , Weakend , 2 , No
+Mobile Accessories , 1               , 20               , Weakday , 5 , No
+Drinks            , 1                , 40               , Weakend , 40 , Yes
+mango             , 1                , 10               , Weakday , 8  , Yes
+watermelon        , 4                , 10               , Weakend, 10   , Yes
+Tea               , 0.5              , 45               , Weakend , 45, Yes
+chips and chiken  , 2                , 50               , Weakday , 45, Yes
+fish              , 5                 , 10              , Weakend, 8   , Yes
+Eggs              ,0.5                , 20               , Weakday , 15, Yes
+shoes             , 4                 ,10                , Weakday , 5 , Yes
+chips and chiken  , 2                 , 10              , Weakday , 10 , Yes
+green vegetables  , 1                 , 20              , Weakday , 15 , Yes
+Bread             , 0.5               , 50              , Weakend, 50, Yes
+perfumes          , 1                 , 10               , Weakday , 9, Yes
+cooked fish       , 0.5               , 20               , Weakday ,14, Yes
+toothbrush       , 0.25               , 40               , Weakday, 20, No
+Beauty           , 1                 , 10                , Weakend,10,Yes
+Clothes          , 2                 , 15                , Weakend , 10, Yes
+perfumes         , 1                 , 5                 , Weakend, 3, No
+Drinks           , 1                  ,20                , Weakend, 15,Yes
+mango            , 1                   , 20              , Weakend, 12,Yes
