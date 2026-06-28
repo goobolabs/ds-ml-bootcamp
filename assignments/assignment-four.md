@@ -46,7 +46,7 @@ Write your answers in English using a clear academic style (headings, paragraphs
 
 ---
 
-## Part B — Practical: House Price Prediction
+## Part B — Practical: Car Price Prediction
 
 **Dataset:** Use the cleaned car dataset you produced in Assignment Three (`clean_car_dataset.csv`).
 
