@@ -1,0 +1,70 @@
+# Anime Dataset for Machine Learning
+
+## 1. Title & Collection Method
+
+### Title:
+
+Anime Dataset for Rating Analysis and Classification
+
+### Collection Method:
+
+This dataset contains information about 50 anime titles. The data was collected manually by researching anime information from various public sources and recording details such as anime name, release year, genre, studio, and rating. The dataset was organized into a structured table for analysis and machine learning purposes.
+
+## 2. Description of Features & Label
+
+### Features (X):
+
+1. Anime_Name – Name of the anime.
+2. Release_Year – Year the anime was released.
+3. Genre – Category of the anime (Action, Adventure, Fantasy, etc.).
+4. Studio – Animation studio that produced the anime.
+5. Rating – Average rating given by viewers.
+
+### Label (y):
+
+Rating
+
+The rating is used as the target variable because it represents the outcome we want to analyze or predict based on the other features.
+
+## 3. Dataset Structure
+
+* Number of Rows: 50
+* Number of Columns: 5
+
+### Sample Data
+
+| Anime_Name     | Release_Year | Genre     | Studio         | Rating |
+| -------------- | ------------ | --------- | -------------- | ------ |
+| Naruto         | 2002         | Action    | Pierrot        | 8.4    |
+| One Piece      | 1999         | Adventure | Toei Animation | 8.9    |
+| Death Note     | 2006         | Thriller  | Madhouse       | 9.0    |
+| Demon Slayer   | 2019         | Fantasy   | Ufotable       | 8.7    |
+| Jujutsu Kaisen | 2020         | Action    | MAPPA          | 8.6    |
+
+## 4. Quality Issues
+
+Several data quality issues may exist in the dataset:
+
+* Missing values in some records.
+* Different formatting styles for genre names.
+* Possible duplicate anime entries.
+* Categorical text values that need encoding.
+* Ratings may vary depending on the source used.
+
+These issues will require preprocessing before training a machine learning model.
+
+## 5. Learning Type
+
+This is a Supervised Learning problem because the dataset contains a clear target variable (Rating). The model can learn the relationship between the features and the rating to make predictions on new anime records.
+
+## 6. Use Case
+
+This dataset can be used in a machine learning project to predict anime ratings based on their characteristics such as genre, release year, and studio.
+
+Possible applications include:
+
+* Rating prediction (Regression).
+* Classifying anime into high-rated and low-rated categories (Classification).
+* Discovering similar anime groups based on features (Clustering).
+
+Within the Data Science Lifecycle, this dataset belongs to the Data Collection stage. After collection, the data will move through preprocessing, analysis, model building, evaluation, and deployment stages.

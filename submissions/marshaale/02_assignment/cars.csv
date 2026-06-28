@@ -1,0 +1,99 @@
+name,rating,transmission,seats,fuel,price_per_day,category
+Prado Tx,4.5,Automatic,7 Seats,Gasoline,$120/day,Family
+Prado Tx,5,Automatic,7 Seats,$120/day,Family
+Toyota Saruf,4.5,Automatic,5 Seats,Gasoline,$85/day,Single
+Toyota Sarif,4.5,Automatic,5 Seats,Gasoline,$85/day,single
+Saruf,4.5,Automatic,5 Seats,Gasoline,$85/day,Work
+Saruf,5,Automatic,5,Gasoline,$85,work
+TOYOTA SARIF,4.5,Automatic,5 Seats,Gasoline,$85/day,Single
+Toyota Sarif,4.5,Automatic,5 Seats,Gasoline,$85/day,Single
+Toyoto Hareir,,Automatic,5 Seats,Gasoline,$85/day,Family
+Toyota Hareir,,Automatic,5 Seats,Gasoline,$60/day,Family
+Toyota Harrier,Excellent,Automatic,5 Seats,Gasoline,$60/day,Family
+Toyota Harir,4.5,Automatic,5 Seats,Gasoline,$60/day,family
+Toyota Primeir,4.5,Automatic,5 Seats,Gasoline,$40/day,Work
+Prado,4.5,Automatic,7 Seats,Gasoline,$100/day,Family
+Toyota Sarif,5,Automatic,5 Seats,Gasoline,$85/day,Single
+Prado Tx,5,Automatic,7 Seats,Gasoline,$120/day,Family
+Toyota Sarif,,Automatic,5 Seats,Gasoline,$85/day,Single
+Toyota Sarif,4.5,,5 Seats,Gasoline,$85/day,Single
+Toyota Sarif,4.5,Automatic,,Gasoline,$85/day,Single
+Toyota Sarif,4.5,Automatic,5 Seats,, $85/day,Single
+Toyota Sarif,4.5,Automatic,5 Seats,Gasoline,,Single
+Toyota Sarif,4.5,Automatic,5 Seats,Gasoline,$85/day,
+Prado TX,4.5,Automatic,7 Seats,Gasoline,$120/day,Family
+prado tx,4.5,automatic,7 seats,gasoline,$120/day,family
+Toyota Saruf,4.5,Auto,5 Seats,Gasoline,$85/day,Single
+Toyota Saruf,Excellent,Automatic,5 Seats,Gasoline,$85/day,Single
+Toyota Saruf,five,Automatic,5 Seats,Gasoline,$85/day,Single
+Toyota Saruf,3.5,Automatic,5 Seats,Petrol,$85/day,Single
+Toyota Saruf,4.5,Automatic,Five Seats,Gasoline,$85/day,Single
+Toyota Saruf,4.5,Automatic,5 Seats,Gasoline,85,Single
+Prado,4.8,Automatic,7 Seats,Gasoline,$100/day,Family
+Prado,4.7,Automatic,7 Seats,Gasoline,$100/day,Family
+Prado,4.6,Automatic,7 Seats,Gasoline,$100/day,Family
+Prado,4.5,Automatic,7 Seats,Gasoline,$100/day,Family
+Prado,4.4,Automatic,7 Seats,Gasoline,$100/day,Family
+Prado,4.3,Automatic,7 Seats,,$100/day,Family
+Toyota Harrier,4.2,,5 Seats,Gasoline,$60/day,Work
+Toyota Harrier,4.1,,5 Seats,Gasoline,$60/day,Work
+Toyota Harrier,4.0,,5 Seats,Gasoline,$60/day,Work
+Toyota Harrier,3.9,,5 Seats,Gasoline,$60/day,Work
+Toyota Harrier,%3.8,,5 Seats,Gasoline,$60/day,Work
+Toyota Harrier,3.7,Automatic,5 Seats,Gasoline,$60/day,Work
+Toyota Primeir,4.5,Automatic,5 Seats,Gasoline,$40/day,Work
+Toyota Primeir,4.4,Automatic,,Gasoline,$40/day,Work
+Toyota Primeir,4.3,Automatic,,Gasoline,$40/day,Work
+Toyota Primeir,4.2,Automatic,,Gasoline,$40/day,Work
+Toyota Primeir,4.1,Automatic,5 Seats,Gasoline,$40/day,Work
+Toyota Primeir,4.0,Automatic,5 Seats,Gasoline,$40/day,Work
+Saruf,4.5,Automatic,5 Seats,Gasoline,$85/day,Single
+Saruf,4.4,Automatic,5 Seats,Gasoline,$85/day,Single
+Saruf,4.3,Automatic,5 Seats,Gasoline,$85/day,Single
+Saruf,4.2,Automatic,5 Seats,Gasoline,$85/day,Single
+Saruf,4.1,Automatic,5 Seats,Gasoline,$85/day,Single
+Saruf,4.0,Automatic,5 Seats,Gasoline,$85/day,Single
+Prado Tx,4.5,Automatic,7 Seats,Gasoline,$120/day,Family
+Prado Tx,4.6,Automatic,7 Seats,Gasoline,$120/day,Family
+Prado Tx,4.7,Automatic,7 Seats,Gasoline,$120/day,Family
+Prado Tx,%4.8%,Automatic,7 Seats,Gasoline,$120/day,Family
+Prado Tx,4.9,Automatic,7 Seats,Gasoline,$120/day,Family
+Prado Tx,5.0,Automatic,7 Seats,Gasoline,$120/day,Family
+Toyota Sarif,4.5,Manual,5 Seats,Gasoline,$85/day,Work
+Toyota Sarif,4.4,Manual,5 Seats,Gasoline,$85/day,Work
+Toyota Sarif,4.3,Manual,5 Seats,Gasoline,$85/day,Work
+Toyota Sarif,4.2,Manual,5 Seats,Gasoline,$85/day,Work
+Toyota Sarif,%4.1,Manual,5 Seats,Gasoline,$85/day,Work
+Toyota Sarif,,Manual,5 Seats,Gasoline,$85/day,Work
+Toyota Sarif,3.9,Manual,5 Seats,,$85/day,Work
+Toyota Sarif,3.8,Manual,5 Seats,Gasoline,$85/day,Work
+Toyota Sarif,3.7,Manual,5 Seats,Gasoline,$85/day,Work
+Toyota Sarif,3.6,Manual,5 Seats,Gasoline,$85/day,Work
+Toyota Sarif,3.5,Manual,5 Seats,Gasoline,$85/day,Work
+Toyota Harrier,4.5,Automatic,5 Seats,Diesel,$60/day,Family
+Toyota Harrier,4.4,Automatic,5 Seats,Diesel,$60/day,Family
+Toyota Harrier,4.3,Automatic,5 Seats,Diesel,$60/day,Family
+Toyota Harrier,4.2,Automatic,5 Seats,Diesel,$60/day,Family
+Toyota Harrier,4.1,Automatic,5 Seats,Diesel,$60/day,Family
+Toyota Harrier,4.0,Automatic,5 Seats,Diesel,$60/day,Family
+Toyota Harrier,3.9,Automatic,5 Seats,Diesel,$60/day,Family
+Toyota Harrier,3.8,Automatic,,Diesel,$60/day,Family
+Toyota Harrier,3.7,Automatic,,Diesel,$60/day,Family
+Toyota Harrier,3.6,Automatic,,Diesel,$60/day,Family
+Toyota Harrier,3.5,Automatic,5 Seats,,$60/day,Family
+Toyota Primeir,4.5,Automatic,5 Seats,Gasoline,$40/day,single
+Toyota Primeir,4.5,,5 Seats,Gasoline,$40/day,SINGLE
+Toyota Primeir,4.5,,5 Seats,Gasoline,, Work
+Toyota Primeir,4.5,,5 Seats,Gasoline,$40/day,WORK
+Toyota Primeir,4.5,,5 Seats,Gasoline,$40/day,FAMILY
+Toyota Primeir,4.5,,5 Seats,Gasoline,,Famly
+Toyota Primeir,4.5,Automatic,5 Seats,Gasoline,$40/day,Single
+Toyota Primeir,,Automatic,5 Seats,Gasoline,$40/day,Single
+Toyota Primeir,,Automatic,5 Seats,Gasoline,$40/day,Single
+Toyota Primeir,,Automatic,5 Seats,Gasoline,$40/day,Single
+Toyota Primeir,,Automatic,5 Seats,Gasoline,$40/day,
+Toyota Primeir,,Automatic,5 Seats,Gasoline,,
+Toyota Primeir,,Automatic,5 Seats,Gasoline,$40/day,
+Toyota Primeir,,Automatic,5 Seats,Gasoline,$40/day,Single
+Toyota Primeir,4.5,Automatic,5 Seats,Gasoline,$40/day,Single
+Toyota Primeir,4.5,Automatic,5 Seats,,$40/day,Single

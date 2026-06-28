@@ -1,0 +1,51 @@
+Timestamp,  Employee Name  ,  Age  ,  Gender  ,  Department  ,"  Work Start Time (8:00 AM, 8:30 AM)  ",  Arrival Time  ,  Minutes Late  ,  Transport Method  ,  Attendance Rate (%)  
+23/06/2026 20:23:41 , hibo, 24,	Female ,	it	, 8:00 AM ,	08:40:00 ,	10 ,	taxi ,	85
+23/06/2026 20:26:31	, nura	, 20 ,	Female ,	HR ,	8:00 AM ,	09:00:00 ,	30 , bus , 75
+23/06/2026 20:28:11	, cawo cabdi	, 34	, Female ,	IT ,	8:30 AM	, 08:10:00 ,	0 ,	car	, 99
+23/06/2026 20:30:39 ,	ahmed ali ,	30 ,	Male ,	HR ,	8:30 AM ,	08:50:00 ,	20 ,	walk ,	90
+23/06/2026 20:49:38 ,	mustafe aadan ,	26 ,	Male ,	Finance ,	8:30 AM ,	09:10:00 ,	40 ,	bus ,	70
+23/06/2026 21:15:42 ,	mona omer	, 31 ,	Female ,	finance ,	8:00 AM ,	08:00:00 ,	0 ,	car ,	99
+24/06/2026 10:02:51 ,	Hodan Mohamed , 	23	, Female ,	Public Administration , 	8:00AM	,12:30:00	, 30 ,	bus	, 90
+24/06/2026 10:03:01 ,	Asma Mohamed Omer , 	27 ,	Female ,	Project planning and management 	, 8:30 ,	08:30:00 ,	20 ,	bus ,	10%
+24/06/2026 10:03:59	, Hinda cisman ,	25	, Female ,	Human resource , 	8:30AM ,	12:40:00,	20	, taxi ,	89
+24/06/2026 10:05:05 ,	Xamda cali ,	32 ,	Female ,	Public services ,	8:30AM ,	01:30:00 ,	50 ,	walk ,	79
+24/06/2026 10:06:43	, Cabdilahi Mohamed , 	31 ,	Male ,	Management ,	8:00AM	, 11:50:00, 	20 ,	car ,	100
+24/06/2026 10:07:53 ,	Cali cilmi ,	36	, Male	, Human resources , 	8:00AM	, 12:50:00 ,	10 ,	taxi ,	80
+24/06/2026 10:09:14,	Cabdirahmaan mohamed ,	34	, Male ,	Office management , 	8:00AM ,	11:50:00 ,	10	, car ,	70
+24/06/2026 10:10:16	, Mohamed omer 	, 37 ,	Male ,	Project Management , 	8:00AM ,	01:30:00 ,	40 ,	walk ,	99
+24/06/2026 10:11:30 ,	Ibrahim Omer , 	36 ,	Male ,	Social Affairs , 	8:00AM	, 12:50:00 ,	50 ,	walk ,	90
+24/06/2026 10:12:54 ,	Suleekha good ,	34	, Female	, Accounting , 	8:00AM ,	01:20:00	, 30 ,	car ,	90
+24/06/2026 10:13:57	, Asiya Mohamed , 	32 ,	Female ,	IT	, 8:30AM ,	12:30:00 ,	30	, taxi ,	80
+24/06/2026 10:27:26	, Mohamed omer ,	30	, Male ,	IT	, 8:30Am ,	08:30:00 ,	30	, taxi ,	90
+24/06/2026 10:28:47 ,	sawda aadan ,	20	, Female ,	HR ,	8:00 AM ,	07:40:00 ,	0 ,	taxi ,	100
+24/06/2026 10:29:59 ,	Abdi fataax ,	25 ,	Male ,	HR ,	8:30 , 	08:50:00 ,	20 ,	bus ,	80
+24/06/2026 10:31:33 ,	Ali ,	33 ,	Male ,	Social worker , 	8:00 ,	08:20:00 ,	20 ,	bus ,	70
+24/06/2026 10:33:17 ,	Ahmed ,	27 ,	Male ,	Software engineer , 	8:30 ,	09:00:00 ,	1	,taxi , 75
+24/06/2026 10:35:34 ,	Abdilahi ,	28 ,	Male ,	Public adminstration  ,	8:00 ,	08:20:00 ,	20 ,	taxi	 , 85
+24/06/2026 10:37:04 ,	Yahye ,	34 ,	Male ,	Accounting ,	8:00 ,	08:30:00	, 30 ,	bus ,	70
+24/06/2026 10:40:04	, Huda Guray	, 25	, Female	, Management 	 ,  8:30	, 08:50:00 ,	20	, car	, 80
+24/06/2026 12:29:17	, Teacher , 	25	 , Male ,	Computer science  ,	8:00  9:00	, 10:30:00 ,	10	, bus	, A
+24/06/2026 12:30:52 ,	Teacher , 	25 ,	Male ,	Computer science , 	7:30 9:00 ,	09:00:00 ,	20 ,	walk ,	100
+24/06/2026 12:32:25 ,	Doctor , 	24	, Male ,	Computer science , 	8:30 10:00 ,	10:30:00 ,	15 ,	taxi ,	95
+24/06/2026 12:33:16 ,	Police , 	23	, Male ,	Computer science ,	8:00 9:30 ,	10:00:00	, 10	, walk ,	80
+24/06/2026 12:45:42 ,	Teacher , 	23	, Male	, Computer science , 	8:00 9:00 ,	09:30:00 ,	10 ,	walk ,	85
+24/06/2026 12:46:56 ,	Doctor , 	24 ,	Male ,	Computer science , 	7:30 9:00 ,	10:00:00 ,	5 ,	bus ,	90
+24/06/2026 12:47:59 ,	Police , 	25 ,	Male ,	Computer science , 	8:00 9:30 ,	10:00:00 ,	8 ,	bus ,	100
+24/06/2026 14:08:57	, Hoodo mohmed omer , 	24 ,	Female ,	Public Health , 	7:15AM ,	12:30:00 ,	10min ,	car ,	10%
+24/06/2026 14:11:12	, Radia Abdi mohmed , 	30	, Female	, Social worker , 	8:00AM ,	12:30:00 ,	20 ,	bus ,	70%
+24/06/2026 14:12:46	, Hoodo mohmed omer ,	24 ,	Female ,	Public Health , 	7:30AM ,	08:00:00	, 10	, car ,	80%
+24/06/2026 14:14:18	, Hamda cilmi jamac ,	34 ,	Female ,	Medical Doctor , 	8:00AM ,	09:00:00	, 25 ,	taxi ,	90%
+24/06/2026 14:15:51	, Mohmed jamac geedi ,	45	, Male ,	Public Administration  ,	9:20 ,	05:00:00 ,	35min ,	bus	, 60%
+24/06/2026 14:17:49	 , Amiin mohmed mohmuud	 , 34 ,	Male ,	Account finance , 	8:30AM ,	12:45:00 ,	10min ,	car ,	90%
+24/06/2026 14:20:44	 , Nafisa mohmed yusuf ,	21 ,	Female ,	Public Health , 	8:00 ,	12:30:00	, 30 ,	walk ,	87%
+24/06/2026 14:22:28	, C/rahman omer cisman	, 45 ,	Male ,	Social worker , 	8:10AM ,	12:30:00 ,	15 min ,	bus ,	67%
+24/06/2026 14:23:58	 , Asma omer jamac	, 26	, Female ,	Nutrition development , 	7:40AM	,12:20:00	, 40	, walk	, 79%
+24/06/2026 14:26:01 ,	Fadumo cisman guled	,38 ,	Female	, Management ,	8:10AM ,	12:00:00 ,	12min	, car	, 98%
+24/06/2026 14:32:13 ,	kaltun faarax ,	40 ,	Female ,	project management	, 8:30 AM	, 07:20:00 ,	0	, car	,98
+24/06/2026 14:35:11 ,	Bashiir muse ,	25	, Male ,	software engneer ,	8:00 ,	09:00:00 ,	60 ,	walk	, 47
+24/06/2026 14:37:51 ,	nadira sheekh ,	40	, Female ,	project management	, 08:30 AM	, 10:05:00 , 	95	, taxi ,	30
+24/06/2026 14:40:26	, abshir muse ,	40	, Male	, social affairs ,	08:00 AM ,	10:20:00 ,	140 ,	walk ,	35
+24/06/2026 14:42:28	, NASRUDIIN 	, 34 ,	Male ,	SECURITY ,	8:30	, 06:30:00 ,	0	, walk ,	100
+24/06/2026 14:44:51	, ASAD	, 43	, Male	, COMPUTER ,	08:00	, 09:50:00 ,	110	, car ,	50
+24/06/2026 14:46:25	, MUSE MOHAMOUD	, 20	, Male	, PUBLIC ADMINISTRATION ,	08:00 ,	08:30:00 ,	30 ,	bus ,	80
+24/06/2026 14:48:32 ,	Nbraas Bashiir	, 23	, Female ,	IT ,	08:00 AM	, 08:06:00 ,	6 ,	bus	, 89
