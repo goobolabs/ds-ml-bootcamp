@@ -2,10 +2,9 @@ import pandas as pd
 import numpy as np
 from sklearn.preprocessing import StandardScaler
 
-# ============================
+
 # STEP 1 - Load & Inspectclear
 
-# ============================
 print("\n========== STEP 1: LOAD & INSPECT ==========\n")
 
 df = pd.read_csv("dataset/row_car_dataset.csv")
@@ -21,9 +20,9 @@ print(df.isnull().sum())
 print("\nLocation Value Counts:")
 print(df["Location"].value_counts(dropna=False))
 
-# ============================
-# STEP 2 - Clean Price
-# ============================
+# 
+# STEP 2 - Clean 
+# 
 print("\n========== STEP 2: CLEAN PRICE ==========\n")
 
 df["Price"] = (
@@ -38,9 +37,9 @@ df["Price"] = pd.to_numeric(df["Price"])
 print("Price dtype:",df["Price"].dtype)
 print("Price Skewness:",df["Price"].skew())
 
-# ============================
+
 # STEP 3 - Fix Category Errors
-# ============================
+
 print("\n========== STEP 3: FIX LOCATION ==========\n")
 
 df["Location"] = df["Location"].replace("Subrb","Suburb")
@@ -50,9 +49,9 @@ print(df["Location"].value_counts(dropna=False))
 print("\nMissing:")
 print(df.isnull().sum())
 
-# ============================
+
 # STEP 4 - Missing Values
-# ============================
+
 print("\n========== STEP 4: IMPUTATION ==========\n")
 
 df["Odometer_km"] = df["Odometer_km"].fillna(df["Odometer_km"].median())
@@ -65,9 +64,9 @@ df["Location"] = df["Location"].fillna(df["Location"].mode()[0])
 
 print(df.isnull().sum())
 
-# ============================
+
 # STEP 5 - Remove Duplicates
-# ============================
+
 print("\n========== STEP 5: DUPLICATES ==========\n")
 
 before = df.shape
@@ -80,9 +79,9 @@ print("Before:",before)
 print("After :",after)
 print("Removed:",before[0]-after[0])
 
-# ============================
+
 # STEP 6 - Outliers (IQR)
-# ============================
+
 print("\n========== STEP 6: OUTLIERS ==========\n")
 
 for col in ["Price","Odometer_km"]:
@@ -99,18 +98,18 @@ for col in ["Price","Odometer_km"]:
 
 print(df[["Price","Odometer_km"]].describe())
 
-# ============================
+
 # STEP 7 - One Hot Encoding
-# ============================
+
 print("\n========== STEP 7: ONE HOT ==========\n")
 
 df = pd.get_dummies(df,columns=["Location"],dtype=int)
 
 print(df.columns)
 
-# ============================
+
 # STEP 8 - Feature Engineering
-# ============================
+
 print("\n========== STEP 8: FEATURE ENGINEERING ==========\n")
 
 CURRENT_YEAR = 2025
@@ -130,9 +129,9 @@ df["LogPrice"]=np.log(df["Price"]+1)
 
 print(df[["CarAge","Km_per_year","Is_Urban","LogPrice"]].head())
 
-# ============================
+
 # STEP 9 - Scaling
-# ============================
+
 print("\n========== STEP 9: SCALING ==========\n")
 
 scale_cols=[
@@ -150,9 +149,9 @@ df[scale_cols]=scaler.fit_transform(df[scale_cols])
 
 print(df[scale_cols].head())
 
-# ============================
+
 # STEP 10 - Final Check
-# ============================
+
 print("\n========== STEP 10: FINAL ==========\n")
 
 print(df.info())
@@ -167,9 +166,8 @@ df.to_csv("clean_car_dataset.csv",index=False)
 
 print("\nDataset Saved Successfully!")
 
-# ============================
+
 # Assertions
-# ============================
 
 assert df["Price"].dtype=="float64"
 
