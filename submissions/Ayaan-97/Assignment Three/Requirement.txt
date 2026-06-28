@@ -1,0 +1,19 @@
+**Data Preprocessing**
+
+**Step 1 & 2: Load, inspect and Cleaning** to Understand the dataset structure, data types, and missing values.
+
+clean target formatting like **price** Convert Price into a numeric value.
+
+**Step 3 & 4: Fixing and Filling Holes** I fixed the typos in the **Location** column (like "Subrb") before filling the missing spots. I used the Median for the Odometer because it's not bothered by extreme numbers. For things like Doors and Location, I used the Mode (the most common value) because you can't have a "half-door."
+
+**Step 6: Outlier Handling** I used **IQR Capping**. Instead of throwing away rows with high prices, I "clipped" them to a maximum fence. This keeps my data set large but stops "crazy" numbers from confusing the model.
+
+**Step 7: One-Hot Encoding (Turning Words to Math)** I used **One-Hot Encoding** on the Location column. Computers can't "read" the word "City" or "Suburb," so I turned them into 0s and 1s. Now, the computer sees a 1 if the car is in the city and a 0 if it isn't. This makes the data fair and ready for math.
+
+**Step 8: Feature Engineering**
+
+**CarAge:** Created by subtracting the car's year from 2026.
+**Km_per_year:** Shows if a car was driven too much. I used a **+1 safety trick** so the code doesn't crash if the car is brand new (Age 0).
+**Is_City:** A simple switch to help the model see if location changes the price.
+**LogPrice:** A "squashed" version of the price to make the math smoother for the computer
+**Accidents_per_year:** This is very smart! A car with 5 accidents that is 20 years old is "normal," but a car with 5 accidents in only 1 year is a "red flag."
