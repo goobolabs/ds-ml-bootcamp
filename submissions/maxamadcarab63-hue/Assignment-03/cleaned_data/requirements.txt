@@ -1,0 +1,29 @@
+Software Environment and Package Versions
+
+The data cleaning and preprocessing were implemented in Python using the
+following libraries:
+
+-   Python: 3.x (your installed version)
+-   pandas: 2.x
+-   NumPy: 2.x
+-   scikit-learn: 1.x
+
+Purpose of each package: - pandas: Reading the dataset, handling missing
+values, cleaning data, removing duplicates, feature engineering, and
+exporting the cleaned dataset. - NumPy: Numerical computations,
+including the logarithmic transformation (log1p). - scikit-learn: Data
+preprocessing, specifically StandardScaler for feature standardization.
+
+To find the exact package versions used in your environment, run:
+
+import sys import pandas as pd import numpy as np import sklearn
+
+print(“Python:”, sys.version) print(“Pandas:”, pd.__version__)
+print(“NumPy:”, np.__version__) print(“Scikit-learn:”,
+sklearn.__version__)
+
+Example output: Python: 3.12.4 Pandas: 2.2.3 NumPy: 2.1.1 Scikit-learn:
+1.6.1
+
+Replace the example version numbers above with the exact versions
+displayed on your computer.
