@@ -1,6 +1,6 @@
 # Submission Stats
 
-> Auto-generated report. Last updated: 2026-06-29 11:04 UTC
+> Auto-generated report. Last updated: 2026-06-29 12:08 UTC
 >
 > A student counts as having submitted an assignment if a matching folder exists under their directory in `submissions/`.
 
@@ -13,7 +13,7 @@
 - Assignment 1: **84 sent**, **2 not sent** (out of 86)
 - Assignment 2: **74 sent**, **12 not sent** (out of 86)
 - Assignment 3: **51 sent**, **35 not sent** (out of 86)
-- Assignment 4: **3 sent**, **83 not sent** (out of 86)
+- Assignment 4: **4 sent**, **82 not sent** (out of 86)
 
 ---
 
@@ -48,7 +48,7 @@
 - **caaif43** — sent assignment 1, assignment 2, assignment 3; did not send assignment 4
 - **daganey** — sent assignment 1; did not send assignment 2, assignment 3, assignment 4
 - **Deko-Hussein** — sent assignment 1, assignment 2, assignment 3; did not send assignment 4
-- **Diini03** — sent assignment 1, assignment 2, assignment 3; did not send assignment 4
+- **Diini03** — sent assignment 1, assignment 2, assignment 3, assignment 4; submitted all tracked assignments
 - **Eng-Joseph2** — sent assignment 1, assignment 2; did not send assignment 3, assignment 4
 - **Eng-saacid** — sent assignment 1, assignment 2; did not send assignment 3, assignment 4
 - **Engmiski** — sent assignment 1, assignment 2, assignment 3; did not send assignment 4
@@ -168,7 +168,7 @@
 34. sicid24
 35. zakaria965
 
-### Assignment 4 (83 not sent)
+### Assignment 4 (82 not sent)
 
 1. abdalegurey
 2. abdi-bashiir
@@ -197,59 +197,58 @@
 25. caaif43
 26. daganey
 27. Deko-Hussein
-28. Diini03
-29. Eng-Joseph2
-30. Eng-saacid
-31. Engmiski
-32. EngSadiiqi
-33. fahadAk11
-34. fatima-moha143
-35. foodcade00
-36. h-kahie
-37. Hayatmohamud
-38. Hibo-moha
-39. Hodman25
-40. iamkoshin
-41. Iqra027
-42. ismailmideeye12
-43. jama-ilyas
-44. Jelle-Hassan-Ali
-45. Kacabdev
-46. Kafeeya
-47. kassimmoha123
-48. khaalid-1
-49. kmmurad
-50. kurebere1
-51. MahdiDevSo
-52. maria-Kayse
-53. marshaale
-54. maryamocalimaxamed410-gif
-55. maryan-dev
-56. maxamadcarab63-hue
-57. maxamadibrahim2022-creator
-58. miskipea-gif
-59. MoAbdi358
-60. moelkenzi
-61. mohadaacad
-62. Mohamed-Ali-Shoble
-63. mohamed-hagi
-64. Mohamed-Jaah
-65. mohanuur117-jpg
-66. MUHIYADIN2025
-67. Mukhtar-kaariye
-68. muna-adam
-69. nastehoabdiaden46-a11y
-70. nimco-nuur
-71. nuunedotdev
-72. Qase0906
-73. rahma-88
-74. sakijamac4-lab
-75. saynis
-76. SeadAbdirizak01
-77. Shiine252
-78. shiine89
-79. sicid24
-80. Spalpha
-81. xanaa-ayan
-82. Yahye-Tech
-83. zakaria965
+28. Eng-Joseph2
+29. Eng-saacid
+30. Engmiski
+31. EngSadiiqi
+32. fahadAk11
+33. fatima-moha143
+34. foodcade00
+35. h-kahie
+36. Hayatmohamud
+37. Hibo-moha
+38. Hodman25
+39. iamkoshin
+40. Iqra027
+41. ismailmideeye12
+42. jama-ilyas
+43. Jelle-Hassan-Ali
+44. Kacabdev
+45. Kafeeya
+46. kassimmoha123
+47. khaalid-1
+48. kmmurad
+49. kurebere1
+50. MahdiDevSo
+51. maria-Kayse
+52. marshaale
+53. maryamocalimaxamed410-gif
+54. maryan-dev
+55. maxamadcarab63-hue
+56. maxamadibrahim2022-creator
+57. miskipea-gif
+58. MoAbdi358
+59. moelkenzi
+60. mohadaacad
+61. Mohamed-Ali-Shoble
+62. mohamed-hagi
+63. Mohamed-Jaah
+64. mohanuur117-jpg
+65. MUHIYADIN2025
+66. Mukhtar-kaariye
+67. muna-adam
+68. nastehoabdiaden46-a11y
+69. nimco-nuur
+70. nuunedotdev
+71. Qase0906
+72. rahma-88
+73. sakijamac4-lab
+74. saynis
+75. SeadAbdirizak01
+76. Shiine252
+77. shiine89
+78. sicid24
+79. Spalpha
+80. xanaa-ayan
+81. Yahye-Tech
+82. zakaria965
