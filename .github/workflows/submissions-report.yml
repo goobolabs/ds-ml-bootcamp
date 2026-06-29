@@ -2,7 +2,8 @@ name: Submissions Report
 
 on:
   push:
-    branches: [main]
+    branches:
+      - main
     paths:
       - "submissions/**"
   workflow_dispatch:
@@ -12,7 +13,9 @@ permissions:
 
 jobs:
   report:
+    if: github.repository == 'goobolabs/ds-ml-bootcamp'
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -31,10 +34,13 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
           git add SUBMISSIONS.md
-          if git diff --staged --quiet; then
+
+          if git diff --cached --quiet; then
             echo "No changes to SUBMISSIONS.md"
-          else
-            git commit -m "chore: update submission stats report"
-            git push
+            exit 0
           fi
+
+          git commit -m "chore: update submission stats report"
+          git push
