@@ -1,6 +1,6 @@
 # Submission Stats
 
-> Auto-generated report. Last updated: 2026-06-29 09:40 UTC
+> Auto-generated report. Last updated: 2026-06-29 12:38 UTC
 >
 > A student counts as having submitted an assignment if a matching folder exists under their directory in `submissions/`.
 
@@ -13,7 +13,7 @@
 - Assignment 1: **84 sent**, **2 not sent** (out of 86)
 - Assignment 2: **74 sent**, **12 not sent** (out of 86)
 - Assignment 3: **51 sent**, **35 not sent** (out of 86)
-- Assignment 4: **3 sent**, **83 not sent** (out of 86)
+- Assignment 4: **4 sent**, **82 not sent** (out of 86)
 
 ---
 
@@ -82,7 +82,7 @@
 - **miskipea-gif** — sent assignment 1, assignment 2; did not send assignment 3, assignment 4
 - **MoAbdi358** — sent assignment 1, assignment 2, assignment 3; did not send assignment 4
 - **moelkenzi** — sent assignment 1; did not send assignment 2, assignment 3, assignment 4
-- **mohadaacad** — sent assignment 1, assignment 2, assignment 3; did not send assignment 4
+- **mohadaacad** — sent assignment 1, assignment 2, assignment 3, assignment 4; submitted all tracked assignments
 - **Mohamed-Ali-Shoble** — sent assignment 1, assignment 2, assignment 3; did not send assignment 4
 - **mohamed-hagi** — sent assignment 1, assignment 2; did not send assignment 3, assignment 4
 - **Mohamed-Jaah** — sent assignment 1, assignment 2, assignment 3; did not send assignment 4
@@ -168,7 +168,7 @@
 34. sicid24
 35. zakaria965
 
-### Assignment 4 (83 not sent)
+### Assignment 4 (82 not sent)
 
 1. abdalegurey
 2. abdi-bashiir
@@ -230,26 +230,25 @@
 58. miskipea-gif
 59. MoAbdi358
 60. moelkenzi
-61. mohadaacad
-62. Mohamed-Ali-Shoble
-63. mohamed-hagi
-64. Mohamed-Jaah
-65. mohanuur117-jpg
-66. MUHIYADIN2025
-67. Mukhtar-kaariye
-68. muna-adam
-69. nastehoabdiaden46-a11y
-70. nimco-nuur
-71. nuunedotdev
-72. Qase0906
-73. rahma-88
-74. sakijamac4-lab
-75. saynis
-76. SeadAbdirizak01
-77. Shiine252
-78. shiine89
-79. sicid24
-80. Spalpha
-81. xanaa-ayan
-82. Yahye-Tech
-83. zakaria965
+61. Mohamed-Ali-Shoble
+62. mohamed-hagi
+63. Mohamed-Jaah
+64. mohanuur117-jpg
+65. MUHIYADIN2025
+66. Mukhtar-kaariye
+67. muna-adam
+68. nastehoabdiaden46-a11y
+69. nimco-nuur
+70. nuunedotdev
+71. Qase0906
+72. rahma-88
+73. sakijamac4-lab
+74. saynis
+75. SeadAbdirizak01
+76. Shiine252
+77. shiine89
+78. sicid24
+79. Spalpha
+80. xanaa-ayan
+81. Yahye-Tech
+82. zakaria965
