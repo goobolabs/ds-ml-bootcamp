@@ -1,6 +1,6 @@
 # Submission Stats
 
-> Auto-generated report. Last updated: 2026-06-29 08:39 UTC
+> Auto-generated report. Last updated: 2026-06-29 09:40 UTC
 >
 > A student counts as having submitted an assignment if a matching folder exists under their directory in `submissions/`.
 
@@ -12,7 +12,7 @@
 
 - Assignment 1: **84 sent**, **2 not sent** (out of 86)
 - Assignment 2: **74 sent**, **12 not sent** (out of 86)
-- Assignment 3: **50 sent**, **36 not sent** (out of 86)
+- Assignment 3: **51 sent**, **35 not sent** (out of 86)
 - Assignment 4: **3 sent**, **83 not sent** (out of 86)
 
 ---
@@ -51,7 +51,7 @@
 - **Diini03** — sent assignment 1, assignment 2, assignment 3; did not send assignment 4
 - **Eng-Joseph2** — sent assignment 1, assignment 2; did not send assignment 3, assignment 4
 - **Eng-saacid** — sent assignment 1, assignment 2; did not send assignment 3, assignment 4
-- **Engmiski** — sent assignment 1, assignment 2; did not send assignment 3, assignment 4
+- **Engmiski** — sent assignment 1, assignment 2, assignment 3; did not send assignment 4
 - **EngSadiiqi** — sent assignment 1, assignment 2; did not send assignment 3, assignment 4
 - **fahadAk11** — sent assignment 1; did not send assignment 2, assignment 3, assignment 4
 - **fatima-moha143** — sent assignment 1, assignment 2, assignment 3; did not send assignment 4
@@ -130,7 +130,7 @@
 11. moelkenzi
 12. zakaria965
 
-### Assignment 3 (36 not sent)
+### Assignment 3 (35 not sent)
 
 1. abdi-bashiir
 2. abdifataha157-tech
@@ -147,27 +147,26 @@
 13. daganey
 14. Eng-Joseph2
 15. Eng-saacid
-16. Engmiski
-17. EngSadiiqi
-18. fahadAk11
-19. foodcade00
-20. h-kahie
-21. iamkoshin
-22. jama-ilyas
-23. kassimmoha123
-24. khaalid-1
-25. kmmurad
-26. MahdiDevSo
-27. maryamocalimaxamed410-gif
-28. maxamadcarab63-hue
-29. maxamadibrahim2022-creator
-30. miskipea-gif
-31. moelkenzi
-32. mohamed-hagi
-33. SeadAbdirizak01
-34. shiine89
-35. sicid24
-36. zakaria965
+16. EngSadiiqi
+17. fahadAk11
+18. foodcade00
+19. h-kahie
+20. iamkoshin
+21. jama-ilyas
+22. kassimmoha123
+23. khaalid-1
+24. kmmurad
+25. MahdiDevSo
+26. maryamocalimaxamed410-gif
+27. maxamadcarab63-hue
+28. maxamadibrahim2022-creator
+29. miskipea-gif
+30. moelkenzi
+31. mohamed-hagi
+32. SeadAbdirizak01
+33. shiine89
+34. sicid24
+35. zakaria965
 
 ### Assignment 4 (83 not sent)
 
