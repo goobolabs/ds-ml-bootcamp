@@ -1,0 +1,61 @@
+Vehicle_Model,Year,Mileage,Fuel_Type,Price
+Ford Electric EV,2015,154320,electric,5000
+Chevrolet SUV,2017,122976,Gas,5000
+BMW Coupe,2015,87219,Diesel,"$5,000 "
+Toyota SUV,2023,32812,Hybrid,"$19,400 "
+Nissan SUV,2024,15662,Diesel,25200
+BMW Electric EV,'18,59203,electric,13700
+Hyundai SUV,2016,,gasoline,5000
+Hyundai Hatchback,2024,,hybrid,16500
+Ford Coupe,2021,"47,269",Elec,6400
+Hyundai Electric EV,2024,15289,,"$25,200 "
+Chevrolet Sedan,2019,59385,Gas,5000
+Tesla Pickup,2022,"53,805",Elec,21800
+Hyundai SUV,2020,120k miles,Gas,8200
+Honda Coupe,2023,40929,Diesel,
+BMW Pickup,2019,96819,Diesel,"$7,000 "
+Hyundai Electric EV,2015,104161,Elec,"$5,000 "
+BMW Hatchback,2019,58250,Elec,7000
+Nissan SUV,2021,68847,,9500
+toyota suv,2018,"117,013",,5000
+BMW Electric EV,2024,"23,472",Elec,35200
+Honda SUV,2023,32615,gasoline,19500
+Honda Sedan,2017,132308,Gas,
+BMW Pickup,2020,27337,electric,34800
+Toyota Coupe,2016,139637,Elec,"$5,000 "
+Hyundai Electric EV,2016,106163,Elec,"$5,000 "
+Nissan SUV,2015,"152,380",diesel,"$5,000 "
+Ford Coupe,2019,"107,575",Diesel,"$5,000 "
+Hyundai SUV,2017,115451,Gas,5000
+Hyundai Coupe,2022,29468,Elec,10100
+BMW   Coupe,2015,113998,Gas,"$5,000 "
+Nissan Sedan,2016,146027,Diesel,5000
+Nissan SUV,2023,27398,Hybrid,20000
+Chevrolet SUV,2019,79994,Hybrid,"$5,000 "
+Nissan Coupe,2016,98981,Gas,5000
+Toyota Hatchback,2024,UNKNOWN,Diesel,15700
+Ford Sedan,2015,,gasoline,"$5,000 "
+Ford Hatchback,2023,29409,Hybrid,12400
+Honda SUV,2024,28184,Diesel,"$23,900 "
+BMW Pickup,2018,66764,,7500
+BMW Hatchback,2021,55012,Gas,12200
+BMW Sedan,2020,"84,138",Diesel,"$6,700 "
+Chevrolet SUV,2023,32321,Hybrid,19500
+Tesla SUV,2022,36419,Elec,"$23,500 "
+Ford Pickup,2015,150618,gasoline,5000
+Chevrolet Sedan,2017,104917,Hybrid,5000
+BMW SUV,22,104037,Gas,
+Tesla Pickup,2022,"43,274",Elec,"$22,800 "
+Nissan Electric EV,2017,,Elec,"$5,000 "
+Toyota SUV,2024,31937,Gas,23500
+Hyundai Electric EV,2015,97081,Elec,5000
+Honda Pickup,2015,130072,Diesel,5000
+Ford Sedan,2018,87420,Diesel,5000
+Toyota Coupe,2024,19210,Elec,16100
+Chevrolet Hatchback,2020,59081,Hybrid,5000
+Tesla SUV,2022,38548,electric,23300
+Nissan Sedan,2024,21862,Gas,15900
+Chevrolet Coupe,2023,,Elec,12600
+Chevrolet Sedan,2020,"59,588",Hybrid,5000
+Tesla Coupe,2024,32888,Elec,25600
+Tesla Sedan,2016,90333,Elec,5000

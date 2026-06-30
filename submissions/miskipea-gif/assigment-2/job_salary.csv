@@ -1,0 +1,20 @@
+job_id,job_title,industry,experience_required_years,education_level,location,job_type,company_size,remote_option,monthly_salary_usd
+1,Data Analyst,Technology,2,University,Mogadishu,Full-time,Large,Yes,850
+2,Teacher,Education,2,University,Hargeisa,Full-time,Medium,No,320
+3,Software Engineer,Technology,4,University,Mogadishu,Full-time,Large,Yes,1100
+4,Accountant,Finance,3,University,Bosaso,Full-time,Medium,No,500
+5,Cashier,Retail,0,Secondary,Mogadishu,Part-time,Small,No,150
+6,Doctor,Healthcare,6,University,Mogadishu,Full-time,Large,No,1800
+7,Nurse,Healthcare,2,University,Hargeisa,Full-time,Medium,No,380
+8,Driver,Transport,1,Primary,Kismayo,Full-time,Small,No,200
+9,Graphic Designer,Creative,3,University,Mogadishu,Full-time,Medium,Yes,620
+10,NGO Worker,Humanitarian,3,University,Mogadishu,Full-time,Large,No,950
+11,Security Guard,Security,0,Secondary,Baidoa,Full-time,Small,No,130
+12,HR Manager,Human Resources,5,University,Mogadishu,Full-time,Large,Yes,900
+13,Electrician,Construction,2,Secondary,Hargeisa,Full-time,Small,No,280
+14,Receptionist,Hospitality,1,Secondary,Bosaso,Full-time,Small,No,190
+15,Financial Analyst,Finance,4,University,Mogadishu,Full-time,Large,Yes,1050
+16,Pharmacist,Healthcare,4,University,Hargeisa,Full-time,Medium,No,700
+17,Cleaner,Facilities,0,Primary,Mogadishu,Part-time,Small,No,100
+18,Project Manager,Technology,6,University,Mogadishu,Full-time,Large,Yes,1200
+19,Social Worker,NGO,2,University,Kismayo,Full-time,Medium,No,400

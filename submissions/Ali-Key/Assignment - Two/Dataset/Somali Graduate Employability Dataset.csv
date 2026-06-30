@@ -1,0 +1,111 @@
+Age,Gender,University,Town,Degree_Program,GPA,English_Proficiency,Internship_Experience,Digital_Skills_Level,Certifications_Count,Employment_Status
+28,Female,Jaamacadda Hormuud,Mogadishu,Economics,3.02,High,Yes,Intermediate,1,Employed
+24,Female,mogadishu university,Mogadishu,Software Engineering,2.3,Low,No,Intermediate,1,Unemployed
+30,Female,Jaamacadda Hormuud,Mogadishu,Public Health,3.88,High,Yes,Intermediate,2,Employed
+24,Male,Jaamacadda Soomaaliya,Mogadishu,Law,2.42,Low,Yes,Intermediate,2,Unemployed
+26,Male,Jaamacadda Hormuud,Mogadishu,Law,3.65,High,Yes,Advanced,6,Employed
+30,Female,Jaamacada Ummada Soomaaliyeed,Mogadishu,Medicine,3.1,High,Yes,Beginner,2,Employed
+28,Male,Jaamacadda SIMAD,Mogadishu,Nursing,3.0,,Yes,Intermediate,1,Employed
+22,Male,JUST,Mogadishu,Economics,3.6,High,Yes,Advanced,4,Employed
+28,Female,Banaadir Univ,Mogadishu,Economics,3.74,High,Yes,Advanced,2,Employed
+30,Female,Jaamacadda Muqdisho,Mogadishu,Computer Science,3.11,Low,No,Beginner,0,Unemployed
+30,,Jaamacadda Islaamiga,Mogadishu,Economics,3.77,High,Yes,Intermediate,2,Employed
+24,Male,Jaamacada Golis,Hargeisa,Civil Engineering,3.8,Medium,Yes,Advanced,1,Employed
+25,Female,Jaamacadda Puntland State University,Garoowe,Civil Engineering,3.61,Medium,No,Advanced,3,Employed
+26,Male,Mogadishu University,Mogadishu,Economics,3.2,High,,Advanced,4,Employed
+26,Male,Jaamacada Koonfur Galbeed Soomaaliya,Baidoa,Nursing,,Medium,No,Beginner,0,Unemployed
+27,Female,Jaamacadda SIMAD,Mogadishu,Civil Engineering,3.4,High,No,Advanced,2,Employed
+23,Male,Jaamacadda Muqdisho,Mogadishu,Public Health,3.15,High,No,Advanced,3,Employed
+23,Male,Jaamacadda SIMAD,Mogadishu,Civil Engineering,3.65,High,No,Advanced,2,Employed
+24,Male,Jaamacadda Puntland State University,Garoowe,Information Technology,3.5,High,Yes,Advanced,,Employed
+21,Female,Jaamacada Burco,Burao,Public Health,2.9,High,No,Advanced,2,Unemployed
+23,Male,Jamhuriya Univ,Mogadishu,Business Administration,3.61,High,Yes,Intermediate,5,Employed
+22,Male,Jaamacadda Banaadir,Mogadishu,Education,,High,No,Beginner,2,Employed
+25,Male,Jaamacadda City,,Education,3.45,Low,No,Beginner,3,Employed
+30,Male,Jaamacadda Hormuud,Mogadishu,Education,3.17,Medium,No,Intermediate,0,Unemployed
+30,Male,Jaamacada Koonfur Galbeed Soomaaliya,Baidoa,Business Administration,2.7,Low,No,Intermediate,1,Unemployed
+22,Male,Jaamacadda Hormuud,Mogadishu,Business Administration,3.94,High,Yes,Intermediate,2,Employed
+28,Male,Hormuud University,Mogadishu,Business Administration,3.99,High,Yes,Advanced,5,Employed
+27,Female,Jaamacada Ummada Soomaaliyeed,Mogadishu,Economics,2.58,Medium,Yes,Intermediate,1,Unemployed
+21,Female,Jaamacadda Banaadir,Mogadishu,Education,3.96,Medium,No,Intermediate,1,Employed
+22,,Jaamacadda Banaadir,Mogadishu,Business Administration,2.52,Low,No,Advanced,0,Unemployed
+27,Male,Jaamacada Jamhuuriya ee Culuumta iyo Tiknooloojiyada,Mogadishu,Software Engineering,3.7,Low,Yes,Advanced,4,Employed
+22,Female,Jaamacadda Islaamiga,Mogadishu,Public Health,3.09,Medium,Yes,Intermediate,3,Employed
+22,Female,Jaamacadda SIMAD,Mogadishu,Medicine,3.93,Medium,Yes,,2,Employed
+22,Male,Jaamacadda Puntland State University,Garoowe,Business Administration,,Medium,Yes,Advanced,,Employed
+28,Male,Jaamacadda Banaadir,Mogadishu,Information Technology,3.04,Low,Yes,Advanced,5,Employed
+28,Male,Jaamacadda Islaamiga,Mogadishu,Nursing,3.66,High,Yes,Advanced,4,Employed
+30,Female,Jaamacadda Hormuud,Mogadishu,Economics,2.44,Medium,No,Beginner,0,Unemployed
+21,Male,Jaamacadda SIMAD,Mogadishu,Information Technology,3.43,Low,Yes,Intermediate,5,Employed
+25,Male,Jaamacadda Hormuud,Mogadishu,Business Administration,3.27,Low,Yes,Intermediate,5,Employed
+26,Male,Jaamacadda SIMAD,Mogadishu,Accounting,3.36,Low,Yes,Advanced,5,Employed
+24,Male,Jaamacadda Gaalkacyo,Galkayo,Computer Science,3.09,High,Yes,Advanced,4,Employed
+21,Female,Banaadir Univ,Mogadishu,Education,3.22,Low,No,Intermediate,2,Unemployed
+27,Female,Jaamacadda Hormuud,Mogadishu,Information Technology,3.07,Medium,Yes,Intermediate,,Unemployed
+27,Male,Jaamacadda Islaamiga,Mogadishu,Education,2.88,Medium,Yes,Intermediate,0,Unemployed
+22,Male,Jaamacadda SIMAD,Mogadishu,Nursing,2.65,Low,Yes,Beginner,2,Unemployed
+24,Female,Jaamacadda Puntland State University,Garoowe,Software Engineering,3.8,High,Yes,Advanced,6,Employed
+30,Male,Jaamacadda Hormuud,Mogadishu,Nursing,3.85,,Yes,Intermediate,,Employed
+28,Female,Jaamacada Koonfur Galbeed Soomaaliya,Baidoa,Nursing,3.48,High,Yes,Advanced,,Employed
+24,Male,JUST,Mogadishu,Law,,Low,Yes,Intermediate,,Employed
+22,Male,Hormuud Univ,Mogadishu,Information Technology,3.46,High,Yes,Advanced,2,Employed
+25,Male,Jaamacadda Islaamiga,Mogadishu,Computer Science,3.29,Low,Yes,,3,Employed
+27,Male,Jaamacadda Islaamiga,Mogadishu,Accounting,2.29,Low,No,Beginner,0,Unemployed
+23,Female,Jaamacada Burco,Burao,Civil Engineering,3.37,High,No,Intermediate,2,Employed
+21,Female,Jaamacadda Hormuud,Mogadishu,Civil Engineering,3.14,Medium,Yes,Advanced,1,Employed
+26,Female,Jaamacada Koonfur Galbeed Soomaaliya,Baidoa,Nursing,3.94,Medium,Yes,Advanced,3,Employed
+26,Male,Jaamacada Ummada Soomaaliyeed,Mogadishu,Law,3.08,High,Yes,Advanced,3,Employed
+22,,Jaamacada Koonfur Galbeed Soomaaliya,Baidoa,Information Technology,3.63,Medium,No,Advanced,3,Employed
+24,Female,Jaamacadda City,Mogadishu,Medicine,3.88,,Yes,Advanced,5,Employed
+30,Male,Hormuud Univ,Mogadishu,Medicine,3.45,High,Yes,Intermediate,1,Employed
+30,Male,Jaamacadda Muqdisho,Mogadishu,Information Technology,2.56,Medium,No,Beginner,0,Unemployed
+25,Female,Jaamacada Jamhuuriya ee Culuumta iyo Tiknooloojiyada,Mogadishu,Business Administration,3.64,Low,Yes,Advanced,5,Employed
+24,Female,Jaamacadda Islaamiga,Mogadishu,Software Engineering,3.43,High,Yes,Intermediate,5,Employed
+22,Female,Jaamacada Hargeysa,Hargeisa,Information Technology,3.81,Medium,Yes,Advanced,4,Employed
+27,Male,Jaamacadda Banaadir,Mogadishu,Software Engineering,3.28,High,Yes,Advanced,6,Employed
+24,Male,Banadir University,Mogadishu,Public Health,3.45,High,No,Advanced,1,Employed
+23,Male,Jaamacadda Abraar,Mogadishu,Software Engineering,3.97,High,Yes,Advanced,5,Employed
+28,Female,Jaamacada Hargeysa,Hargeisa,Nursing,3.22,Medium,,Intermediate,6,Employed
+28,Male,Jamhuriya University,Mogadishu,Accounting,3.57,,Yes,Advanced,6,Employed
+25,Female,Jaamacadda Hormuud,Mogadishu,Information Technology,2.83,Medium,No,,2,Unemployed
+21,Male,Jaamacada Jamhuuriya ee Culuumta iyo Tiknooloojiyada,Mogadishu,Information Technology,3.96,High,No,Advanced,2,Employed
+30,Male,Jaamacadda SIMAD,Mogadishu,Public Health,4.3,Low,No,Intermediate,1,Unemployed
+22,Female,Jaamacadda Muqdisho,Mogadishu,Economics,3.23,Low,,Advanced,6,Employed
+27,Male,simad,Mogadishu,Nursing,3.21,High,Yes,Advanced,2,Employed
+28,Male,Jaamacadda Puntland State University,Garoowe,Information Technology,3.11,High,Yes,Advanced,,Employed
+27,Male,Jaamacada Hiiraan,Beledweyne,Business Administration,3.92,Low,,Advanced,4,Employed
+21,Male,Jaamacadda Muqdisho,Mogadishu,Civil Engineering,3.88,High,No,Advanced,3,Employed
+24,Male,Jaamacada Bariga Afrika,Bosaso,Education,3.1,Low,No,Beginner,0,Unemployed
+26,Female,Muqdisho Univ,Mogadishu,Nursing,2.62,High,Yes,Advanced,0,Unemployed
+27,Female,Hormuud University,,Nursing,3.05,High,Yes,Advanced,2,Employed
+26,Female,Jaamacadda Hormuud,Mogadishu,Public Health,3.41,High,Yes,Beginner,1,Employed
+28,Male,Jaamacadda City,Mogadishu,Computer Science,2.51,Medium,No,,0,Unemployed
+26,Male,Jaamacadda Puntland State University,Garoowe,Civil Engineering,3.03,,No,Intermediate,2,Unemployed
+22,Male,Jaamacada Golis,Hargeisa,Nursing,2.77,High,No,Beginner,0,Unemployed
+27,Female,Jaamacadda Muqdisho,Mogadishu,Computer Science,3.8,High,No,Advanced,5,Employed
+24,Female,Jaamacadda Caalamiga Soomaaliya,Mogadishu,Software Engineering,3.36,High,Yes,Intermediate,2,Employed
+24,Female,simad,Mogadishu,Education,3.33,High,No,Advanced,3,Employed
+22,Male,Jaamacadda SIMAD,Mogadishu,Civil Engineering,3.97,Medium,Yes,Advanced,6,Employed
+24,Male,Jaamacadda City,Mogadishu,Information Technology,2.55,Medium,No,Intermediate,0,Unemployed
+28,Male,Muqdisho Univ,Mogadishu,Law,3.19,Low,,Intermediate,5,Employed
+24,Male,Jaamacada Bariga Afrika,Bosaso,Computer Science,3.1,High,No,Advanced,3,Employed
+21,Female,Jaamacada Hargeysa,Hargeisa,Computer Science,2.43,High,No,Advanced,0,Unemployed
+30,Male,Jaamacadda Abraar,Mogadishu,Information Technology,3.77,High,Yes,Advanced,6,Employed
+26,Male,Jaamacadda SIMAD,Mogadishu,Accounting,4.0,Low,Yes,Advanced,1,Employed
+26,Female,Hormuud University,Mogadishu,Nursing,3.2,High,Yes,Beginner,1,Employed
+27,Male,Jaamacada Bariga Afrika,Bosaso,Nursing,3.65,Medium,Yes,,6,Employed
+25,Female,Jaamacada Hiiraan,,Information Technology,3.75,High,Yes,Beginner,3,Employed
+24,Female,Jaamacadda Hormuud,Mogadishu,Medicine,3.9,High,No,Advanced,3,Employed
+28,,Mogadishu University,Mogadishu,Public Health,3.81,Medium,Yes,Advanced,6,Employed
+30,Male,Mogadishu University,Mogadishu,Nursing,,High,No,Advanced,2,Employed
+25,Male,Jaamacada Koonfur Galbeed Soomaaliya,Baidoa,Computer Science,3.98,High,Yes,Advanced,4,Employed
+22,Male,Jaamacada Bariga Afrika,Bosaso,Accounting,,High,Yes,Advanced,5,Employed
+24,Male,Jaamacada Ummada Soomaaliyeed,Mogadishu,Education,,Medium,Yes,Advanced,2,Employed
+21,Male,Hormuud University,Mogadishu,Law,3.46,High,Yes,Advanced,,Employed
+24,Female,Jaamacada Ummada Soomaaliyeed,Mogadishu,Economics,3.45,High,Yes,Advanced,4,Employed
+28,Male,Jaamacadda Abraar,Mogadishu,Law,3.78,High,Yes,Advanced,1,Employed
+22,Male,Jaamacadda Banaadir,Mogadishu,Software Engineering,3.5,High,Yes,Intermediate,6,Employed
+26,Male,Jaamacadda SIMAD,Mogadishu,Medicine,3.65,High,Yes,Beginner,5,Employed
+28,Male,Jaamacadda SIMAD,Mogadishu,Nursing,3.0,,Yes,Intermediate,1,Employed
+21,Male,Jaamacadda SIMAD,Mogadishu,Information Technology,3.43,Low,Yes,Intermediate,5,Employed
+28,Male,Jaamacadda Abraar,Mogadishu,Law,3.78,High,Yes,Advanced,1,Employed

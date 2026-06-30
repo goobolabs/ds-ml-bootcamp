@@ -1,0 +1,51 @@
+﻿Product_Name,Category,Quantity,Warranty,Brand,Price
+Dell Inspiron 15,Laptop,10,1 Year,Dell,500
+Dell Latitude 5420,Laptop,8,1 Year,Dell,650
+Dell Vostro 3500,Laptop,12,1 Year,Dell,550
+HP EliteBook 840,Laptop,7,1 Year,HP,700
+HP ProBook 450,Laptop,9,1 Year,HP,600
+Lenovo ThinkPad E14,Laptop,6,1 Year,Lenovo,680
+Lenovo IdeaPad 3,Laptop,15,1 Year,Lenovo,450
+Acer Aspire 5,Laptop,11,1 Year,Acer,480
+ASUS VivoBook 15,Laptop,10,1 Year,ASUS,520
+MacBook Air M1,Laptop,5,1 Year,Apple,950
+Samsung Galaxy A15,Smartphone,25,1 Year,Samsung,180
+Samsung Galaxy A25,Smartphone,18,1 Year,Samsung,250
+Samsung Galaxy S24,Smartphone,4,1 Year,Samsung,850
+iPhone 13,Smartphone,6,1 Year,Apple,700
+iPhone 14,Smartphone,5,1 Year,Apple,850
+iPhone 15,Smartphone,3,1 Year,Apple,1000
+Redmi Note 13,Smartphone,20,1 Year,Xiaomi,220
+Redmi 13C,Smartphone,30,1 Year,Xiaomi,140
+Tecno Spark 20,Smartphone,22,1 Year,Tecno,160
+Infinix Hot 40,Smartphone,24,1 Year,Infinix,170
+HP LaserJet M111w,Printer,8,1 Year,HP,120
+Canon PIXMA G3410,Printer,7,1 Year,Canon,150
+Epson L3250,Printer,6,1 Year,Epson,210
+Brother DCP-T420W,Printer,5,1 Year,Brother,190
+Canon LBP6030,Printer,9,1 Year,Canon,130
+Logitech M185,Accessory,50,6 Months,Logitech,15
+Logitech MK270,Accessory,35,6 Months,Logitech,30
+HP Wireless Mouse,Accessory,28,6 Months,HP,18
+Dell USB Keyboard,Accessory,40,6 Months,Dell,20
+Lenovo Wireless Mouse,Accessory,32,6 Months,Lenovo,16
+SanDisk 32GB USB,Storage,45,6 Months,SanDisk,10
+SanDisk 64GB USB,Storage,38,6 Months,SanDisk,15
+Kingston 128GB USB,Storage,20,6 Months,Kingston,20
+Samsung 500GB SSD,Storage,12,1 Year,Samsung,60
+Kingston 1TB SSD,Storage,8,1 Year,Kingston,95
+Lenovo ThinkCentre Neo,Desktop,6,1 Year,Lenovo,400
+HP Pro Tower 290,Desktop,5,1 Year,HP,450
+Dell OptiPlex 7010,Desktop,4,1 Year,Dell,500
+ASUS ExpertCenter,Desktop,3,1 Year,ASUS,550
+Acer Veriton X,Desktop,4,1 Year,Acer,480
+Samsung 24-inch Monitor,Monitor,14,1 Year,Samsung,120
+LG 22-inch Monitor,Monitor,12,1 Year,LG,110
+Dell 27-inch Monitor,Monitor,8,1 Year,Dell,220
+HP 24-inch Monitor,Monitor,10,1 Year,HP,140
+ASUS Gaming Monitor,Monitor,5,1 Year,ASUS,280
+JBL Go 3,Speaker,18,6 Months,JBL,45
+JBL Flip 6,Speaker,10,1 Year,JBL,120
+Sony SRS-XB13,Speaker,12,1 Year,Sony,65
+Anker SoundCore 2,Speaker,15,1 Year,Anker,50
+Xiaomi Bluetooth Speaker,Speaker,20,6 Months,Xiaomi,35
