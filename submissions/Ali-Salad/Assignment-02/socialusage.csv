@@ -1,0 +1,107 @@
+ID,Name,AGE,gender,City/Town,Platform Used,Daily Usage (hrs),Frequency,Internet Type,Device,monthly_income,Education Level,Purpose,Satisfaction,Date Surveyed
+25.0,Mohamed Ali,,prefer not to say,Mogadishu,IG,4.8,daily,,Phone,1359,Some college,,2,15/01/2024
+69.0,F. Hassan,40,M,MGQ,FACEBOOK,25,weekly,,,low,Secondary,Business,,
+98.0,Dahir Muse,999,Other,hargeisa,FB,1.9 hrs,once a week,,tablet,1368,Masters,business,,2024-02-20
+30.0,Yusuf Farah,-5,Female,Kismayo,IG,1.9,,WiFi,both phone and laptop,576,,News,2,2024-02-20
+15.0,Filsan Jama,Twenty,,Marka,X (Twitter),25,Daily,Mobile data & Wifi,Tablet,$337,High School,Business,,Jan 15 2024
+32.0,Mahad Jama,-5,f,Bosasso,,4.5,Every day,both,Laptop,,primary school,business,,May 2024
+19.0,Mohamed Ali,37,prefer not to say,,youtube,,weekly,Broadband,tablet,1313,Masters,business,5,Jan 15 2024
+66.0,Amina Warsame,,prefer not to say,Kismayo,FB,-1,,both,PC,$142,University,,Neutral,2024-03-05
+14.0,Mahad Jama,15,female,Kismayo,Telegram,3.9,,Broadband,Tablet,1039 USD,Masters,,4,
+57.0,Sahra Ibrahim,24,M,Garowe,,3-4,Hourly,Mobile Data,Mobile,,Primary,,3,"March 5, 2024"
+17.0,Mahad Jama,-5,f,Garowe,twitter,8,Sometimes,Mobile data & Wifi,Smartphone,,Diploma,Education,Neutral,"March 5, 2024"
+38.0,Hodan Abdi,33,,Beledweyne,TikTok,-1,once a week,,Desktop,1450,Primary,All of the above,,20/02/2024
+59.0,Ahmed,15,prefer not to say,Afgooye,WhatsApp,3-4,,both,smartphone,middle,Masters,All of the above,satisfied,2024/01/15
+67.0,Maryan Nor,Twenty,F,Mogadishu,whatsapp,,2-3x daily,Mobile data & Wifi,Laptop,low,Masters,All of the above,Very Satisfied,
+72.0,Filsan Jama,-5,female,,Telegram,,daily,wifi,laptop,977 USD,primary school,learning,5,2024-01-15
+54.0,Amina Warsame,-5,Female,hargeisa,,3-4,Multiple times a day,Wi-Fi,Phone,989,Some college,News,Dissatisfied,20/02/2024
+6.0,Omar Sheikh,27,,Hargeisa,youtube,3.4,daily,Mobile data & Wifi,,658,No formal education,,5,
+10.0,Khadija Omar,16,m,Baidoa,Instagram,5,Rarely,Broadband,Phone,1444,No formal education,Entertainment,,2024-03-05
+18.0,Faadumo Yusuf,Twenty,prefer not to say,Jowhar,FB,,Every day,Broadband,Mobile,1277,High School,Marketing,3,2024-05
+42.0,Mohamed M.,36,MALE,Kismayo,,25,Sometimes,,Mobile,1416 USD,PHD,All of the above,Very Dissatisfied,2024-01-15
+24.0,Ali Nur,Twenty,M,Beledweyne,,,weekly,mobile data,Phone,$338,university degree,news,Very Satisfied,
+73.0,Mohamed M.,26,Other,Garowe,youtube,,,Wi-Fi,,middle,Vocational,Communication,Dissatisfied,20/02/2024
+46.0,Bashir Abdi,999,Other,Unknown,Telegram,9.4,Multiple times a day,both,laptop,350 USD,Primary,news,OK,15-Jan-24
+21.0,Filsan Jama,32,Other,,TikTok,4.4,Sometimes,,,1135,Vocational,,,May 2024
+58.0,Ahmed Mohamed,-5,FEMALE,N/a,TikTok,,Rarely,,,low,Secondary,Social,5,10.04.2024
+11.0,Amina Warsame,21,,Afgooye,facebook,,once a week,,laptop,$489,PHD,,3,15/01/2024
+12.0,Ahmed Mohamed,-5,male,mogadishu,youtube,9.3,weekly,Mobile data & Wifi,laptop,,Vocational,Education,,05/03/2024
+68.0,Omar Sheikh,54,Female,hargeisa,YouTube,2.2,once a week,,smartphone,low,primary school,Entertainment,Neutral,
+75.0,F. Hassan,-5,MALE,MGQ,YT,6.6,Sometimes,,Smartphone,low,Some college,business,Very Satisfied,2024-01-15
+33.0,F. Hassan,30,FEMALE,hargeisa,Snapchat,6.3,Sometimes,,PC,902,,Marketing,satisfied,05/03/2024
+100.0,Amina Warsame,-5,F,Afgooye,YT,,,Broadband,smartphone,781,High School,business,,10.04.2024
+48.0,Anonymous,,Other,Marka,Twitter,7.4 hrs,once a week,Broadband,PC,139,Diploma,All of the above,satisfied,15-Jan-24
+91.0,Unknown,Twenty,FEMALE,Bosasso,YT,6.9 hrs,Hourly,Mobile Data,PC,low,Primary,All of the above,1,10.04.2024
+27.0,Ali Nur,29,,Kismayo,,,Every day,WiFi,Desktop,middle,No formal education,Learning,4,15/01/2024
+49.0,Filsan Jama,16,Male,Baidoa,Snapchat,2,Weekly,Broadband,,middle,Vocational,business,Satisfied,15/01/2024
+52.0,Ahmed,-5,,MGQ,Instagram,3-4,Sometimes,Mobile Data,Desktop,,Secondary,Business,OK,15/01/2024
+88.0,Anonymous,Twenty,F,MGQ,Telegram,3-4,Hourly,Mobile data & Wifi,both phone and laptop,,High School,business,5,"March 5, 2024"
+35.0,Khadija Omar,24,,,,25,Multiple times a day,,,middle,primary school,All of the above,,2024-05
+71.0,Bashir Abdi,48,prefer not to say,Jowhar,insta,3-4,daily,mobile data,,,No formal education,News,Very Satisfied,10.04.2024
+64.0,Maryan Nor,Twenty,FEMALE,mogadishu,TIKTOK,25,Every day,both,tablet,middle,Secondary,All of the above,3,15-Jan-24
+34.0,Dahir Muse,17,female,Jowhar,,1.9,daily,,Laptop,,High School,Education,,05/03/2024
+60.0,Ali Nur,Twenty,Other,,Facebook,25,,both,Smartphone,middle,PHD,,4,10.04.2024
+74.0,Ahmed Mohamed,16,Other,Marka,Telegram,2.8,Rarely,both,Desktop,353,university degree,learning,3,"March 5, 2024"
+28.0,Nasrin Ahmed,17,prefer not to say,Garowe,whatsapp,7,Rarely,Broadband,PC,1005,,Entertainment,3,05/03/2024
+95.0,Ahmed,,,Xamar,whatsapp,3-4,Daily,Mobile Data,Mobile,middle,primary school,entertainment,4,2024/01/15
+89.0,Maryan Nor,,F,Jowhar,,4.3 hrs,Weekly,both,,,university degree,News,Happy,05/03/2024
+84.0,Maryan Nor,,Other,Jowhar,Twitter,4.1,daily,Broadband,both phone and laptop,1319,Masters,News,satisfied,2024/01/15
+39.0,Abdullahi Osman,Twenty,female,Bosasso,Tiktok,1.4,Daily,Broadband,smartphone,636,university degree,Education,1,2024-04-10
+86.0,Omar Sheikh,-5,F,Mogadishu,telegram,,weekly,,Desktop,353,university degree,Business,5,"March 5, 2024"
+31.0,Anonymous,39,MALE,,YouTube,6.3,Rarely,both,,,Secondary,learning,5,2024-03-05
+17.0,Mahad Jama,-5,f,Garowe,twitter,8,Sometimes,Mobile data & Wifi,Smartphone,,Diploma,Education,Neutral,"March 5, 2024"
+85.0,Sahra Ibrahim,-5,MALE,Marka,Telegram,1.4,Daily,Broadband,Phone,248,PhD,Learning,5,2024-04-10
+76.0,,999,F,N/a,youtube,3-4,,Both,Phone,235,,News,,2024-03-05
+8.0,Ahmed Mohamed,-5,FEMALE,hargeisa,insta,6.7 hrs,Hourly,wifi,PC,,primary school,Entertainment,Very Dissatisfied,
+83.0,Mohamed Ali,,MALE,Bosasso,IG,25,Weekly,Broadband,Phone,$206,,,,20/02/2024
+96.0,Unknown,54,,hargeisa,Instagram,7.3,,Wi-Fi,PC,$811,Some college,Marketing,5,2024-01-15
+36.0,Hodan Abdi,32,FEMALE,MGQ,WhatsApp,8.4,Sometimes,Wi-Fi,PC,1342,primary school,Education,Happy,2024/01/15
+23.0,Sahra Ibrahim,52,Other,Xamar,IG,-1,Sometimes,,Mobile,,Some college,,4,05/03/2024
+44.0,Ali Nur,42,Other,,TIKTOK,8.8,Daily,,Smartphone,1311 USD,,Communication,Satisfied,2024-03-05
+,,,,,,,,,,,,,,
+37.0,Khadija Omar,-5,f,Xamar,YT,2.8,Multiple times a day,wifi,laptop,$1475,Masters,News,4,15-Jan-24
+47.0,Yusuf Farah,-5,M,Kismayo,X (Twitter),-1,2-3x daily,Broadband,smartphone,,PhD,News,2,2024-03-05
+,,,,,,,,,,,,,,
+20.0,Fatima Hassan,Twenty,m,hargeisa,,7.2,Sometimes,,,322,Some college,News,,15/01/2024
+7.0,Maryan Nor,35,,Unknown,twitter,25,Weekly,,Phone,$84,High School,,2,15-Jan-24
+43.0,Mohamed M.,26,Other,Unknown,Telegram,6.3 hrs,Sometimes,both,PC,,No formal education,,Very Dissatisfied,2024-04-10
+29.0,Mahad Jama,33,F,Beledweyne,FACEBOOK,4.7 hrs,daily,Wi-Fi,PC,873,Some college,news,2,2024-01-15
+3.0,Ahmed,31,F,Afgooye,Telegram,-1,2-3x daily,WiFi,Mobile,middle,PHD,Entertainment,4,2024-03-05
+,,,,,,,,,,,,,,
+90.0,Mohamed Ali,23,,Beledweyne,FACEBOOK,3-4,once a week,,Desktop,,Primary,business,OK,
+81.0,Fatima Hassan,,m,Kismayo,whatsapp,2,Multiple times a day,both,laptop,$1098,Secondary,entertainment,5,2024-05
+45.0,Mohamed M.,29,M,Baidoa,Twitter,2.6,Weekly,,Tablet,1236,PhD,Business,5,2024-02-20
+87.0,F. Hassan,999,prefer not to say,,YouTube,6.8,Multiple times a day,,Tablet,middle,PhD,All of the above,Neutral,10.04.2024
+9.0,Mahad Jama,,F,Unknown,WhatsApp,,,Mobile data & Wifi,,655,primary school,,2,10.04.2024
+41.0,Abdullahi Osman,,Male,MGQ,Telegram,4.2,Sometimes,,Laptop,low,Diploma,,3,May 2024
+99.0,Sahra Ibrahim,999,MALE,Unknown,YT,3-4,weekly,Broadband,PC,1467,Diploma,All of the above,5,2024-02-20
+82.0,Ahmed,,Female,Mogadishu,telegram,,Every day,mobile data,,,university degree,,2,15-Jan-24
+2.0,Ahmed,,female,hargeisa,Twitter,2.1,2-3x daily,Wi-Fi,smartphone,low,Some college,Education,4,2024-05
+62.0,Ifrah Hassan,999,F,Beledweyne,,1.2,,,Tablet,507,No formal education,learning,2,2024-04-10
+97.0,Amina Warsame,,M,Kismayo,Facebook,25,weekly,wifi,both phone and laptop,,university degree,Social,Happy,
+53.0,Mohamed M.,999,f,Mogadishu,facebook,4.6,daily,both,,1474,Diploma,Learning,2,"March 5, 2024"
+94.0,Bashir Abdi,Twenty,FEMALE,mogadishu,FB,,Hourly,Mobile Data,tablet,1168,Diploma,Learning,Very Dissatisfied,10.04.2024
+51.0,Nasrin Ahmed,Twenty,M,Marka,TIKTOK,-1,,,,361 USD,Some college,Marketing,Happy,
+70.0,Mohamed Ali,,Other,Baidoa,X (Twitter),,once a week,,tablet,,Vocational,Communication,1,2024-02-20
+80.0,Sahra Ibrahim,,F,Mogadishu,Facebook,,,Broadband,,,Primary,Learning,satisfied,
+55.0,Ali Nur,,,MGQ,Snapchat,,weekly,,Phone,$665,Vocational,All of the above,4,"March 5, 2024"
+22.0,Amina Warsame,39,f,hargeisa,Twitter,,Rarely,,smartphone,,Secondary,,Dissatisfied,2024/01/15
+63.0,F. Hassan,,MALE,Garowe,,,daily,,laptop,1304,primary school,Entertainment,Happy,2024-05
+5.0,Ifrah Hassan,,,MGQ,TikTok,25,Rarely,mobile data,Phone,58,Diploma,Business,satisfied,
+,,,,,,,,,,,,,,
+61.0,Ifrah Hassan,,male,mogadishu,TikTok,4.6 hrs,Rarely,,,983,PHD,,Very Dissatisfied,May 2024
+92.0,Amina Warsame,18,,Hargeisa,WhatsApp,25,once a week,wifi,Laptop,,Secondary,Social,Very Satisfied,2024/01/15
+77.0,Hodan Abdi,-5,FEMALE,Jowhar,FB,9.3,2-3x daily,Wi-Fi,,1474,PhD,Communication,neutral,2024-01-15
+13.0,Bashir Abdi,43,m,Baidoa,Twitter,7.8,,Broadband,Tablet,low,Primary,Marketing,OK,15/01/2024
+50.0,Yusuf Farah,-5,f,Afgooye,TIKTOK,5.3 hrs,Sometimes,,smartphone,$1201,primary school,,satisfied,
+40.0,,44,Female,Baidoa,youtube,1.6,Multiple times a day,wifi,Tablet,314 USD,Secondary,,Satisfied,10.04.2024
+56.0,Dahir Muse,30,FEMALE,Garowe,Instagram,5.8,Rarely,Mobile data & Wifi,Laptop,,university degree,learning,Happy,2024-02-20
+4.0,Anonymous,22,male,Bosasso,facebook,0.6 hrs,once a week,Mobile data & Wifi,smartphone,middle,Primary,News,2,2024-05
+,,,,,,,,,,,,,,
+93.0,Maryan Nor,22,M,Xamar,Instagram,,Every day,both,Mobile,207,No formal education,Social,neutral,Jan 15 2024
+79.0,Fatima Hassan,19,Other,N/a,whatsapp,,2-3x daily,Broadband,both phone and laptop,934 USD,university degree,All of the above,4,2024-01-15
+26.0,Ali Nur,,,Garowe,IG,,Weekly,mobile data,,,Primary,News,Dissatisfied,2024-04-10
+16.0,,52,Male,Unknown,Facebook,9.5,once a week,WiFi,tablet,953 USD,Diploma,Communication,satisfied,15/01/2024
+1.0,Khadija Omar,Twenty,F,Mogadishu,YT,,Sometimes,Both,Phone,557,PhD,News,,2024/01/15
+78.0,Mohamed M.,999,Female,Marka,,4.3 hrs,Weekly,Wi-Fi,laptop,,Masters,Marketing,satisfied,May 2024
+65.0,Mohamed Ali,-5,FEMALE,Beledweyne,FACEBOOK,,Every day,WiFi,,1021,PHD,Communication,Very Dissatisfied,15-Jan-24

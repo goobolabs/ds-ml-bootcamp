@@ -1,0 +1,101 @@
+ID	Product_Type	Material	Width_cm	Height_cm	Price_USD	Stock_Available	Popularity_Rating
+1	Chair	Wood	?	71	278	4	Missing
+2	Cabinet	Wood	?	44	80	2	2
+3	Cabinet	Fabric	46	131	715	Out of Stock	2
+4	Bed	Fabric	111	137	213	Out of Stock	3
+5	Table	Metal	?	53	144	12	3
+6	Sofa	Fabric	107	133	520	17	4
+7	Chair	Fabric	?	113	246	2	Missing
+8	Table	Plastic	60	150	153	Out of Stock	4
+9	Sofa	Metal	?	66	736	8	5
+10	Table	Fabric	226	60	523	Out of Stock	Missing
+11	Cabinet	Metal	?	147	107	7	3
+12	Bed	Plastic	56	112	785	10	Missing
+13	Bed	Leather	?	58	321	4	Missing
+14	Cabinet	Fabric	?	114	458	11	2
+15	Cabinet	Leather	63	150	162	4	Missing
+16	Bed	Fabric	?	88	660	Out of Stock	5
+17	Chair	Wood	?	138	706	10	3
+18	Bed	Metal	156	132	786	8	5
+19	Chair	Plastic	203	59	432	5	5
+20	Sofa	Leather	44	86	364	7	2
+21	Cabinet	Wood	?	144	120	17	2
+22	Bed	Fabric	?	107	671	13	5
+23	Table	Plastic	?	96	579	14	2
+24	Table	Wood	126	115	617	7	1
+25	Chair	Wood	98	44	388	2	3
+26	Bed	Metal	178	132	634	Out of Stock	2
+27	Bed	Leather	88	52	724	Out of Stock	4
+28	Bed	Leather	226	126	719	20	1
+29	Bed	Plastic	244	71	246	Out of Stock	2
+30	Bed	Metal	?	71	127	14	1
+31	Cabinet	Wood	63	61	466	Out of Stock	2
+32	Bed	Wood	?	40	449	Out of Stock	3
+33	Bed	Fabric	?	59	244	9	1
+34	Cabinet	Fabric	?	47	101	Out of Stock	5
+35	Cabinet	Metal	54	148	240	2	Missing
+36	Table	Leather	70	114	658	1	4
+37	Cabinet	Fabric	?	73	259	10	3
+38	Bed	Metal	?	98	373	2	4
+39	Cabinet	Fabric	65	108	268	Out of Stock	2
+40	Sofa	Wood	?	76	211	Out of Stock	5
+41	Cabinet	Wood	?	124	156	Out of Stock	1
+42	Chair	Fabric	?	76	669	Out of Stock	2
+43	Sofa	Fabric	?	148	102	Out of Stock	3
+44	Chair	Wood	125	121	318	Out of Stock	5
+45	Bed	Fabric	42	49	757	4	3
+46	Cabinet	Fabric	?	56	92	Out of Stock	1
+47	Sofa	Metal	214	125	155	Out of Stock	5
+48	Table	Metal	81	92	75	Out of Stock	4
+49	Table	Plastic	80	88	89	15	2
+50	Bed	Plastic	118	68	74	Out of Stock	3
+51	Sofa	Wood	?	84	706	Out of Stock	Missing
+52	Cabinet	Plastic	47	73	232	Out of Stock	1
+53	Chair	Fabric	?	133	371	13	4
+54	Cabinet	Metal	105	130	496	0	3
+55	Bed	Wood	?	119	371	Out of Stock	5
+56	Sofa	Leather	?	129	352	17	2
+57	Bed	Leather	213	118	632	Out of Stock	5
+58	Chair	Plastic	113	95	643	Out of Stock	4
+59	Bed	Leather	212	105	534	5	3
+60	Cabinet	Fabric	125	144	290	9	2
+61	Table	Wood	51	100	675	Out of Stock	4
+62	Cabinet	Metal	?	103	459	7	Missing
+63	Chair	Wood	?	68	230	Out of Stock	1
+64	Cabinet	Metal	?	57	525	Out of Stock	4
+65	Cabinet	Fabric	?	60	536	Out of Stock	2
+66	Sofa	Fabric	164	75	500	Out of Stock	2
+67	Sofa	Plastic	121	57	204	Out of Stock	Missing
+68	Table	Metal	?	92	388	Out of Stock	4
+69	Chair	Metal	?	138	648	Out of Stock	4
+70	Chair	Plastic	?	149	479	17	4
+71	Table	Plastic	?	43	448	Out of Stock	Missing
+72	Table	Leather	72	90	656	18	1
+73	Bed	Metal	158	46	316	Out of Stock	2
+74	Bed	Plastic	?	75	481	8	4
+75	Chair	Fabric	?	68	715	2	1
+76	Table	Metal	45	70	179	15	5
+77	Table	Leather	?	138	427	5	2
+78	Sofa	Wood	188	79	639	Out of Stock	Missing
+79	Table	Wood	191	53	763	9	5
+80	Chair	Plastic	?	124	429	Out of Stock	1
+81	Bed	Leather	?	86	700	14	4
+82	Table	Fabric	?	118	601	Out of Stock	4
+83	Cabinet	Plastic	122	146	138	Out of Stock	2
+84	Bed	Fabric	?	83	79	Out of Stock	2
+85	Bed	Metal	?	83	336	Out of Stock	5
+86	Chair	Fabric	88	70	787	Out of Stock	5
+87	Table	Leather	?	97	67	Out of Stock	2
+88	Bed	Metal	?	100	616	Out of Stock	4
+89	Cabinet	Plastic	?	74	363	8	1
+90	Table	Plastic	70	64	271	Out of Stock	Missing
+91	Cabinet	Fabric	?	52	248	9	3
+92	Table	Plastic	43	75	96	Out of Stock	Missing
+93	Table	Leather	66	113	341	Out of Stock	4
+94	Sofa	Metal	?	150	539	3	4
+95	Bed	Wood	187	59	202	Out of Stock	1
+96	Table	Wood	?	117	660	19	5
+97	Bed	Leather	?	150	652	Out of Stock	5
+98	Cabinet	Wood	196	137	262	20	3
+99	Chair	Metal	101	110	126	5	4
+100	Bed	Fabric	?	44	287	Out of Stock	Missing

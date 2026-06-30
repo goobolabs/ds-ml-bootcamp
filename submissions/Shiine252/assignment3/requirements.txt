@@ -1,0 +1,8 @@
+Tools required to execute this project
+Anaconda Nagivator
+pandas==2.2.2
+numpy==1.26.4
+scikit-learn==1.5.0
+notebook==7.2.1
+ipykernel==6.29.4
+jupyter notebook

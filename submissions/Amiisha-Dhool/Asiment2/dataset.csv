@@ -1,0 +1,54 @@
+Age,Gender,Department,StudyYear,DistanceToSchool,TransportationType,TravelTime,TransportationCost,TrafficImpact,WeatherImpact
+20,Female,Computer Science,1,2 km,Walking,20 min,0 ETB,No,No
+21,Male,Information Technology,2,5 km,Bus,35 min,20 ETB,Yes,No
+19,Female,Business,1,,Taxi,50 min,80 ETB,Yes,Yes
+22,Male,Engineering,3,3 km,Bajaj,15 min,30 ETB,No,No
+20,Female,Computer Science,2,10 km,Bus,60 min,25 ETB,Yes,Yes
+23,Male,Business,4,6 km,Bus,40 min,20 ETB,Yes,No
+18,Female,Information Technology,1,1 km,Walking,10 min,0 ETB,No,No
+24,Male,Engineering,4,12 km,Taxi,70 min,100 ETB,Yes,Yes
+21,Female,Business,2,4 km,Bajaj,25 min,25 ETB,No,No
+22,Male,Computer Science,3,9 km,Bus,55 min,30 ETB,Yes,Yes
+44,female,ict,,5km,walk,,70etb,,no
+20,Female,Computer Science,1,2 km,Walking,20 min,0 ETB,No,No
+21,Male,Information Technology,2,5 km,Bus,35 min,20 ETB,Yes,No
+19,Female,Business,1,8 km,Taxi,50 min,80 ETB,Yes,Yes
+22,Male,Engineering,3,3 km,Bajaj,15 min,30 ETB,No,No
+20,Female,Computer Science,2,10 km,Bus,60 min,25 ETB,Yes,Yes
+23,Male,Business,4,6 km,Bus,40 min,20 ETB,Yes,No
+18,Female,Information Technology,1,1 km,Walking,10 min,0 ETB,No,No
+24,Male,Engineering,4,12 km,Taxi,70 min,100 ETB,Yes,Yes
+24,Male,iT,,6km,Taxi,70 min,100 ETB,Yes,Yes
+23,Male,Engineering,4,2 km,Walking,18 min,0 ETB,No,No
+24,Male,engineering,2,3km,Taxi,70 min,100 ETB,Yes,Yes
+23,Male,business,1,2 km,Walking,18 min,0 ETB,No,No
+23,Male,IT,4,4km,bus,15min,5EBT,yes,yes
+23,female,bussines,3,1km,Walking,18 min,0 ETB,No,No
+19,male,Engineering,1,2 km,Walking,18 min,0 ETB,No,No
+23,Male,management,2,5km,bus,40min,40ETB,yes,No
+18,female,waterresorce,1,2 km,taxi,25min,60ETB,No,yes
+23,Male,Engineering,4,2 km,Walking,18 min,0 ETB,No,No
+24,female,doctor,2,4km,bajaj,50min,50ETB,yes,No
+22,female,management,3,2 km,Walking,15min,0 ETB,No,No
+23,Male,Engineering,4,3km,bus,30min,65ETB,yes,yes
+19,male,management,2,1km,Walking,15min,0 ETB,No,No
+21,female,bussines,1,3km,bajaj,30min,30 ETB,Yes,yes
+22,male,waterresorce,2,4km,bajaj,20min,40ETB,no,no
+27,female,management,1,2km,bus,10min,20ETB,no,No
+19,male,health,1,10 km,Bus,60 min,25 ETB,Yes,Yes
+25,fame,doctor,3,6 km,taxi,40 min,20 ETB,Yes,No
+20,male,technolagy,2,2km,taxi,15min,20ETB,yes,No
+29,female,waterresorce,3,1km,Walking,,0 ETB,No,No
+20,Male,political,2,3km,bus,30min,100ETB,yes,yes
+24,female,Engineering,3,2 km,bajaj,20min,20ETB,yes,No
+18,Male,computersince,1,2 km,Walking,18 min,0 ETB,No,No
+19,female,watereng,3,3km,bus,40min,200ETB,yes,yes
+21,female,bussines,2,3km,bajaj,30min,30 ETB,Yes,yes
+25,male,humannutaration,3,4km,bus,20min,40ETB,no,no
+21,male,management,3,1km,bajaj,,20ETB,no,No
+19,male,humanresorce,2,10 km,taxi,60 min,25 ETB,no,Yes
+23,fame,doctor,3,6 km,taxi,40 min,20 ETB,Yes,No
+19,male,management,4,2km,bus,17min,40ETB,yes,yes
+29,female,waterresorce,3,1km,Walking,,0 ETB,No,No
+28,male,doctor,5,3km,bus,40min,0ETB,yes,no
+22,female,bussines,2,1km,walking,15min,,no,no
