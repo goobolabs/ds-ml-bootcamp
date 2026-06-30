@@ -1,0 +1,51 @@
+Age,Department,Programming_Experience_Years,AI_Tools_Used,Weekly_AI_Usage_Hours,AI_Training_Attended,AI_Readiness_Level
+21,Computer Science,3,3,8,Yes,High
+20,IT,2,2,5,No,Medium
+22,Business,0,1,1,No,Low
+23,Computer Science,4,4,10,Yes,High
+21,IT,2,2,4,No,Medium
+20,Education,0,1,1,No,Low
+22,Computer Science,3,3,7,Yes,High
+24,IT,2,2,5,Yes,Medium
+21,Business,1,1,2,No,Low
+23,Computer Science,5,4,12,Yes,High
+20,IT,2,3,6,No,Medium
+22,Education,0,1,1,No,Low
+21,Computer Science,4,4,9,Yes,High
+24,Business,1,2,3,No,Medium
+20,IT,0,1,1,No,Low
+22,Computer Science,3,3,8,Yes,High
+21,IT,2,2,5,Yes,Medium
+23,Business,1,1,2,No,Low
+20,Computer Science,4,4,10,Yes,High
+22,IT,2,3,6,No,Medium
+21,Education,0,1,1,No,Low
+24,Computer Science,5,4,11,Yes,High
+20,Business,1,2,3,No,Medium
+22,IT,0,1,1,No,Low
+21,Computer Science,3,3,7,Yes,High
+23,IT,2,2,5,Yes,Medium
+20,Business,0,1,2,No,Low
+22,Computer Science,4,4,9,Yes,High
+21,IT,2,3,6,No,Medium
+24,Education,0,1,1,No,Low
+20,Computer Science,5,4,12,Yes,High
+22,Business,1,2,3,No,Medium
+21,IT,0,1,1,No,Low
+23,Computer Science,4,4,10,Yes,High
+20,IT,2,2,5,Yes,Medium
+22,Business,0,1,1,No,Low
+21,Computer Science,3,3,8,Yes,High
+24,IT,2,2,4,No,Medium
+20,Education,0,1,1,No,Low
+22,Computer Science,5,4,11,Yes,High
+21,Business,1,2,3,No,Medium
+23,IT,0,1,1,No,Low
+20,Computer Science,4,4,9,Yes,High
+22,IT,2,3,6,Yes,Medium
+21,Business,0,1,2,No,Low
+24,Computer Science,5,4,12,Yes,High
+20,IT,2,2,5,No,Medium
+22,Education,0,1,1,No,Low
+21,Computer Science,4,4,10,Yes,High
+23,IT,2,3,7,Yes,Medium

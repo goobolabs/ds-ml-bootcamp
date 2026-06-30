@@ -1,0 +1,24 @@
+﻿Movie Name,Ratings,Duration,Genre,Country,Year,Number of Votes,Popularity (Hit/Flop)
+John Wick,10,154,Action,USA,2014,2400000,Hit
+Parasite,9,159,Thriller, South Korea,,240000,Hit
+Train to Busan,8,124,Horror,South Korea,2016,2400,Flop
+Get Out,8,180,Horror,USA,2017,120000,Flop
+RRR,,140,Action,India,,2300000,Hit
+The Dark Knight,7,160,Action,USA,2008,240000,Hit
+The Silence of the Lambs,6,167,Thriller,USA,1991,134324,Flop
+Oldboy,5,154,Thriller,South Korea,2003,2800000,Hit
+The Matrix,10,130,,?,1999,342903,Hit
+RRR,9,170,Action,India,2022,1820000,Hit
+The Father,4,133,Drama,UK/France,,320000,Hit
+Joker,8,,Crime,USA,2019,110000,Flop
+Roma,7,,Drama,Mexico,2018,203000,Flop
+Life of Pi,6,191,Adventure,USA,,22000,Flop
+John Wick,9,123,Action,USA,2014,1700000,Hit
+District 9,2,,Sci-Fi,South Africa,2018,200000,Flop
+Option 15,5,NaN,Sci-Fi,USA,NaN,313200,Hit
+The Pianist,8,120,Drama,Poland/France,,123054,Flop
+Se7en,9,110,Thriller,USA,NaN,1234560,Hit
+Alien,5,115,Horror,USA/UK,1979,453902,Hit
+Coco,,141,?,,2017,93649,Flop
+Mad Max: Fury Road,7,143,Action,Australia,2015,43938,Flop
+John Wick,10,154,Action,USA,2014,21234,Flop
