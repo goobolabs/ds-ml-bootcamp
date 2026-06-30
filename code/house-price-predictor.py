@@ -16,7 +16,7 @@ from sklearn.metrics import mean_absolute_error, mean_squared_error, r2_score
 # --------------------------------
 # 1) Load the cleaned dataset
 # --------------------------------
-CSV_PATH = "dataset/clean_house_l5_dataset.csv"
+CSV_PATH = "dataset/clean_house_dataset.csv"
 df = pd.read_csv(CSV_PATH)
 
 # --------------------------------
