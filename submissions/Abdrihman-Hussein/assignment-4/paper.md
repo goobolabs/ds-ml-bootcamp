@@ -278,12 +278,3 @@ Regression is a versatile machine learning technique for predicting continuous v
 
 ---
 
-# References
-
-1. Géron, A. (2022). *Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow* (3rd ed.). O'Reilly Media.
-
-2. James, G., Witten, D., Hastie, T., & Tibshirani, R. (2021). *An Introduction to Statistical Learning* (2nd ed.). Springer.
-
-3. Scikit-learn Documentation: https://scikit-learn.org/stable/modules/regression.html
-
-4. Pedregosa, F., et al. (2011). Scikit-learn: Machine Learning in Python. JMLR, 12, 2825-2830.
