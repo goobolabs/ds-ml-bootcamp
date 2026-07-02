@@ -1,7 +1,11 @@
 import pandas as pd
 import numpy as np
 from sklearn.preprocessing import StandardScaler
+<<<<<<< HEAD
 CSV_PATH = r"C:\Users\Ali Black\Desktop\bootcamb\ds-ml-bootcamp\submissions\Ahmetttt37\assigment 3\raw_car_dataset.csv"
+=======
+CSV_PATH = r"C:\Users\Ali Black\Desktop\bootcamp1\ds-ml-bootcamp\submissions\Ahmetttt37\assigment 3\raw_car_dataset.csv"
+>>>>>>> upstream/main
 df = pd.read_csv(CSV_PATH)
 # print(df.shape)
 
@@ -88,7 +92,11 @@ print(df.isnull().sum())
 
 
 # 10) Save
+<<<<<<< HEAD
 OUT_PATH = r"C:\Users\Ali Black\Desktop\bootcamb\ds-ml-bootcamp\submissions\Ahmetttt37\assigment 3\clean_car_dataset.csv"
+=======
+OUT_PATH = r"C:\Users\Ali Black\Desktop\bootcamp1\ds-ml-bootcamp\submissions\Ahmetttt37\assigment 3\clean_car_dataset.csv"
+>>>>>>> upstream/main
 
 df.to_csv(OUT_PATH, index=False)
 
