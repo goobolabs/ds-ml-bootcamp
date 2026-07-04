@@ -1,123 +1,191 @@
 import pandas as pd
+import numpy as np
 from pathlib import Path
 
-from sklearn.model_selection import train_test_split
-from sklearn.linear_model import LogisticRegression
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.tree import DecisionTreeClassifier
-from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, confusion_matrix
+# ==========================================================
+# File Paths
+# ==========================================================
+BASE_DIR = Path(__file__).resolve().parent
+
+DATASET_DIR = BASE_DIR.parent.parent.parent / "dataset"
+
+CSV_PATH = DATASET_DIR / "raw_loan_dataset.csv"
+OUT_PATH = BASE_DIR / "Cleaned_Loan_Dataset.csv"
 
 # ==========================================================
-# Load the cleaned dataset
+# STEP 1: Load & Inspect
 # ==========================================================
-BASE_DIR = Path.cwd()
-CSV_PATH = BASE_DIR / "Cleaned_Loan_Dataset.csv"
-
 df = pd.read_csv(CSV_PATH)
 
+print("\n--- CHECKPOINT 1: Load & Inspect ---")
+print("\nHEAD:")
 print(df.head())
+
+print("\nINFO:")
 print(df.info())
 
-# ==========================================================
-# Train/test split
-# ==========================================================
-X = df.drop(columns=["Approved"])
-y = df["Approved"]
+print("\nMISSING VALUE COUNTS:")
+print(df.isnull().sum())
 
-X_train, X_test, y_train, y_test = train_test_split(
-    X,
-    y,
-    test_size=0.2,
-    stratify=y,
-    random_state=42
+print("\nUnique values in HasCollateral:", df["HasCollateral"].unique())
+print("Unique values in PreviousDefaults:", df["PreviousDefaults"].unique())
+print("Unique values in Approved:", df["Approved"].unique())
+
+# ==========================================================
+# STEP 2: Clean Currency Formatting
+# ==========================================================
+df["Income"] = (
+    df["Income"]
+    .astype(str)
+    .str.replace(r"[\$,]", "", regex=True)
+    .astype(float)
 )
 
-print("Training samples:", len(X_train))
-print("Testing samples :", len(X_test))
+df["LoanAmount"] = (
+    df["LoanAmount"]
+    .astype(str)
+    .str.replace(r"[\$,]", "", regex=True)
+    .astype(float)
+)
+
+print("\n--- CHECKPOINT 2: Currency Cleaned ---")
+print("Income dtype:", df["Income"].dtype, "| LoanAmount dtype:", df["LoanAmount"].dtype)
+print(df[["Income", "LoanAmount"]].head())
 
 # ==========================================================
-# Train the three models
+# STEP 3: Fix Category Errors
 # ==========================================================
-logistic = LogisticRegression(max_iter=1000, random_state=42)
-random_forest = RandomForestClassifier(n_estimators=100, random_state=42)
-decision_tree = DecisionTreeClassifier(random_state=42)
-
-logistic.fit(X_train, y_train)
-random_forest.fit(X_train, y_train)
-decision_tree.fit(X_train, y_train)
-
-print("Models trained successfully.")
-
-# ==========================================================
-# Third Classifier: Decision Tree
-#
-# Why Decision Tree?
-# Decision Trees are easy to interpret, handle nonlinear relationships,
-# and work well for binary classification problems such as loan approval
-# prediction.
-#
-# Research Source:
-# https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html
-# ==========================================================
-
-# ==========================================================
-# Metric + confusion matrix helper functions
-# ==========================================================
-def print_metrics(name, y_true, y_pred):
-    print(f"\n{name} Performance:")
-    print(f"  Accuracy : {accuracy_score(y_true, y_pred):.3f}")
-    print(f"  Precision: {precision_score(y_true, y_pred):.3f}  (positive = Approved=1)")
-    print(f"  Recall   : {recall_score(y_true, y_pred):.3f}  (positive = Approved=1)")
-    print(f"  F1-Score : {f1_score(y_true, y_pred):.3f}  (positive = Approved=1)")
-
-
-def print_confusion(name, y_true, y_pred):
-    cm = confusion_matrix(y_true, y_pred)
-    cm_df = pd.DataFrame(
-        cm,
-        index=["Actual Rejected", "Actual Approved"],
-        columns=["Predicted Rejected", "Predicted Approved"]
-    )
-    print(f"\n{name} Confusion Matrix")
-    print(cm_df)
-
-# ==========================================================
-# Evaluate all three models
-# ==========================================================
-models = {
-    "Logistic Regression": logistic,
-    "Random Forest": random_forest,
-    "Decision Tree": decision_tree
+category_fix_map = {
+    "yes": "Yes",
+    "y": "Yes",
+    "yse": "Yes",
+    "1": "Yes",
+    "approved": "Yes",
+    "no": "No",
+    "n": "No",
+    "0": "No",
+    "rejected": "No",
 }
 
-results = []
+for col in ["HasCollateral", "PreviousDefaults", "Approved"]:
+    df[col] = (
+        df[col]
+        .astype(str)
+        .str.strip()
+        .str.lower()
+        .replace(category_fix_map)
+        .replace({"nan": np.nan})
+    )
 
-for name, model in models.items():
-    pred = model.predict(X_test)
-    print_metrics(name, y_test, pred)
-    print_confusion(name, y_test, pred)
-
-    results.append({
-        "Model": name,
-        "Accuracy": accuracy_score(y_test, pred),
-        "Precision": precision_score(y_test, pred),
-        "Recall": recall_score(y_test, pred),
-        "F1 Score": f1_score(y_test, pred)
-    })
-
-comparison = pd.DataFrame(results)
-
-print("\nModel Comparison")
-print(comparison)
+    print(f"\n--- CHECKPOINT 3: value_counts() for {col} after normalization ---")
+    print(df[col].value_counts(dropna=False))
 
 # ==========================================================
-# Sample prediction check
+# STEP 4: Impute Missing Numeric Values
 # ==========================================================
-i = 2
-sample = X_test.iloc[[i]]
-actual = y_test.iloc[i]
+numeric_cols_to_impute = [
+    "Income",
+    "CreditScore",
+    "EmploymentYears",
+    "LoanAmount",
+]
 
-print("Actual:", actual)
-print("Logistic Regression:", logistic.predict(sample)[0])
-print("Random Forest:", random_forest.predict(sample)[0])
-print("Decision Tree:", decision_tree.predict(sample)[0])
+for col in numeric_cols_to_impute:
+    avg_value = df[col].mean()
+    n_missing = df[col].isnull().sum()
+    df[col] = df[col].fillna(avg_value)
+    print(f"Imputed {n_missing} missing value(s) in '{col}' with average = {avg_value:.2f}")
+
+print("\n--- CHECKPOINT 4: Missing Values After Numeric Imputation ---")
+print(df.isnull().sum())
+
+# ==========================================================
+# STEP 5: Impute Missing Categorical Values
+# ==========================================================
+categorical_cols_to_impute = [
+    "HasCollateral",
+    "PreviousDefaults",
+]
+
+for col in categorical_cols_to_impute:
+    mode_value = df[col].mode()[0]
+    n_missing = df[col].isnull().sum()
+    df[col] = df[col].fillna(mode_value)
+    print(f"Imputed {n_missing} missing value(s) in '{col}' with mode = {mode_value}")
+
+print("\n--- CHECKPOINT 5: Missing Values After Categorical Imputation ---")
+print(df.isnull().sum())
+
+# ==========================================================
+# STEP 6: Remove Duplicates
+# ==========================================================
+rows_before = df.shape[0]
+df = df.drop_duplicates()
+rows_after = df.shape[0]
+
+print("\n--- CHECKPOINT 6: Duplicates Removed ---")
+print(f"Rows before: {rows_before} | Rows after: {rows_after}")
+
+# ==========================================================
+# STEP 7: Outlier Capping (IQR)
+# ==========================================================
+def get_iqr_bounds(series, k=1.5):
+    q1 = series.quantile(0.25)
+    q3 = series.quantile(0.75)
+    iqr = q3 - q1
+    lower = q1 - k * iqr
+    upper = q3 + k * iqr
+    return lower, upper
+
+
+cols_to_cap = [
+    "Income",
+    "CreditScore",
+    "LoanAmount",
+    "EmploymentYears",
+]
+
+for col in cols_to_cap:
+    low, high = get_iqr_bounds(df[col])
+    df[col] = df[col].clip(lower=low, upper=high)
+
+    print(f"\n--- CHECKPOINT 7: {col} capped to [{low:.2f}, {high:.2f}] ---")
+    print(df[col].describe()[["min", "max"]])
+
+# ==========================================================
+# STEP 8: Label Encoding
+# ==========================================================
+df["Approved"] = df["Approved"].map({"Yes": 1, "No": 0}).astype(int)
+df["HasCollateral"] = df["HasCollateral"].map({"Yes": 1, "No": 0}).astype(int)
+df["PreviousDefaults"] = df["PreviousDefaults"].map({"Yes": 1, "No": 0}).astype(int)
+
+print("\n--- CHECKPOINT 8: Approved Class Distribution ---")
+print(df["Approved"].value_counts())
+
+print("\n--- CHECKPOINT 8: Remaining Nulls ---")
+print(df[["HasCollateral", "PreviousDefaults"]].isnull().sum())
+
+# ==========================================================
+# STEP 9: Feature Engineering
+# ==========================================================
+df["DebtToIncome"] = df["LoanAmount"] / df["Income"].replace(0, np.nan)
+df["IncomePerYearEmployed"] = df["Income"] / (df["EmploymentYears"] + 1)
+
+print("\n--- CHECKPOINT 9: New Features ---")
+print(df[["DebtToIncome", "IncomePerYearEmployed"]].describe())
+
+# ==========================================================
+# STEP 10: Final Checks & Save
+# ==========================================================
+print("\n--- CHECKPOINT 10: Final Head ---")
+print(df.head())
+
+print("\n--- CHECKPOINT 10: Final Info ---")
+print(df.info())
+
+print("\n--- CHECKPOINT 10: Final Missing Values ---")
+print(df.isnull().sum())
+
+df.to_csv(OUT_PATH, index=False)
+
+print(f"\n✅ Cleaned dataset saved to:\n{OUT_PATH}")
