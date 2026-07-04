@@ -1,134 +1,189 @@
 import pandas as pd
 import numpy as np
+from sklearn.preprocessing import StandardScaler
 
-CSV_PATH = 'climate_dataset.csv'
+# ============================
+# Load Dataset
+# ============================
+
+CSV_PATH = "raw_car_dataset.csv"
 df = pd.read_csv(CSV_PATH)
-# print(df.head(10))
-# print(df.shape)
-# print(df["Humidity_percent"].value_counts(dropna=False))
-# print(df.isnull().sum())
 
-# Create new ID from 01 to end
-df["RecordID"] = range(1, len(df) + 1)
+# ============================
+# INITIAL SNAPSHOT
+# ============================
 
-# Convert to integer
-df["RecordID"] = df["RecordID"].apply(lambda x: f"{x:02d}")
+print("\n=== INITIAL HEAD ===")
+print(df.head())
 
-# print(df["RecordID"].info)
+print("\n=== INITIAL INFO ===")
+print(df.info())
 
-# print(df.head())
+print("\n=== INITIAL MISSING VALUES ===")
+print(df.isnull().sum())
 
+# ============================
+# Clean Price Column
+# ============================
 
-df["RainfallAmount_mm"] = (
-    df["RainfallAmount_mm"]
-    .replace(r"[\$%,@]", "", regex=True)
-    .replace("", np.nan)
+df["Price"] = (
+    df["Price"]
+    .replace(r"[\$,]", "", regex=True)
     .astype(float)
 )
 
+# ============================
+# Fix Categorical Errors
+# ============================
 
-df["SoilMoistureLevel"] = df["SoilMoistureLevel"].replace({
-    "Med": "Medium", 
-    "MEDIUM": "Medium",
-    "medium" :"Medium", 
-    "low": "Low",
-    "LOW": "Low", 
-    "HIGH": "High",
-    "high": "High"
+df["Location"] = df["Location"].replace({
+    "Subrb": "Suburb",
+    "??": pd.NA
 })
 
-df["ClimateCondition"] = df["ClimateCondition"].replace({
-    "drought":"Drought",
-    "RAINY":"Rainy",
-    "rainy":"Rainy"
-})
+# ============================
+# Fill Missing Values
+# ============================
 
-df["SoilMoistureLevel"] = df["SoilMoistureLevel"].replace("Drought",np.nan)
-# print(df["RainfallAmount_mm"].skew())
+df["Odometer_km"] = df["Odometer_km"].fillna(
+    df["Odometer_km"].median()
+)
 
-# to change from sting datatype to int
-# df["RainfallAmount_mm"] = df["RainfallAmount_mm"].replace(r"[$%@]","",regex=True).astype(float)
-# print(df.info())
+df["Doors"] = df["Doors"].fillna(
+    df["Doors"].mode()[0]
+)
 
-# df["RecordID"] = df["RecordID"].replace({"P010":"R010", "PO41":"R010", 
-# "??":pd.NA, "-":pd.NA})
-# print(df["RecordID"].head(10).value_counts(dropna=False))
+df["Location"] = df["Location"].fillna(
+    df["Location"].mode()[0]
+)
 
-df["RainfallAmount_mm"] = df["RainfallAmount_mm"].fillna(df["RainfallAmount_mm"].median())
-df["Humidity_percent"] = df["Humidity_percent"].fillna(df["Humidity_percent"].median())
-df["RainyDaysCount"] = df["RainyDaysCount"].fillna(df["RainyDaysCount"].median())
-df["SoilMoistureLevel"] = df["SoilMoistureLevel"].fillna(df["SoilMoistureLevel"].mode()[0])
-# print(df["SoilMoistureLevel"])
-df["ClimateCondition"] = df["ClimateCondition"].fillna(df["ClimateCondition"].mode()[0])
+# ============================
+# Remove Duplicates
+# ============================
 
-# print(df.isnull().sum())
-
-
-#Removing Duplications
-# before = df.shape
-
+before = df.shape
 df = df.drop_duplicates()
-
 after = df.shape
 
-# print("Before",before, "Afer : ",after)
+print(f"\nDuplicates Removed: {before} -> {after}")
 
-#Removing outlier
-# 1. Define the function with a return statement
-def iqrFunction(column, k=1.5):
-    q1, q3 = column.quantile([0.25, 0.75])
+# ============================
+# IQR Function
+# ============================
+
+def iqr_fun(series, k=1.5):
+    q1 = series.quantile(0.25)
+    q3 = series.quantile(0.75)
+
     iqr = q3 - q1
+
     lower = q1 - k * iqr
-    heigher = q3 + k * iqr
+    upper = q3 + k * iqr
 
-    #You must return these values so they can be captured outside
-    return lower,heigher
+    return lower, upper
 
-# 2. Execute the function outside the block using your DataFrame
-# print("Rainfall amount part :-")
-low_rain,high_rain = iqrFunction(df["RainfallAmount_mm"]);
+# ============================
+# Handle Outliers
+# ============================
 
-# print("Lowest rainfall must be :",low_rain, "Highest rainfall must be :",high_rain)
-# print("Temperature part :-")
-low_temp,high_temp = iqrFunction(df["AvgTemperature_C"]);
+low_price, high_price = iqr_fun(df["Price"])
+low_odo, high_odo = iqr_fun(df["Odometer_km"])
 
-# print("Lowest temp must be :",low_temp, "Highest temp must be :",high_temp)
-# print("Humidity Part :-")
-lowHumid, highHumid = iqrFunction(df["Humidity_percent"])
+df["Price"] = df["Price"].clip(
+    lower=low_price,
+    upper=high_price
+)
 
-# print("Highest Humidity must be : ",highHumid ,"Lowest Humidity must be : ",lowHumid )
-# print("Raining Days Part :-")
-leastRain , mostRain  = iqrFunction(df["RainyDaysCount"])
-# print("Most Rain days is : ",mostRain," Days Raining","Least Rain days is : ",leastRain," Days Raining")
+df["Odometer_km"] = df["Odometer_km"].clip(
+    lower=low_odo,
+    upper=high_odo
+)
 
-df["RainfallAmount_mm"]=df["RainfallAmount_mm"].clip(lower =low_rain , upper =high_rain )
-df["AvgTemperature_C"]=df["AvgTemperature_C"].clip(lower =low_temp , upper =high_temp )
-df["Humidity_percent"]=df["Humidity_percent"].clip(lower =lowHumid , upper =high_temp )
-df["RainyDaysCount"]=df["RainyDaysCount"].clip(lower =leastRain , upper =mostRain )
+# ============================
+# One-Hot Encoding
+# ============================
 
-# print("Clipping Part : ")
-# print(df["RainfallAmount_mm"].describe())
-# print(df["AvgTemperature_C"].describe())
-# print(df["Humidity_percent"].describe())
-# print(df["RainyDaysCount"].describe())
+df = pd.get_dummies(
+    df,
+    columns=["Location"],
+    drop_first=False,
+    dtype="int"
+)
 
-#in SoilMoistureLevel and ClimateCondition are text , so the meachine don't understand , to configure , use this :
- 
+# ============================
+# Feature Engineering
+# ============================
 
-df = pd.get_dummies(df, columns = ["ClimateCondition"],drop_first=False)
-df["ClimateCondition_Rainy"] = df["ClimateCondition_Rainy"].astype(int)
-df["ClimateCondition_Drought"] = df["ClimateCondition_Drought"].astype(int)
-# print([c for c in df.columns if c.startswith("ClimateCondition")])
+CURRENT_YEAR = 2025
 
-df["isItDrought"] = df["ClimateCondition_Drought"].astype(int) 
-df["isItRainy"] = df["ClimateCondition_Rainy"].astype(int) 
+df["CarAge"] = CURRENT_YEAR - df["Year"]
 
+df["Km_per_Year"] = (
+    df["Odometer_km"] /
+    df["CarAge"].replace(0, 1)
+)
 
+df["Price_per_Door"] = (
+    df["Price"] /
+    df["Doors"].replace(0, np.nan)
+)
 
-# print(df.head(10))
+df["Has_Accident"] = (
+    df["Accidents"] > 0
+).astype(int)
 
-# Importing the proccessed data into the folder
-OUT_PATH = "Climate_Clean_Dataset.csv"
-df.to_csv(OUT_PATH)
-print(OUT_PATH)
+df["Is_City"] = df["Location_City"].astype(int)
 
+df["LogPrice"] = np.log1p(df["Price"])
+
+# ============================
+# Feature Scaling
+# ============================
+
+dont_scale = {"Price", "LogPrice"}
+
+numeric_cols = df.select_dtypes(
+    include=["int64", "float64"]
+).columns.tolist()
+
+exclude = [
+    col for col in df.columns
+    if col.startswith("Location_")
+] + ["Is_City", "Has_Accident"]
+
+num_features_to_scale = [
+    col
+    for col in numeric_cols
+    if col not in dont_scale
+    and col not in exclude
+]
+
+scaler = StandardScaler()
+
+df[num_features_to_scale] = scaler.fit_transform(
+    df[num_features_to_scale]
+)
+
+# ============================
+# FINAL SNAPSHOT
+# ============================
+
+print("\n=== FINAL HEAD ===")
+print(df.head())
+
+print("\n=== FINAL INFO ===")
+print(df.info())
+
+print("\n=== FINAL MISSING VALUES ===")
+print(df.isnull().sum())
+
+# ============================
+# Save Dataset
+# ============================
+
+OUT_PATH = "clean_car_dataset.csv"
+
+df.to_csv(OUT_PATH, index=False)
+
+print("\nDataset cleaned successfully!")
+print(f"Saved to: {OUT_PATH}")
