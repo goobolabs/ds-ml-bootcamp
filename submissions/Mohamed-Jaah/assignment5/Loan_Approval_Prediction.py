@@ -3,7 +3,7 @@
 # =====================================
 import pandas as pd
 from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import StandardScaler  # <--- Added for scaling
+from sklearn.preprocessing import RobustScaler  # <--- Halkan waxaa laga beddelay StandardScaler
 from sklearn.linear_model import LogisticRegression
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.tree import DecisionTreeClassifier
@@ -22,7 +22,7 @@ X_train, X_test, y_train, y_test = train_test_split(
 )
 
 #  Scaling the Data
-scaler = StandardScaler()
+scaler = RobustScaler()  # <--- Halkan waxaa laga beddelay StandardScaler()
 # Fit only on training data, then transform both training and testing data
 X_train_scaled = scaler.fit_transform(X_train)
 X_test_scaled = scaler.transform(X_test)
@@ -58,14 +58,14 @@ evaluate(forest, "Random Forest Performance", X_test_scaled)
 evaluate(tree, "Decision Tree Performance", X_test_scaled)
 
 # Sanity Checking
-sample = X_test.iloc[[0]]
+sample = X_test.iloc[[3]]
 
 # Scaling single sample 
 sample_scaled = scaler.transform(sample)
 
 # Last Printing
 print("\nActual")
-print(y_test.iloc[0])
+print(y_test.iloc[3])
 print("\nLogistic:", logistic.predict(sample_scaled)[0])
 print("\nRandom Forest:", forest.predict(sample_scaled)[0])
 print("\nDecision Tree:", tree.predict(sample_scaled)[0])
