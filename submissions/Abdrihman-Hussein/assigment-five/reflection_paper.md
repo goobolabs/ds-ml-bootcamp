@@ -4,7 +4,7 @@
 
 In this project, I implemented a complete machine learning classification pipeline to predict loan approval. I reproduced the Lesson 5 preprocessing pipeline by loading the dataset, checking for missing values, cleaning the data, encoding categorical variables, and standardizing the numerical features using **StandardScaler**. After preprocessing, I split the dataset into training and testing sets.
 
-Next, I trained three classification models: **Logistic Regression**, **Random Forest**, and **Support Vector Classifier (SVC)**. Logistic Regression and Random Forest were covered in class, while SVC was my additional algorithm. After training the models, I evaluated them using Accuracy, Precision, Recall, F1-Score, and the Confusion Matrix. Finally, I performed a sanity check by testing each model on sample loan applications and comparing their predictions.
+Next, I trained three classification models: **Logistic Regression**, **Random Forest**,  and **Support Vector Classifier (SVC)**. Logistic Regression and Random Forest were covered in class, while SVC was my additional algorithm. After training the models, I evaluated them using Accuracy, Precision, Recall, F1-Score, and the Confusion Matrix. Finally, I performed a sanity check by testing each model on sample loan applications and comparing their predictions.
 
 ## Comparison of Models
 
