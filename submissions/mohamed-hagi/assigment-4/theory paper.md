@@ -1,12 +1,6 @@
 # Part A – Theory: Regression in Machine Learning
 
-## Introduction to Regression
-
-### What is Regression in Machine Learning?
-
 Regression is a supervised machine learning technique used to predict continuous numerical values based on input data. The goal of a regression model is to identify the relationship between one or more independent variables (features) and a dependent variable (target). By learning patterns from historical data, the model can estimate numerical outcomes for new observations.
-
-Regression is widely used in many industries because it helps organizations make predictions and support data-driven decisions. Common applications include predicting house prices, estimating sales revenue, forecasting stock prices, and calculating insurance costs.
 
 ### Difference Between Regression and Classification
 
@@ -24,8 +18,6 @@ Regression predicts continuous numerical values, while classification predicts c
 # Types of Regression
 
 ## 1. Linear Regression
-
-### Basic Idea
 
 Linear Regression models the relationship between one independent variable and one dependent variable using a straight-line equation. It assumes that changes in the independent variable result in proportional changes in the dependent variable.
 
@@ -73,8 +65,6 @@ Predicting house prices using features such as location, number of bedrooms, hou
 
 ## 3. Polynomial Regression
 
-### Basic Idea
-
 Polynomial Regression models nonlinear relationships by adding polynomial terms (such as squared or cubic values) to the regression equation. This allows the model to fit curved patterns in the data.
 
 ### Real-World Use Case
@@ -91,8 +81,6 @@ Predicting vehicle fuel consumption where the relationship between engine speed 
 * Higher risk of overfitting.
 * More difficult to interpret.
 * Choosing the correct polynomial degree can be challenging.
-
----
 
 # Regression Metrics
 
