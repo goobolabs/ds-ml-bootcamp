@@ -1,84 +1,91 @@
-# Reflection — Climate Dataset Cleaning
+# Reflection: Car Dataset Cleaning Pipeline
 
 ## Overview
 
-This reflection documents the decisions, challenges, and lessons learned while cleaning the `climate_dataset.csv` dataset using Python and Pandas. The goal was to prepare raw, messy climate data for machine learning use.
+This script cleans and engineers features for a used car listings dataset
+(`raw_car_dataset.csv`), following a load → inspect → clean → impute → deduplicate →
+cap outliers → encode → engineer → scale → save pipeline.
 
----
+## Dataset
 
-## 1. Understanding the Raw Data
+The raw dataset contains 145 rows and 6 columns:
 
-Before writing a single line of cleaning code, exploring the dataset with `.head()`, `.shape()`, `.info()`, and `.isnull().sum()` was essential. The dataset contained **51 rows** and **7 columns**:
+| Column        | Type    | Notes                                    |
+|---------------|---------|-------------------------------------------|
+| Price         | string  | mixed formats, some with `$` and commas   |
+| Odometer_km   | float   | 7 missing values                          |
+| Doors         | float   | 7 missing values                          |
+| Accidents     | int     | count of prior accidents                  |
+| Location      | string  | 5 missing, plus a typo and a placeholder  |
+| Year          | int     | manufacturing year                        |
 
-| Column | Type | Issues Found |
-|---|---|---|
-| `RecordID` | String | Corrupted IDs (`??`, `-`, `P010`, `PO41`) |
-| `RainfallAmount_mm` | String/Float | Special characters (`$`, `%`, `@`), outliers |
-| `AvgTemperature_C` | Float | Extreme outlier (`70.0°C`) |
-| `Humidity_percent` | Float | Missing values, outlier (`130%`) |
-| `RainyDaysCount` | Float | Missing values |
-| `SoilMoistureLevel` | String | Inconsistent casing (`Med`, `MEDIUM`, `medium`) |
-| `ClimateCondition` | String | Inconsistent casing (`drought`, `RAINY`, `rainy`) |
+## Key Decisions
 
----
+**1. Target formatting.** `Price` mixed formatted (`$1,500`) and plain numeric strings.
+Stripped `$` and `,` via regex, then cast to float.
 
-## 2. Challenges Encountered
+**2. Categorical cleanup before imputation.** `Location` had a typo (`"Subrb"` → `"Suburb"`)
+and a placeholder (`"??"`) that needed to become missing rather than a real category. This
+runs *before* mode imputation so `"??"` can't get counted as, or become, the fill value.
 
-### Special Characters in Numeric Data
-The `RainfallAmount_mm` column stored numbers as strings with symbols like `$99.1`, `%61.3`, and `@30.8`. These had to be stripped using regex before converting to `float`. This was a reminder that real-world data can be formatted by human error or inconsistent data entry systems.
+**3. Imputation targets.** `Odometer_km` filled with the median (mileage can be skewed by a
+few very old or very new cars, so median is more robust than mean). `Doors` filled with the
+mode, since door count is a small discrete set of values. `Location` also filled with its
+mode after the typo/placeholder cleanup.
 
-### Inconsistent Categorical Values
-Both `SoilMoistureLevel` and `ClimateCondition` had the same values written in multiple formats (e.g., `"low"`, `"LOW"`, `"Low"`). A manual replacement dictionary was used to normalise them all to a consistent title-case format. While this worked, it required carefully inspecting every unique value first — a step that is easy to skip but costly if missed.
+**4. Duplicate removal.** 5 duplicate rows dropped, logged with a before/after shape print.
+This happens after categorical/target cleanup but before outlier capping, so duplicates don't
+skew the IQR bounds.
 
-### Misplaced Value in `SoilMoistureLevel`
-The value `"Drought"` appeared in the `SoilMoistureLevel` column, which is clearly a data entry error (Drought is a climate condition, not a moisture level). The decision was made to treat it as `NaN` and impute it with the column mode. This highlights how important domain knowledge is when cleaning data.
+**5. Outlier capping.** IQR-based clipping applied to `Price` and `Odometer_km` — the two
+continuous columns most exposed to data-entry extremes. `Doors`, `Accidents`, and `Year` were
+left as-is, since their ranges are small and discrete enough that unusual values are more
+likely genuine than erroneous.
 
-### Corrupted `RecordID` Values
-Entries like `??`, `-`, `P010`, and `PO41` were identified in the `RecordID` column. Since `RecordID` is an identifier and not used as a feature for modelling, these were left as-is rather than corrected or dropped, to avoid accidental data loss.
+**6. Feature engineering.**
+- `CarAge` = 2025 − `Year`
+- `Km_per_Year` = `Odometer_km` / `CarAge` (zero-`CarAge` rows mapped to 1 instead of `NaN`,
+  so brand-new cars still get a usage-rate value instead of a missing one)
+- `Price_per_Door` = `Price` / `Doors`
+- `Has_Accident` = binary flag for `Accidents > 0`
+- `Is_City` = binary flag copied from the one-hot `Location_City` column
+- `LogPrice` = `log1p(Price)`, an alternate, less skewed version of the target
 
-### Outlier Detection and Clipping
-The IQR (Interquartile Range) method was used to detect outliers. Notable extreme values included:
-- `RainfallAmount_mm = 999.0` — clearly erroneous
-- `AvgTemperature_C = 70.0°C` — physically impossible for a surface climate reading
-- `Humidity_percent = 130%` — impossible, humidity cannot exceed 100%
+**7. Scaling scope.** All numeric features were scaled except the targets (`Price`,
+`LogPrice`) and columns that are already 0/1 indicators (`Location_*` dummies, `Is_City`,
+`Has_Accident`).
 
-Clipping (rather than dropping) was chosen to preserve the row count while bounding values to a reasonable range.
+## A Concern Worth Flagging: Target Leakage in `Price_per_Door`
 
-> **Bug noted:** In the clipping step for `Humidity_percent`, the upper bound was accidentally set to `high_temp` (the temperature upper bound) instead of `highHumid`. This is a subtle bug that could skew humidity statistics and should be corrected in a future revision.
+`Price_per_Door` is calculated directly from `Price`, the prediction target. Including it as
+a feature would let a model "cheat" — it could reconstruct `Price` almost exactly (`Price ≈
+Price_per_Door × Doors`), producing artificially strong training performance that would not
+hold up on genuinely new data where `Price` is unknown. If this dataset is meant for
+predictive modeling, `Price_per_Door` should either be dropped before training or only ever
+computed downstream from a model's *predicted* price, never from the actual target column. A
+non-leaky alternative in the same spirit would be a feature built only from input columns —
+e.g. `Accidents_per_Door` — the way `Km_per_Year` is built from `Odometer_km` and `CarAge`.
 
----
+## Other Notes
 
-## 3. Decisions Made
+- `CarAge.replace(0, 1)` avoids introducing new missing values for brand-new cars, at the cost
+  of slightly understating their usage rate (dividing by 1 year rather than a true fractional
+  age). This is a reasonable simplification for this dataset size but worth documenting.
+- `Has_Accident` is a useful complement to the raw `Accidents` count — it captures "any
+  accident at all" as a simple binary signal, which may be a cleaner predictor than the raw
+  count if accident severity/count is noisy or sparse.
 
-| Decision | Reasoning |
-|---|---|
-| Filled numeric nulls with **median** | Median is robust to outliers, which were present in this dataset |
-| Filled categorical nulls with **mode** | Most frequent value is the safest assumption for small datasets |
-| Used **clipping** instead of dropping outliers | Preserves data while reducing extreme influence |
-| Applied **one-hot encoding** to categoricals | Prepares data for ML models that require numeric input |
-| Created binary columns `isItDrought` / `isItRainy` | Makes target-like features explicit and easy to use |
-| Did **not** clean `RecordID` | It is an ID column, not a feature — does not affect model training |
+## Verification
 
----
+Ran the script end-to-end. After cleaning: 140 rows (5 duplicates dropped), 14 columns, and
+zero missing values across every column. Output written successfully to
+`clean_car_dataset.csv`.
 
-## 4. Lessons Learned
+## Possible Next Steps
 
-- **Always explore before cleaning.** Running `.value_counts(dropna=False)` on every column before touching anything revealed most of the issues upfront.
-- **Categorical inconsistency is subtle.** It is easy to miss that `"Med"`, `"MEDIUM"`, and `"medium"` are the same thing unless you explicitly look at unique values.
-- **Variable naming matters.** The bug where `high_temp` was used instead of `highHumid` in the clipping step is a direct result of similar-looking variable names. More descriptive names (e.g., `humidity_upper`) would reduce this risk.
-- **Domain knowledge guides imputation.** Knowing that `"Drought"` cannot be a soil moisture level required understanding the subject matter, not just the data.
-- **Document your assumptions.** Each cleaning decision rests on an assumption (e.g., "this outlier is erroneous"). Writing those assumptions down makes the pipeline easier to audit and revise.
-
----
-
-## 5. What Could Be Improved
-
-- Fix the `Humidity_percent` clipping bug (use `highHumid` as upper bound).
-- Standardise or drop the corrupted `RecordID` entries for a cleaner dataset.
-- Consider using a pipeline (`sklearn.Pipeline`) to make the cleaning steps reproducible and testable.
-- Add unit tests or assertions (e.g., `assert df["Humidity_percent"].max() <= 100`) to catch logic errors automatically.
-- For a larger dataset, automated outlier detection (e.g., Z-score or Isolation Forest) would scale better than manual IQR thresholds.
-
----
-
-*Prepared as part of a data preprocessing project on climate condition analysis.*
+- Remove or replace `Price_per_Door` before using this dataset for training, to eliminate
+  target leakage.
+- Check whether `Odometer_km` and `Doors` are missing at random or systematically (e.g. from a
+  specific data source), which would affect whether median/mode imputation is appropriate.
+- Add a train/test split before fitting `StandardScaler`, so scaling parameters come only from
+  training data rather than the full dataset.

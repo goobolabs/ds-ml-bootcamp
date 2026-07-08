@@ -1,24 +1,22 @@
 # Reflection Paper
 
 ## 1. What did I implement?
- The models used were Linear Regression and Random Forest Regression. The dataset contained several features such as house size, number of rooms, location, house prices and other.
+ Before training the models, I loaded the cleaned dataset, selected the input features and the target variable (car price), and divided the data into training and testing sets.
+
+I trained the Linear Regression model to learn the relationship between the car features and the selling price using a linear equation. I also trained the Random Forest Regression model, which combines many decision trees to improve prediction accuracy. After training both models, I evaluated their performance using standard regression metrics and performed a sanity check by predicting the prices of a few sample cars.
 ---
 ## 2. Comparison of Models
-From the test results and sanity check, the predictions from both models were not the same.
+During the sanity check, both models produced reasonable predictions, but there were noticeable differences. The Linear Regression model tended to predict prices based on a simple linear relationship between the features and the target. Because of this, some predictions were either slightly higher or lower than the expected values.
 
-Linear Regression gives straight-line predictions, so it sometimes misses complex patterns.
-
-Random Forest gave predictions closer to the actual price in most cases because it can handle more complex relationships.
+The Random Forest model produced predictions that were generally closer to the actual car prices. Since it can capture more complex patterns in the data, it handled variations in car features better than Linear Regression. Overall, the Random Forest predictions appeared more realistic because they were less affected by assumptions of a linear relationship.
 
 Random Forest produced more realistic results on this training. 
 ---
 ## 3. Understanding Random Forest
 
-Random Forest is a machine learning algorithm based on an ensemble learning method. It builds multiple decision trees during training and combines their predictions to produce a final result.
+Random Forest is an ensemble Machine Learning algorithm that combines the predictions of many decision trees instead of relying on a single tree. Each decision tree is trained using a random sample of the training data and a random subset of features. This creates diversity among the trees.
 
-Instead of relying on a single decision tree, Random Forest creates many trees using different subsets of the training data. Each tree learns patterns independently. When making a prediction, each tree provides a predicted value, and the final prediction is calculated by averaging all these outputs.
-
-This method helps reduce overfitting and improves the accuracy and stability of predictions. Because of this, Random Forest is often more powerful than a single decision tree or simple linear models.
+When making a prediction for a regression problem, every decision tree predicts a value, and the Random Forest calculates the average of all these predictions. Averaging the predictions reduces errors, improves accuracy, and helps prevent overfitting. This makes Random Forest more reliable for datasets that contain complex relationships between variables.
 ---
 ## 4. Metrics Discussion
 I used these metrics:
@@ -32,8 +30,6 @@ Random Forest performed better based on these metrics.
 ---
 
 ## 5. Final Findings
-Random Forest is better for this task because house prices depend on many factors and are not purely linear.
-
-However, Linear Regression still has some advantages. It is simpler, faster to train, and easier to interpret. This makes it useful for understanding the basic relationship between features and house prices.
+I prefer the Random Forest Regression model for predicting car prices. It consistently produced more accurate predictions during the sanity check and achieved better evaluation metrics than Linear Regression. The ability to combine many decision trees allowed it to capture complex relationships within the dataset.
 
 Overall, for this project I would prefer using Random Forest for price prediction models, because it provides better predictive performance and handles complex data patterns more effectively.
