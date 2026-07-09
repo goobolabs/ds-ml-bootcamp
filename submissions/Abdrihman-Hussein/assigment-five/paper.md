@@ -48,6 +48,6 @@ Classification is one of the most important tasks in machine learning because it
 
 Fitzpatrick, T., & Mues, C. (2016). *An empirical comparison of classification algorithms for mortgage default prediction: evidence from a distressed mortgage market.* European Journal of Operational Research.
 
-Zhu, L., Qiu, D., Ergu, D., Ying, C., & Liu, K. (2019). *A study on predicting loan default based on the random forest algorithm.* Procedia Computer Science.
+Zhu , L., Qiu, D., Ergu, D., Ying, C., & Liu, K. (2019). *A study on predicting loan default based on the random forest algorithm.* Procedia Computer Science.
 
-scikit-learn documentation: LogisticRegression, DecisionTreeClassifier, RandomForestClassifier, confusion_matrix, accuracy_score, precision_score, recall_score, f1_score, balanced_accuracy_score, and precision-recall guidance.
+scikit-learn  documentation: LogisticRegression, DecisionTreeClassifier, RandomForestClassifier, confusion_matrix, accuracy_score, precision_score, recall_score, f1_score, balanced_accuracy_score, and precision-recall guidance.
