@@ -1,0 +1,33 @@
+# Reflection Paper 
+
+## What I Implemented
+
+For this project, I reproduced the customer segmentation workflow demonstrated in Lesson 6 and extended it by adding a second clustering algorithm. I cleaned the spending data by applying IQR capping, standardized the six spending variables, and used the Elbow Method to examine the appropriate number of clusters. I trained a K-Means model, evaluated it using clustering metrics, and compared its performance with Agglomerative Clustering.
+
+The comparison allowed me to understand how different clustering techniques organize customers with similar purchasing behavior and which model produced better customer segments.
+
+## Segment Interpretation
+
+The clustering results identified several types of wholesale customers. One customer group purchased moderate amounts of all product categories, representing general wholesale buyers. A useful business strategy would be to provide promotional offers that encourage these customers to increase their overall purchases.
+
+Another cluster was characterized by very high spending on Milk, Grocery, and Detergents_Paper. These customers are likely to operate retail or grocery businesses. The distributor could improve customer retention by offering volume discounts and customized inventory planning.
+
+A third cluster showed high spending on Fresh and Frozen products. This suggests customers who depend on fresh food products, such as restaurants or catering businesses. The distributor should focus on maintaining product quality and providing reliable delivery schedules.
+
+## Understanding K-Means
+
+K-Means is a clustering algorithm that separates similar observations into groups without using labeled data. The algorithm first chooses a fixed number of centroids. Each customer is assigned to the nearest centroid, after which the centroid positions are updated based on the average values of the assigned customers. These assignment and update steps continue until the clusters become stable.
+
+## Your Second Algorithm
+
+I selected Agglomerative Clustering as the second clustering technique because it builds clusters by gradually merging the most similar observations. This approach is useful for understanding natural relationships between customers based on their purchasing patterns.
+
+One important advantage is that it does not depend on randomly chosen centroids. A limitation is that it becomes less efficient as the dataset grows larger because the merging process requires more computation.
+
+The comparison showed that K-Means achieved a Silhouette Score of **0.321**, while Agglomerative Clustering achieved **0.284**. This indicates that K-Means generated better-separated customer groups.
+
+## Your Findings
+
+After comparing both clustering methods, I conclude that K-Means is the more suitable approach for this wholesale customer segmentation task. The higher Silhouette Score demonstrates that its clusters are more distinct and internally consistent.
+
+Although Agglomerative Clustering also produced meaningful customer groups, its performance was slightly lower. For this dataset, I would recommend K-Means because it offers better clustering quality while remaining simple to implement and efficient to run on large customer datasets.
