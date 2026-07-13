@@ -70,27 +70,32 @@ This is the target variable used for binary classification. It indicates whether
 - **0** = Does Not Have Pulmonary Disease
 
 ## Main Features
-
-| Feature | Description |
-|---------|-------------|
-| Age | Age of the individual. |
-| Gender | Gender of the individual. |
-| Smoking | Indicates whether the individual is a smoker. |
-| Finger_Discoloration | Presence of finger discoloration. |
-| Mental_Stress | Level of mental stress experienced by the individual. |
-| Exposure_to_Pollution | Level of exposure to environmental air pollution. |
-| Long_Term_Illness | Indicates whether the individual has a long-term illness. |
-| Energy_Level | Energy level of the individual. |
-| Immune_Weakness | Indicates whether the individual has a weakened immune system. |
-| Breathing_Issue | Presence of breathing difficulties. |
-| Alcohol_Consumption | Alcohol consumption status. |
-| Throat_Discomfort | Presence of throat discomfort. |
-| Oxygen_Saturation | Blood oxygen (SpO₂) level. |
-| Chest_Tightness | Presence of chest tightness. |
-| Family_History | Family history of pulmonary disease. |
-| Smoking_Family_History | Family history of smoking. |
-| Stress_Immune | Indicates whether stress has affected the immune system. |
-| Pulmonary_Disease | **Target variable** indicating whether the individual has pulmonarysease (Yes/No). |
+## Main Features
+
+| Feature | Description |
+|---------|-------------|
+| Age | Age of the individual. |
+| Gender | Gender of the individual. |
+| Smoking | Indicates whether the individual is a smoker. |
+| Finger_Discoloration | Presence of finger discoloration. |
+| Mental_Stress | Level of mental stress experienced by the individual. |
+| Exposure_to_Pollution | Level of exposure to environmental air pollution. |
+| Long_Term_Illness | Indicates whether the individual has a long-term illness. |
+| Energy_Level | Energy level of the individual. |
+| Immune_Weakness | Indicates whether the individual has a weakened immune system. |
+| Breathing_Issue | Presence of breathing difficulties. |
+| Alcohol_Consumption | Alcohol consumption status. |
+| Throat_Discomfort | Presence of throat discomfort. |
+| Oxygen_Saturation | Blood oxygen (SpO₂) level. |
+| Chest_Tightness | Presence of chest tightness. |
+| Family_History | Family history of pulmonary disease. |
+| Smoking_Family_History | Family history of smoking. |
+| Stress_Immune | Indicates whether stress has affected the immune system. |
+| Pulmonary_Disease | **Target variable** indicating whether the individual has pulmonary disease (Yes/No). |
+
+```
+
+sease (Yes/No). |
 ```
 # 5. Algorithms You Plan to Train
 
