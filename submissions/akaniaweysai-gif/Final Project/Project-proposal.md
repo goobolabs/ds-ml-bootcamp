@@ -39,13 +39,8 @@ Customer Type
 Age
 Type of Travel
 Class
-Flight Distance
 Departure Delay in Minutes
 Arrival Delay in Minutes
-Online Boarding
-Seat Comfort
-Inflight Entertainment
-Food and Drink
 Check-in Service
 Cleanliness
 Baggage Handling
@@ -87,12 +82,9 @@ FastAPI
 
 {
   "age": 35,
-  "flight_distance": 1200,
   "departure_delay": 30,
   "arrival_delay": 25,
   "class": "Business",
-  "online_boarding": 4,
-  "seat_comfort": 5
 }
 
 Returns
@@ -103,6 +95,7 @@ Returns
 }
 
 ## 8. Repository Plan
+
 flight-delay-passenger-satisfaction/
 ├── dataset/
 ├── notebooks/
