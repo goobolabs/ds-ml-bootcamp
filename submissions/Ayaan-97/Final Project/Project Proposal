@@ -37,13 +37,13 @@ The main objective is to classify breast tumors into benign or malignant categor
 
 Breast Cancer yasserh Diagnostic Dataset (Kaggle)
 
-https://www.kaggle.com/datasets/yasserh/breast-cancer-dataset
+https://www.kaggle.com/code/jnegrini/breast-cancer-dataset
 
 *Dataset Size*
 
-Approximately 569 records in the original dataset.
+Approximately 40000 + records in the original dataset.
 
-Note: Since the course proposal requires at least 1,000 rows and 32 columns, I will use an expanded version of the dataset and combined another 597 records available breast cancer datasets containing more than 1,000 samples for training and evaluation.
+Note: Since the course proposal requires at least 1,000 rows and 16 columns, I will use an expanded version of the dataset and available breast cancer datasets containing more than 4,000 samples for training and evaluation.
 
 *Target Column*
 
