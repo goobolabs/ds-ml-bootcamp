@@ -1,4 +1,4 @@
-# Diabetes Prediction Using Machine Learning
+# Hotel Reservation Cancellation Prediction Using Machine Learning
 
 **FINAL PROJECT PROPOSAL**
 
@@ -6,7 +6,7 @@
 
 *A Supervised Machine Learning Classification Project*
 
-Dataset Source: Kaggle — Diabetes Prediction Dataset
+Dataset Source: Kaggle — Hotel Reservations Classification Dataset
 Deployment: FastAPI | Primary Metric: F1 Score
 
 ---
@@ -18,13 +18,13 @@ Deployment: FastAPI | Primary Metric: F1 Score
 ## 2. Project Title and Description
 
 **Project Title:**
-Diabetes Prediction Using Machine Learning
+Hotel Reservation Cancellation Prediction Using Machine Learning
 
 **Project Description:**
 
-Diabetes is one of the most common chronic diseases worldwide. Early prediction can help patients receive timely medical care and reduce the risk of serious complications. The goal of this project is to build a machine learning model that predicts whether a person is likely to have diabetes based on health-related information such as age, BMI, blood glucose level, HbA1c level, hypertension, heart disease, and smoking history. This system can assist healthcare professionals by providing a quick prediction that supports early screening and decision-making.
+Hotel booking cancellations are a major challenge for the hospitality industry, leading to lost revenue, inefficient room inventory management, and difficulty in forecasting occupancy. Being able to predict in advance whether a reservation is likely to be canceled allows hotels to apply better overbooking strategies, adjust pricing, and improve customer relationship management. The goal of this project is to build a machine learning model that predicts whether a hotel booking will be canceled or not, based on booking details such as lead time, number of guests, room type, meal plan, market segment, special requests, and booking history.
 
-This project is also personally motivated: my father lives with diabetes, and seeing the daily impact of the disease on his life inspired me to explore how machine learning can support earlier detection and better health outcomes for patients like him.
+This project is motivated by the practical value it offers to the hospitality industry — helping hotels reduce revenue loss from last-minute cancellations and plan resources more effectively.
 
 ## 3. Problem Type
 
@@ -32,35 +32,42 @@ This project is also personally motivated: my father lives with diabetes, and se
 
 This project is a supervised machine learning classification problem. The model will predict one of two classes:
 
-- 0 = No Diabetes
-- 1 = Diabetes
+- 0 = Not Canceled
+- 1 = Canceled
 
 ## 4. Dataset
 
 **Source:**
-Kaggle — Diabetes Prediction Dataset
-https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset
+Kaggle — Hotel Reservations Classification Dataset
+https://www.kaggle.com/datasets/ahsan81/hotel-reservations-classification-dataset
 
 **Dataset Size:**
-Above 1,000 rows and 9 columns.
+36,275 rows and 19 columns.
 
 **Target Column:**
-- diabetes — 0 = No Diabetes, 1 = Diabetes
+- booking_status — Canceled = 1, Not_Canceled = 0
 
 **Main Features:**
 
 | Feature | Description |
 | --- | --- |
-| gender | Gender of the patient |
-| age | Age in years |
-| hypertension | Whether the patient has hypertension |
-| heart_disease | Whether the patient has heart disease |
-| smoking_history | Smoking status |
-| bmi | Body Mass Index |
-| HbA1c_level | Average blood sugar level over the past few months |
-| blood_glucose_level | Current blood glucose level |
+| no_of_adults | Number of adults included in the booking |
+| no_of_children | Number of children included in the booking |
+| no_of_weekend_nights | Number of weekend nights (Sat/Sun) booked |
+| no_of_week_nights | Number of weekday nights booked |
+| type_of_meal_plan | Type of meal plan booked by the customer |
+| required_car_parking_space | Whether the customer required a car parking space |
+| room_type_reserved | Type of room reserved by the customer |
+| lead_time | Number of days between booking date and arrival date |
+| arrival_year / arrival_month / arrival_date | Date of arrival |
+| market_segment_type | How the booking was made (Online, Offline, Corporate, etc.) |
+| repeated_guest | Whether the customer is a repeat guest |
+| no_of_previous_cancellations | Number of previous bookings canceled by the customer |
+| no_of_previous_bookings_not_canceled | Number of previous bookings not canceled by the customer |
+| avg_price_per_room | Average price per day of the reservation (in euros) |
+| no_of_special_requests | Number of special requests made by the customer |
 
-*These features will be used to predict whether a patient has diabetes.*
+*These features will be used to predict whether a hotel reservation will be canceled.*
 
 ## 5. Algorithms I Plan to Train
 
@@ -68,7 +75,7 @@ Above 1,000 rows and 9 columns.
 Used as a baseline model because it is simple, fast, and performs well for binary classification problems.
 
 **2. Decision Tree Classifier**
-Can learn complex decision rules and is easy to interpret.
+Can learn complex decision rules and is easy to interpret, useful for identifying which booking factors drive cancellations.
 
 **3. Random Forest Classifier**
 Combines many decision trees to improve prediction accuracy and reduce overfitting.
@@ -86,7 +93,7 @@ All models will be evaluated using the following metrics:
 - F1 Score
 - Confusion Matrix
 
-The F1 Score will be the primary metric for selecting the best model because it balances Precision and Recall, making it more reliable when the classes are not perfectly balanced.
+The F1 Score will be the primary metric for selecting the best model because it balances Precision and Recall, making it more reliable when the classes are not perfectly balanced (there are typically more "Not Canceled" bookings than "Canceled" ones).
 
 ## 7. Deployment Sketch
 
@@ -98,14 +105,22 @@ The `/predict` endpoint will accept JSON data such as:
 
 ```json
 {
-  "gender": "Male",
-  "age": 45,
-  "hypertension": 1,
-  "heart_disease": 0,
-  "smoking_history": "never",
-  "bmi": 31.2,
-  "HbA1c_level": 6.8,
-  "blood_glucose_level": 180
+  "no_of_adults": 2,
+  "no_of_children": 0,
+  "no_of_weekend_nights": 1,
+  "no_of_week_nights": 2,
+  "type_of_meal_plan": "Meal Plan 1",
+  "required_car_parking_space": 0,
+  "room_type_reserved": "Room_Type 1",
+  "lead_time": 85,
+  "arrival_year": 2018,
+  "arrival_month": 10,
+  "market_segment_type": "Online",
+  "repeated_guest": 0,
+  "no_of_previous_cancellations": 0,
+  "no_of_previous_bookings_not_canceled": 0,
+  "avg_price_per_room": 105.5,
+  "no_of_special_requests": 1
 }
 ```
 
@@ -115,8 +130,8 @@ The API will return a prediction and probability. Example:
 
 ```json
 {
-  "prediction": "Diabetes",
-  "probability": 0.94
+  "prediction": "Canceled",
+  "probability": 0.87
 }
 ```
 
@@ -125,13 +140,13 @@ The API will return a prediction and probability. Example:
 The project repository will be organized as follows:
 
 ```
-diabetes-prediction-project/
+hotel-reservation-cancellation-project/
 |
 |-- dataset/
-|   |-- diabetes_prediction_dataset.csv
+|   |-- hotel_reservations.csv
 |
 |-- notebooks/
-|   |-- diabetes_prediction.ipynb
+|   |-- hotel_cancellation_prediction.ipynb
 |
 |-- src/
 |   |-- preprocess.py
@@ -142,7 +157,7 @@ diabetes-prediction-project/
 |   |-- app.py
 |
 |-- models/
-|   |-- diabetes_model.pkl
+|   |-- hotel_cancellation_model.pkl
 |
 |-- README.md
 |
