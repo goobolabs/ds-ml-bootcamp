@@ -187,7 +187,7 @@ Scaled Features:
 Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/lung-cancer-risk-level-prediction.git
+git clone https://github.com/muna-adam/lung-cancer-risk-level-prediction.git
 ```
 
 Go to the project folder

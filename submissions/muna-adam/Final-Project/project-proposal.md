@@ -89,10 +89,7 @@ This is the target variable used for binary classification. It indicates whether
 | Family_History | Family history of pulmonary disease. |
 | Smoking_Family_History | Family history of smoking. |
 | Stress_Immune | Indicates whether stress has affected the immune system. |
-| Pulmonary_Disease | **Target variable** indicating whether the individual has pulmonary disease (Yes/No). |
-y disease (Yes/No). |
-sease (Yes/No). |
-```
+| Pulmonary_Disease | **Target variable** indicating whether the individual has pulmonary disease (Yes/No). |``
 # 5. Algorithms You Plan to Train
 
 The following machine learning algorithms will be trained and compared to determine which model performs best for predicting pulmonary disease.
