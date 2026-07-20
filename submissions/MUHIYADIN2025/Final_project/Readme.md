@@ -81,4 +81,10 @@ Final Project — Customer Segmentation & Churn Prediction
 
 Author: Muhiadin Said Hassan
 Program: Goobo Labs Machine Learning Bootcamp
-GitHub Repository: https://github.com/MUHIYADIN2025/churn-segmentation-project
+
+
+
+GitHub Repository Link
+
+
+https://github.com/MUHIYADIN2025/churn-segmentation-project
