@@ -77,4 +77,5 @@ Preprocessing and removing 31,994 duplicate records significantly improved model
 
 #### **Author**
 * **Maryan Ahmed Warsame** 
-**GitHub Repository:**   https://github.com/maria-Kayse/hotel-booking-cancellation.git
+
+GitHub Repository:   https://github.com/maria-Kayse/hotel-booking-cancellation.git
