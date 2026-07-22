@@ -40,7 +40,7 @@ The backend is built with **FastAPI** and serves the trained model through REST 
 
 Nasteho Abdi Aadan
 
-GitHub: https://github.com/nastehoabdiaden46-a11y
+GitHub: https://github.com/nastehoabdiaden46-a11y/employee-attrition-prediction
 
 ⭐ Support
 
