@@ -1,63 +1,81 @@
-# Hotel Booking Cancellation Prediction Using Machine Learning
+# 🏨 Hotel Booking Cancellation Prediction API
 
-## Project Overview
+This project predicts whether a hotel booking will be canceled using Machine Learning. It provides an end-to-end pipeline from data preprocessing to model evaluation and interactive web-API deployment.
 
-This project uses machine learning techniques to predict whether a hotel booking will be canceled or not.
+---
 
-The system analyzes customer details, booking information, and reservation characteristics to help hotels reduce cancellation risks and improve decision-making.
+## 📅 Dataset Details
 
-## Dataset
+* **Source:** [Hotel booking demand datasets (Kaggle)]https://www.kaggle.com/datasets/pattae/hotel-booking-demand-datasets
+* **Size:** Originally 119,390 records and 32 features. After cleaning and deduplication, the final dataset contains **87,396 records** and **16 core features**.
+* **Target Variable:** `is_canceled` (0 = Not Canceled, 1 = Canceled)
 
-**Hotel Booking Demand Dataset (Kaggle)**
+---
 
-- 119,390 records
-- 32 features
-- Target: `is_canceled`
+## 🤖 Algorithms Used
 
-## Machine Learning Approach
+At least three distinct algorithms were trained and evaluated on the same preprocessed dataset:
+1. **Logistic Regression** (Linear baseline model)
+2. **Random Forest Classifier** (Ensemble tree-based model with class balancing)
+3. **XGBoost Classifier** (Gradient boosting algorithm)
 
-### Classification Models:
-- Logistic Regression
-- Random Forest Classifier
-- XGBoost Classifier
+---
 
-### Clustering Models:
-- K-Means Clustering
-- Agglomerative Clustering
+## 📊 Comparison Table & Winning Model
 
-## Workflow
+| Algorithm | Accuracy | F1-Score (Canceled) | ROC-AUC | Status |
+| :--- | :---: | :---: | :---: | :---: |
+| **Logistic Regression** | 0.65 | 0.53 | 0.72 | Baseline |
+| **Random Forest** | **0.72** | **0.52** | **0.75** | **WINNER (Deployed)** |
+| **XGBoost** | 0.75 | 0.32 | 0.76 | Rejected (Low F1) |
 
-- Data Cleaning
-- Exploratory Data Analysis
-- Feature Selection
-- Model Training
-- Model Evaluation
-- Model Comparison
+🏆 **Winning Model:** **Random Forest** was selected for deployment because it provided the best balance for predicting canceled bookings (higher F1-Score on class 1 and effective handling of class imbalance) compared to XGBoost, which struggled with minority class recall.
 
-## Evaluation
+---
 
-Models are evaluated using:
+## 🛠️ Example Commands
 
-- Accuracy
-- Precision
-- Recall
-- F1-Score
-- ROC-AUC
+### 1. Install Dependencies
+```bash
+pip install -r requirements.txt
+python src/train.py
 
-The best model is selected based on F1-score.
 
-## Deployment
+curl -X POST [http://127.0.0.1:8000/predict](http://127.0.0.1:8000/predict) \
+  -H "Content-Type: application/json" \
+  -d '{
+    "LeadTime": 30,
+    "ArrivalDateMonth": "July",
+    "StaysInWeekendNights": 0,
+    "StaysInWeekNights": 2,
+    "Adults": 2,
+    "Children": 0,
+    "Meal": "BB",
+    "MarketSegment": "Online TA",
+    "DistributionChannel": "TA/TO",
+    "PreviousCancellations": 0,
+    "PreviousBookingsNotCanceled": 0,
+    "BookingChanges": 0,
+    "DepositType": "No Deposit",
+    "CustomerType": "Transient",
+    "ADR": 100.0
+  }'
 
-The final model can be deployed using FastAPI to provide booking cancellation predictions through an API.
+  
+  JSON
+{
+  "model": "Random Forest",
+  "prediction": 1,
+  "label": "Canceled",
+  "confidence": 0.629
+}
 
-## Technologies
+#### **7. Results Summary**
+Preprocessing and removing 31,994 duplicate records significantly improved model reliability. Although XGBoost achieved the highest overall accuracy, Random Forest proved superior in detecting actual booking cancellations by maintaining a higher F1-score on the minority class. This makes Random Forest the most viable operational model for reducing hotel revenue loss.
 
-- Python
-- Pandas
-- Scikit-learn
-- XGBoost
-- FastAPI
+---
 
-## Author
+#### **Author**
+* **Maryan Ahmed Warsame** 
 
-**Maryan Ahmed Warsame**
+GitHub Repository:   https://github.com/maria-Kayse/hotel-booking-cancellation.git
