@@ -33,7 +33,8 @@ Learning Type:  Supervised Learning
 
 **Source:** zenodo
 
-Dataset Link: https://zenodo.org/records/16459132/files/merged_dataset.csv?utm_source=chatgpt.com
+Dataset Link: https://zenodo.org/records/16459132/files/merged_dataset.csv?utm_
+
 **Expected Size:** Approximately 15,000 rows
 
 **Target Column:**

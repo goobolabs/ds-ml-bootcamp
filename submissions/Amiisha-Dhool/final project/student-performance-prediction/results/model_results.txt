@@ -1,0 +1,59 @@
+Student Performance Prediction 
+
+
+model results :__
+
+Project Type:
+Binary Classification (Pass/Fail)
+
+
+Target Variable:
+Pass_Fail
+
+
+Machine Learning Models Trained:
+
+1. Logistic Regression
+
+2. Decision Tree Classifier
+
+3. Random Forest Classifier
+
+4. Support Vector Machine (SVM)
+
+
+Model Evaluation:
+
+The trained models were evaluated using:
+
+- Accuracy
+- Precision
+- Recall
+- F1-Score
+- Confusion Matrix
+
+
+Final Selected Model:
+
+Random Forest Classifier
+
+
+Model Selection Reason:
+
+Random Forest Classifier was selected as the final model because it achieved the best overall performance compared with the other evaluated models.
+
+
+Saved Model:
+
+random_forest.pkl
+
+
+Deployment:
+
+The final Random Forest model was deployed using Flask API to predict student performance outcomes.
+
+
+Prediction Classes:
+
+- Pass
+- Fail
