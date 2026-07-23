@@ -7,14 +7,13 @@ Amina Abdirahmaan mohamed
 
 2. Project Title and Description
 
-Project Title
+Project title
 
 **Student Performance Prediction Using Machine Learning**
 
 Description
 
 This project aims to predict whether a student will **Pass** or **Fail** based on academic, personal, and lifestyle factors such as study hours, attendance, previous scores, sleep hours, and tutoring sessions. The goal is to help schools and educators identify students who may be at academic risk so that they can provide early support and improve student success.
-
 
 
 3. Problem Type
@@ -26,22 +25,19 @@ This is a binary classification problem where the model predicts whether a stude
 Problem Type:  Classification
 Learning Type:  Supervised Learning
 
-
-
-
  4. Dataset
 
-**Source:** zenodo
+Source: zenodo
 
 Dataset Link: https://zenodo.org/records/16459132/files/merged_dataset.csv?utm_
 
 **Expected Size:** Approximately 15,000 rows
 
-**Target Column:**
+Target Column:
 
  **Pass_Fail** – Indicates whether a student passes or fails the exam.
 
-**Main Features:**
+**Main Features:
 
 * Hours_Studied – Number of study hours.
 * Attendance – Student attendance percentage.
