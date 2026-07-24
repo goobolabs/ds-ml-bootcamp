@@ -1,4 +1,6 @@
 # Used Car Price Prediction - Project Paper
+GitHub Repository:
+https://github.com/bille2026/used-car-price-prediction
 
 
 # 1. Problem Statement and Motivation
