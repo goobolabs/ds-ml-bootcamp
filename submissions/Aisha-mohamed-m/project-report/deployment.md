@@ -290,7 +290,7 @@ Coming Soon
 
 # 🔗 GitHub Repository
 
-https://www.kaggle.com/datasets/madhuraatmarambhagat/crop-recommendation-dataset
+https://github.com/Aisha-mohamed-m/crop-recommendation
 
 ---
 
