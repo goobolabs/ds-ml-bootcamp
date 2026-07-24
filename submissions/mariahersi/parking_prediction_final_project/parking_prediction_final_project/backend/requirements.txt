@@ -1,6 +1,0 @@
-Flask==3.1.1
-Flask-Cors==6.0.1
-pandas==2.3.1ba
-scikit-learn==1.7.1
-joblib==1.5.1
-openpyxl==3.1.5
