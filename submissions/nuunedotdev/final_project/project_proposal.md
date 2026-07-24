@@ -89,3 +89,7 @@ The best model will be selected based on the **lowest Mean Absolute Error (MAE)*
   "model_version": "1.0.0"
 }
 ```
+
+### github repo
+
+URL: https://github.com/nuunedotdev/medical_insurance_pred
