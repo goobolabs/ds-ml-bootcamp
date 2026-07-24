@@ -4,6 +4,8 @@
 
 **Customer Personality Analysis: Customer Response Prediction and Customer Segmentation Using Machine Learning**
 
+## git hup link
+https://github.com/Ahmetttt37/customer-personality-analysis.git
 ---
 
 # Problem Statement
@@ -28,6 +30,7 @@ It contains customer demographic information, purchasing behavior, and campaign 
 Main features include:
 
 ## Customer Information
+
 - Age
 - Income
 - Education
@@ -35,6 +38,7 @@ Main features include:
 - Number of children
 
 ## Purchase Information
+
 - Wines spending
 - Fruits spending
 - Meat products spending
@@ -43,11 +47,13 @@ Main features include:
 - Gold products spending
 
 ## Purchase Channels
+
 - Web purchases
 - Catalog purchases
 - Store purchases
 
 ## Campaign Information
+
 - Previous campaign responses
 - Response (target variable)
 
@@ -280,6 +286,127 @@ Business Recommendation:
 
 ---
 
+# API Deployment
+
+The trained machine learning models were deployed using **FastAPI**.
+
+## Run API
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Start server:
+
+```bash
+python -m uvicorn api.app:app --reload
+```
+
+API Documentation:
+
+```
+http://127.0.0.1:8000/docs
+```
+
+---
+
+# API Endpoints
+
+## Customer Response Prediction
+
+Endpoint:
+
+```
+POST /predict
+```
+
+Example response:
+
+```json
+{
+  "response": 1
+}
+```
+
+---
+
+## Customer Segmentation
+
+Endpoint:
+
+```
+POST /segment
+```
+
+Example response:
+
+```json
+{
+  "cluster": 2
+}
+```
+
+---
+
+# Project Structure
+
+```
+Customer Personality Analysis/
+
+│
+├── api/
+│   └── app.py
+│
+├── models/
+│   ├── xgboost.pkl
+│   ├── random_forest.pkl
+│   ├── logistic_regression.pkl
+│   ├── kmeans.pkl
+│   ├── scaler.pkl
+│   └── cluster_scaler.pkl
+│
+├── dataset/
+│
+├── requirements.txt
+│
+└── README.md
+```
+
+---
+
+
+```
+
+Move into project folder:
+
+```bash
+cd "Customer Personality Analysis"
+```
+
+Install required libraries:
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+# Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- XGBoost
+- FastAPI
+- Uvicorn
+- Joblib
+- Git & GitHub
+
+---
+
 # Conclusion
 
 This project successfully combined supervised and unsupervised machine learning techniques.
@@ -287,3 +414,9 @@ This project successfully combined supervised and unsupervised machine learning 
 Supervised models were used to predict customer campaign responses, while K-Means clustering was used to discover different customer groups based on purchasing behavior.
 
 The results show that machine learning can help businesses understand customers better, improve marketing strategies, and increase campaign success.
+
+---
+
+# License
+
+This project is created for educational purposes.

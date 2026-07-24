@@ -1,6 +1,15 @@
 # Customer Personality Analysis - Machine Learning Project Paper
 
-## 1. Introduction
+## GitHub Repository
+
+The complete project code, preprocessing scripts, trained models, and API deployment files are available on GitHub:
+
+## git hup link
+https://github.com/Ahmetttt37/customer-personality-analysis.git
+
+---
+
+# 1. Introduction
 
 Customer behavior analysis is an important task for businesses because understanding customer preferences helps improve marketing decisions and increase campaign success.
 
@@ -17,7 +26,56 @@ Supervised learning models are used for customer response prediction, while K-Me
 
 ---
 
-# 2. Data Preprocessing
+# 2. Dataset Description
+
+The dataset used in this project is the **Marketing Campaign Dataset**.
+
+The dataset contains customer demographic information, purchasing behavior, and previous marketing campaign responses.
+
+Main features include:
+
+## Customer Information
+
+* Age
+* Income
+* Education
+* Marital Status
+* Number of children
+
+## Purchase Information
+
+* Wine spending
+* Fruit spending
+* Meat product spending
+* Fish product spending
+* Sweet product spending
+* Gold product spending
+
+## Purchase Channels
+
+* Web purchases
+* Catalog purchases
+* Store purchases
+
+## Campaign Information
+
+* Previous campaign responses
+* Customer response
+
+Target variable:
+
+```
+Response
+```
+
+Values:
+
+* 0 → Customer did not accept the campaign
+* 1 → Customer accepted the campaign
+
+---
+
+# 3. Data Preprocessing
 
 Before applying machine learning algorithms, the dataset was cleaned and prepared.
 
@@ -26,6 +84,8 @@ The following preprocessing steps were performed:
 ## Missing Value Handling
 
 The Income feature contained missing values. These missing values were replaced using the median value to maintain data consistency.
+
+---
 
 ## Date Processing
 
@@ -38,6 +98,8 @@ Customer_Years
 ```
 
 was created to represent how long each customer has been registered.
+
+---
 
 ## Feature Engineering
 
@@ -83,10 +145,21 @@ Previous campaign responses were combined into one feature.
 
 Categorical features such as:
 
-- Education
-- Marital Status
+* Education
+* Marital Status
 
 were transformed using One-Hot Encoding.
+
+---
+
+## Removing Unnecessary Features
+
+The following unnecessary columns were removed:
+
+* ID
+* Year_Birth
+* Z_CostContact
+* Z_Revenue
 
 ---
 
@@ -98,9 +171,11 @@ Scaling helps machine learning algorithms perform better by putting features int
 
 ---
 
-# 3. Machine Learning Approach
+# 4. Machine Learning Approach
 
 This project used three supervised learning algorithms:
+
+---
 
 ## Logistic Regression
 
@@ -126,40 +201,42 @@ It was included because it often performs well on customer behavior datasets.
 
 ---
 
-## Customer Segmentation Approach
+# 5. Customer Segmentation Approach
 
 For unsupervised learning, K-Means clustering was applied.
 
 The clustering model used six customer spending features:
 
-- MntWines
-- MntFruits
-- MntMeatProducts
-- MntFishProducts
-- MntSweetProducts
-- MntGoldProds
+* MntWines
+* MntFruits
+* MntMeatProducts
+* MntFishProducts
+* MntSweetProducts
+* MntGoldProds
 
 The goal was to discover groups of customers with similar purchasing behaviors.
 
+The optimal clustering process identified four customer segments.
+
 ---
 
-# 4. Model Comparison
+# 6. Model Comparison
 
 The models were evaluated using:
 
-- Accuracy
-- Precision
-- Recall
-- F1-score
-- Confusion Matrix
+* Accuracy
+* Precision
+* Recall
+* F1-score
+* Confusion Matrix
 
 Results:
 
-| Model | Accuracy |
-|---|---|
-| Logistic Regression | 89.06% |
-| Random Forest | 89.06% |
-| XGBoost | 89.51% |
+| Model               | Accuracy |
+| ------------------- | -------- |
+| Logistic Regression | 89.06%   |
+| Random Forest       | 89.06%   |
+| XGBoost             | 89.51%   |
 
 ---
 
@@ -201,15 +278,13 @@ XGBoost achieved the best overall performance.
 
 It provided better detection of positive customer responses compared with the other models.
 
-Therefore, XGBoost was selected as the best classification model.
+Therefore, XGBoost was selected as the final classification model.
 
 ---
 
-# 5. Customer Segmentation Analysis
+# 7. Customer Segmentation Analysis
 
 K-Means clustering was used to divide customers into four different groups based on spending behavior.
-
-The four identified customer segments are:
 
 ---
 
@@ -223,10 +298,14 @@ Number of customers:
 
 Characteristics:
 
-- Low spending in all product categories.
-- Limited purchasing activity.
+* Low spending in all product categories.
+* Limited purchasing activity.
 
-These customers represent the largest group but have lower business value.
+Recommendation:
+
+* Provide discounts.
+* Send personalized recommendations.
+* Encourage first-time purchases.
 
 ---
 
@@ -240,10 +319,14 @@ Number of customers:
 
 Characteristics:
 
-- High spending on wine products.
-- High spending on meat products.
+* High spending on wine products.
+* High spending on meat products.
 
-These customers show strong purchasing behavior.
+Recommendation:
+
+* Create product bundles.
+* Offer loyalty rewards.
+* Promote premium food and wine packages.
 
 ---
 
@@ -257,10 +340,13 @@ Number of customers:
 
 Characteristics:
 
-- High wine purchases.
-- Higher interest in gold products.
+* High wine purchases.
+* Higher interest in gold products.
 
-This group prefers premium products.
+Recommendation:
+
+* Provide luxury product recommendations.
+* Create exclusive offers.
 
 ---
 
@@ -274,57 +360,137 @@ Number of customers:
 
 Characteristics:
 
-- High spending across multiple categories.
-- Highest customer value.
+* High spending across multiple categories.
+* Highest customer value.
 
-This segment contains the most valuable customers.
+Recommendation:
 
----
-
-# 6. Business Recommendations
-
-Based on customer segmentation results, different strategies can be applied.
-
-## Low Spending Customers
-
-Recommendations:
-
-- Provide discounts.
-- Send personalized recommendations.
-- Encourage first-time purchases.
+* Create VIP membership programs.
+* Provide personalized marketing campaigns.
+* Reward customer loyalty.
 
 ---
 
-## Wine and Meat Customers
+# 8. Model Deployment Using FastAPI
 
-Recommendations:
+The trained machine learning models were deployed using FastAPI.
 
-- Create product bundles.
-- Offer loyalty rewards.
-- Promote premium food and wine packages.
+Two API endpoints were created:
 
----
+## Customer Segmentation API
 
-## Wine and Gold Customers
+Endpoint:
 
-Recommendations:
+```
+POST /segment
+```
 
-- Provide luxury product recommendations.
-- Create exclusive offers.
+Purpose:
 
----
-
-## Premium Multi-Category Customers
-
-Recommendations:
-
-- Create VIP membership programs.
-- Provide personalized marketing campaigns.
-- Reward customer loyalty.
+* Predict customer cluster based on purchasing behavior.
 
 ---
 
-# 7. Conclusion
+## Customer Response Prediction API
+
+Endpoint:
+
+```
+POST /predict
+```
+
+Purpose:
+
+* Predict whether a customer will accept a marketing campaign.
+
+The trained models were saved using Joblib:
+
+```
+models/xgboost.pkl
+models/kmeans.pkl
+models/scaler.pkl
+models/cluster_scaler.pkl
+```
+
+---
+
+# 9. Tools and Technologies Used
+
+Programming Language:
+
+* Python
+
+Libraries:
+
+* Pandas
+* NumPy
+* Scikit-learn
+* XGBoost
+* Joblib
+
+Machine Learning Algorithms:
+
+* Logistic Regression
+* Random Forest
+* XGBoost
+* K-Means Clustering
+
+Deployment:
+
+* FastAPI
+* Uvicorn
+
+Development Tools:
+
+* Jupyter Notebook
+* VS Code
+* GitHub
+
+---
+
+# 10. Project Structure
+
+```
+Customer Personality Analysis/
+
+│
+├── dataset/
+│   ├── marketing_campaign.csv
+│   ├── processed_features.csv
+│   └── target.csv
+│
+├── models/
+│   ├── xgboost.pkl
+│   ├── random_forest.pkl
+│   ├── logistic_regression.pkl
+│   ├── kmeans.pkl
+│   ├── scaler.pkl
+│   └── cluster_scaler.pkl
+│
+├── api/
+│   └── app.py
+│
+├── notebooks/
+│
+├── README.md
+└── requirements.txt
+```
+
+---
+
+# 11. Limitations and Future Improvements
+
+Although the project achieved good results, there are some possible improvements:
+
+* Test additional machine learning algorithms.
+* Perform hyperparameter tuning.
+* Improve class imbalance handling.
+* Create a web dashboard for customer analysis.
+* Deploy the API online using cloud services.
+
+---
+
+# 12. Conclusion
 
 This project successfully applied machine learning techniques to understand customer behavior and improve marketing decisions.
 
