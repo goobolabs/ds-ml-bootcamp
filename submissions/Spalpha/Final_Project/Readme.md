@@ -1,5 +1,10 @@
 # Bank Loan Approval & Creditworthiness Predictor 🏦📊
 
+## 🔗 Repo Link
+https://github.com/Spalpha/ds-ml-bootcamp.git
+
+
+---
 An automated End-to-End Machine Learning workflow designed to assess the creditworthiness of loan applicants. This system predicts whether a loan application should be **Approved** or **Rejected** based on financial and asset attributes, helping financial institutions mitigate risks and speed up processing times.
 
 ---
